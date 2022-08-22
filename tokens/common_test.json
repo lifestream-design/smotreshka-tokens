@@ -1,0 +1,10 @@
+{
+  "color": {
+    "primary": {
+      "overlay": {
+        "value": "#ebebeb80",
+        "type": "color"
+      }
+    }
+  }
+}
