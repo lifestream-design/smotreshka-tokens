@@ -32,13 +32,16 @@ jobs:
 
       # Create Font styles for universal platforms, exclude the global tokens
       - run: npx token-transformer data/tokens.json tokens/font.universal.json global,rdsGen.common.font.universal global
-      # Create a dark theme, exclude the global tokens
+      # Create Font styles for tv platforms, exclude the global tokens
       - run: npx token-transformer data/tokens.json tokens/font.tv.json global,rdsGen.common.font.tv global
 
       # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
       - run: npx token-transformer data/tokens.json tokens/font.universal.expand.json global,rdsGen.common.font.universal global --expandTypography=true
-      # Create a dark theme, exclude the global tokens (expandTypography)
+      # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
       - run: npx token-transformer data/tokens.json tokens/font.tv.expand.json global,rdsGen.common.font.tv global --expandTypography=true
+
+      # Create Common tokens (test)
+      - run: npx token-transformer data/tokens.json tokens/common_test.json global,rdsGen.common.color global
 
       # Convert tokens according to Style Dictionary config
       - run: node build.js
