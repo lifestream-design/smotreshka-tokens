@@ -5,6 +5,14 @@ node_modules
 # ---
 
 
+# --- Tokens
+
+output
+tokens
+
+# ---
+
+
 # --- MacOS
 
 # General
