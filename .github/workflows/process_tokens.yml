@@ -6,8 +6,9 @@ name: CI
 # Also we will be able to run this worflow manually just in case of something happened
 on:
   
-  push:
-    branches: [ "master" ]
+  # Auto running on push terporarily disabled due to tests. Use manual run instead
+  #push:
+  #  branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
@@ -28,10 +29,17 @@ jobs:
       - run: npm install
       # Transform global Figma Tokens to Style Dictionary format
       - run: npx token-transformer data/tokens.json tokens/global.json global
+
       # Create Font styles for universal platforms, exclude the global tokens
       - run: npx token-transformer data/tokens.json tokens/font.universal.json global,rdsGen.common.font.universal global
       # Create a dark theme, exclude the global tokens
       - run: npx token-transformer data/tokens.json tokens/font.tv.json global,rdsGen.common.font.tv global
+
+      # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
+      - run: npx token-transformer data/tokens.json tokens/font.universal.expand.json global,rdsGen.common.font.universal global --expandTypography=true
+      # Create a dark theme, exclude the global tokens (expandTypography)
+      - run: npx token-transformer data/tokens.json tokens/font.tv.expand.json global,rdsGen.common.font.tv global --expandTypography=true
+
       # Convert tokens according to Style Dictionary config
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
