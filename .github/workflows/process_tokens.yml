@@ -1,0 +1,40 @@
+# This is a workflow to create usable Tokens set compatible with Style Dictionary
+
+name: CI
+
+# Workflow triggers on push or pull request for the MASTER branch (I'm not sure for now if we will be using branches, but leaving the ability to run workflow on pull request)
+# Also we will be able to run this worflow manually just in case of something happened
+on:
+  
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Raw tokens in json file translates to different files in Style Dictionary format with token-transformer
+    # token-transformer requires node.js to run 
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
+      # Install dependencies
+      - run: npm install
+      # Transform global Figma Tokens to Style Dictionary format
+      - run: npx token-transformer data/tokens.json tokens/global.json global
+      # Create Font styles for universal platforms, exclude the global tokens
+      - run: npx token-transformer data/tokens.json tokens/font.universal.json global,rdsGen.common.font.universal global
+      # Create a dark theme, exclude the global tokens
+      - run: npx token-transformer data/tokens.json tokens/font.tv.json global,rdsGen.common.font.tv global
+      # Convert tokens according to Style Dictionary config
+      - run: node build.js
+      # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Create Style Dictionary tokens
