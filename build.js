@@ -12,17 +12,30 @@ StyleDictionaryPackage.registerFormat({
   });  
 
 StyleDictionaryPackage.registerTransform({
-    name: 'sizes/px',
-    type: 'value',
-    matcher: function(prop) {
-        // You can be more specific here if you only want 'em' units for font sizes    
-        return ["fontSize", "lineHeight", "letterSpacing", "spacing", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
-    },
-    transformer: function(prop) {
-        // You can also modify the value here if you want to convert pixels to ems
-        return parseFloat(prop.original.value) + 'px';
-    }
-    });
+  name: 'sizes/px',
+  type: 'value',
+  matcher: function(prop) {
+    // You can be more specific here if you only want 'em' units for font sizes    
+    return ["spacing", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
+  },
+  transformer: function(prop) {
+    // You can also modify the value here if you want to convert pixels to ems
+    return parseFloat(prop.original.value) + 'px';
+  }
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'sizes/pxToRem',
+  type: 'value',
+  matcher: function(prop) {
+    console.log(prop);
+    return ["fontSize", "lineHeight", "letterSpacing"].includes(prop.attributes.category);
+  },
+  transformer: function(prop) {
+      return parseFloat(prop.original.value / 16) + 'rem';
+  }
+});
+
 
 function getStyleDictionaryConfig(theme) {
   console.log(`\config: [${theme}]`);
@@ -32,7 +45,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "color/css", "sizes/pxToRem"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
