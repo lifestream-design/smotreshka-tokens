@@ -323,44 +323,20 @@
       }
     },
     "white": {
-      "hex": {
-        "value": "#EBEBEB",
-        "type": "color"
-      },
-      "rgb": {
-        "value": "235, 235, 235",
-        "type": "color"
-      }
+      "value": "#EBEBEB",
+      "type": "color"
     },
     "black": {
-      "hex": {
-        "value": "#1A1A1A",
-        "type": "color"
-      },
-      "rgb": {
-        "value": "26, 26, 26",
-        "type": "color"
-      }
+      "value": "#1A1A1A",
+      "type": "color"
     },
     "whitest": {
-      "hex": {
-        "value": "#FFFFFF",
-        "type": "color"
-      },
-      "rgb": {
-        "value": "255, 255, 255",
-        "type": "color"
-      }
+      "value": "#FFFFFF",
+      "type": "color"
     },
     "blackest": {
-      "hex": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "rgb": {
-        "value": "0, 0, 0",
-        "type": "color"
-      }
+      "value": "#000000",
+      "type": "color"
     }
   },
   "opacity": {
@@ -392,12 +368,20 @@
       "value": 0.4,
       "type": "opacity"
     },
+    "450": {
+      "value": 0.45,
+      "type": "opacity"
+    },
     "500": {
       "value": 0.5,
       "type": "opacity"
     },
     "600": {
       "value": 0.6,
+      "type": "opacity"
+    },
+    "650": {
+      "value": 0.65,
       "type": "opacity"
     },
     "700": {
@@ -865,6 +849,282 @@
       "slow2": {
         "value": "700ms",
         "type": "other"
+      }
+    }
+  },
+  "shadow": {
+    "dropShadow": {
+      "level10": {
+        "1x": {
+          "value": {
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0,
+            "color": "#0000001a",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "2x": {
+          "value": {
+            "x": 0,
+            "y": 2,
+            "blur": 4,
+            "spread": 0,
+            "color": "#0000001a",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "4x": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000001a",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "8x": {
+          "value": {
+            "x": 0,
+            "y": 8,
+            "blur": 16,
+            "spread": 0,
+            "color": "#0000001a",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "12x": {
+          "value": {
+            "x": 0,
+            "y": 12,
+            "blur": 24,
+            "spread": 0,
+            "color": "#0000001a",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "16x": {
+          "value": {
+            "x": 0,
+            "y": 16,
+            "blur": 32,
+            "spread": 0,
+            "color": "#0000001a",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "level30": {
+        "1x": {
+          "value": {
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "2x": {
+          "value": {
+            "x": 0,
+            "y": 2,
+            "blur": 4,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "4x": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 8,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "8x": {
+          "value": {
+            "x": 0,
+            "y": 8,
+            "blur": 16,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "12x": {
+          "value": {
+            "x": 0,
+            "y": 12,
+            "blur": 24,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "16x": {
+          "value": {
+            "x": 0,
+            "y": 16,
+            "blur": 32,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "level50": {
+        "1x": {
+          "value": {
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0,
+            "color": "#00000080",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "2x": {
+          "value": {
+            "x": 0,
+            "y": 2,
+            "blur": 4,
+            "spread": 0,
+            "color": "#00000080",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "4x": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 8,
+            "spread": 0,
+            "color": "#00000080",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "8x": {
+          "value": {
+            "x": 0,
+            "y": 8,
+            "blur": 16,
+            "spread": 0,
+            "color": "#00000080",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "12x": {
+          "value": {
+            "x": 0,
+            "y": 12,
+            "blur": 24,
+            "spread": 0,
+            "color": "#00000080",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "16x": {
+          "value": {
+            "x": 0,
+            "y": 16,
+            "blur": 32,
+            "spread": 0,
+            "color": "#00000080",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "level70": {
+        "1x": {
+          "value": {
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0,
+            "color": "#000000b3",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "2x": {
+          "value": {
+            "x": 0,
+            "y": 2,
+            "blur": 4,
+            "spread": 0,
+            "color": "#000000b3",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "4x": {
+          "value": {
+            "x": 0,
+            "y": 4,
+            "blur": 8,
+            "spread": 0,
+            "color": "#000000b3",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "8x": {
+          "value": {
+            "x": 0,
+            "y": 8,
+            "blur": 16,
+            "spread": 0,
+            "color": "#000000b3",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "12x": {
+          "value": {
+            "x": 0,
+            "y": 12,
+            "blur": 24,
+            "spread": 0,
+            "color": "#000000b3",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "16x": {
+          "value": {
+            "x": 0,
+            "y": 16,
+            "blur": 32,
+            "spread": 0,
+            "color": "#000000b3",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
       }
     }
   }
