@@ -616,82 +616,86 @@
         "type": "fontWeights"
       }
     },
-    "fontSize": {
-      "25": {
-        "value": 11,
-        "type": "fontSizes"
-      },
-      "50": {
-        "value": 12,
-        "type": "fontSizes"
-      },
-      "75": {
-        "value": 14,
-        "type": "fontSizes"
-      },
-      "100": {
-        "value": 16,
-        "type": "fontSizes"
-      },
-      "125": {
-        "value": 18,
-        "type": "fontSizes"
-      },
-      "150": {
-        "value": 20,
-        "type": "fontSizes"
-      },
-      "175": {
-        "value": 22,
-        "type": "fontSizes"
-      },
-      "200": {
-        "value": 24,
-        "type": "fontSizes"
-      },
-      "250": {
-        "value": 28,
-        "type": "fontSizes"
-      },
-      "275": {
-        "value": 30,
-        "type": "fontSizes"
-      },
-      "300": {
-        "value": 32,
-        "type": "fontSizes"
-      },
-      "350": {
-        "value": 36,
-        "type": "fontSizes"
-      },
-      "400": {
-        "value": 40,
-        "type": "fontSizes"
-      },
-      "425": {
-        "value": 42,
-        "type": "fontSizes"
-      },
-      "450": {
-        "value": 44,
-        "type": "fontSizes"
-      },
-      "500": {
-        "value": 48,
-        "type": "fontSizes"
-      },
-      "600": {
-        "value": 56,
-        "type": "fontSizes"
-      },
-      "650": {
-        "value": 60,
-        "type": "fontSizes"
-      },
-      "850": {
-        "value": 76,
-        "type": "fontSizes"
+    "global": {
+      "all": {
+        "fontSize": {
+          "25": {
+            "value": 11,
+            "type": "fontSizes"
+          },
+          "50": {
+            "value": 12,
+            "type": "fontSizes"
+          },
+          "75": {
+            "value": 14,
+            "type": "fontSizes"
+          },
+          "100": {
+            "value": 16,
+            "type": "fontSizes"
+          },
+          "125": {
+            "value": 18,
+            "type": "fontSizes"
+          },
+          "150": {
+            "value": 20,
+            "type": "fontSizes"
+          },
+          "175": {
+            "value": 22,
+            "type": "fontSizes"
+          },
+          "200": {
+            "value": 24,
+            "type": "fontSizes"
+          },
+          "250": {
+            "value": 28,
+            "type": "fontSizes"
+          },
+          "275": {
+            "value": 30,
+            "type": "fontSizes"
+          },
+          "300": {
+            "value": 32,
+            "type": "fontSizes"
+          },
+          "350": {
+            "value": 36,
+            "type": "fontSizes"
+          },
+          "400": {
+            "value": 40,
+            "type": "fontSizes"
+          },
+          "425": {
+            "value": 42,
+            "type": "fontSizes"
+          },
+          "450": {
+            "value": 44,
+            "type": "fontSizes"
+          },
+          "500": {
+            "value": 48,
+            "type": "fontSizes"
+          },
+          "600": {
+            "value": 56,
+            "type": "fontSizes"
+          },
+          "650": {
+            "value": 60,
+            "type": "fontSizes"
+          },
+          "850": {
+            "value": 76,
+            "type": "fontSizes"
+          }
+        }
       }
     },
     "lineHeight": {
@@ -816,17 +820,17 @@
   "motion": {
     "easing": {
       "easeIn": {
-        "value": "cubic-bezier(0.55,0.09,0.68,0.53)",
+        "value": "0.55,0.09,0.68,0.53",
         "type": "other",
         "description": "Кривая анимации Ease In"
       },
       "easeOut": {
-        "value": "cubic-bezier(0.25,0.46,0.45,0.94)",
+        "value": "0.25,0.46,0.45,0.94",
         "type": "other",
         "description": "Кривая анимации Ease Out"
       },
       "easeInOut": {
-        "value": "cubic-bezier(0.46,0.03,0.52,0.96)",
+        "value": "0.46,0.03,0.52,0.96",
         "type": "other",
         "description": "Кривая анимации Ease In-Out"
       }
