@@ -895,14 +895,10 @@
           "easeIn": {
             "instant": {
               "value": {
-                "cubicBezier": {
-                  "value": "0.55,0.09,0.68,0.53"
-                },
-                "duration": {
-                  "value": 70
-                },
-                "type": "motion"
-              }
+                "cubicBezier": "0.55,0.09,0.68,0.53",
+                "duration": 70
+              },
+              "type": "composition"
             }
           }
         }

@@ -193,7 +193,7 @@
   --motion-global-all-duration-moderate2: 350;
   --motion-global-all-duration-slow1: 500;
   --motion-global-all-duration-slow2: 700;
-  --motion-global-all-transition-ease-in-instant: cubic-bezier: (0.55,0.09,0.68,0.53) 70ms;
+  --motion-global-all-transition-ease-in-instant: cubic-bezier: (undefined) undefinedms;
   --shadow-global-all-drop-shadow-level10-1x: [object Object];
   --shadow-global-all-drop-shadow-level10-2x: [object Object];
   --shadow-global-all-drop-shadow-level10-4x: [object Object];
