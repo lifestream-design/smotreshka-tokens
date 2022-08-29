@@ -104,11 +104,12 @@ StyleDictionaryPackage.registerTransform({
   name: 'motion/css',
   type: 'value',
   matcher: function(token) {
-    return ["motion"].includes(token.attributes.category);
+    return ["transition"].includes(token.attributes.type);
   },
   transformer: function(token) {
     console.log(token);
-    return parseFloat(token.original.value / 16) + 'rem';
+
+    return 'cubic-bezier: (' + token.value.cubicBezier.value + ') ' + token.value.duration.value + 'ms';
   }
 });
 
@@ -136,7 +137,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global'].map(function (theme) {
+['global', 'common.measures'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
