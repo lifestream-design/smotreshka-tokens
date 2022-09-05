@@ -113,20 +113,20 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
-function getStyleDictionaryConfig(theme) {
-  console.log(`\config: [${theme}]`);
+function getStyleDictionaryConfig(tokensSet) {
+  console.log(`\config: [${tokensSet}]`);
   return {
     "source": [
-      `tokens/${theme}.json`,
+      `tokens/${tokensSet}.json`,
     ],
     "platforms": {
       "web": {
         "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/pxToRem", "shadows/dropShadowCss", "motion/css"],
         "buildPath": `output/`,
         "files": [{
-            "destination": `${theme}.css`,
+            "destination": `${tokensSet}.css`,
             "format": "css/variables",
-            "selector": `.${theme}`
+            "selector": `.${tokensSet}`
           }]
       }
     }
@@ -137,12 +137,12 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global', 'common_measures'].map(function (theme) {
+['global', 'font', 'font_tv', 'visual_common', 'visual_theme_light', 'visual_theme_dark'].map(function (tokensSet) {
 
     console.log('\n==============================================');
-    console.log(`\nProcessing: [${theme}]`);
+    console.log(`\nProcessing: [${tokensSet}]`);
 
-    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
+    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
 
     StyleDictionary.buildPlatform('web');
 
