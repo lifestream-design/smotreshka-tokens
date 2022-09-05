@@ -39,9 +39,9 @@ jobs:
       # Create general visual styles for universal platforms, exclude the global tokens
       - run: npx token-transformer data/tokens.json tokens/visual_common.json global,visual.common global
       # Create light theme visual styles for universal platforms, exclude the global tokens
-      - run: npx token-transformer data/tokens.json tokens/visual_theme_light.json global,visual.theme.light global
+      - run: npx token-transformer data/tokens.json tokens/visual_theme_light.json global,visual.common,visual.theme.light global,visual.common
       # Create dark theme visual styles for universal platforms, exclude the global tokens
-      - run: npx token-transformer data/tokens.json tokens/visual_theme_dark.json global,visual.theme.dark global
+      - run: npx token-transformer data/tokens.json tokens/visual_theme_dark.json global,visual.common,visual.theme.dark global,visual.common
 
       # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
       # - run: npx token-transformer data/tokens.json tokens/font_expand.json global,font global --expandTypography=true
