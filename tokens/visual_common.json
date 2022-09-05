@@ -1,0 +1,303 @@
+{
+  "color": {
+    "common": {
+      "all": {
+        "text": {
+          "onLight": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на светлом фоне"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на светлом фоне"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на светлом фоне"
+            }
+          },
+          "onDark": {
+            "primary": {
+              "value": "#EBEBEB",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на темном фоне"
+            },
+            "secondary": {
+              "value": "#ebebeba6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на темном фоне"
+            },
+            "tertiary": {
+              "value": "#ebebeb73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на темном фоне"
+            }
+          }
+        },
+        "fill": {
+          "overlay": {
+            "context": {
+              "value": "#00000066",
+              "type": "color",
+              "description": "Оверлей страницы для контекстных блоков"
+            },
+            "page": {
+              "value": "#00000099",
+              "type": "color",
+              "description": "Оверлей страницы при появлении модальных окон"
+            },
+            "card": {
+              "value": "#000000cc",
+              "type": "color",
+              "description": "Оверлей контентных блоков с фоновым изображением"
+            },
+            "brandLight": {
+              "value": "#ffc00012",
+              "type": "color",
+              "description": "Оттеночный брендированный оверлей"
+            },
+            "brandMedium": {
+              "value": "#ffc00026",
+              "type": "color",
+              "description": "Средний брендированный оверлей"
+            },
+            "brandStrong": {
+              "value": "#ffc00073",
+              "type": "color",
+              "description": "Сильный брендированный оверлей"
+            },
+            "accentLight": {
+              "value": "#7800c212",
+              "type": "color",
+              "description": "Оттеночный акцентный оверлей"
+            },
+            "accentMedium": {
+              "value": "#7800c226",
+              "type": "color",
+              "description": "Средний акцентный оверлей"
+            },
+            "accentStrong": {
+              "value": "#7800c273",
+              "type": "color",
+              "description": "Сильный акцентный оверлей"
+            }
+          },
+          "surfaceLight": {
+            "elevationLevel1": {
+              "value": "#F5F7F7",
+              "type": "color",
+              "description": "Поверхность первого уровня (светлое оформление)"
+            },
+            "elevationLevel2": {
+              "value": "#F5F7F7",
+              "type": "color",
+              "description": "Поверхность второго уровня (светлое оформление)"
+            },
+            "elevationLevel3": {
+              "value": "#F5F7F7",
+              "type": "color",
+              "description": "Поверхность третьего уровня (светлое оформление)"
+            },
+            "elevationLevel4": {
+              "value": "#F5F7F7",
+              "type": "color",
+              "description": "Поверхность четвертого уровня (светлое оформление)"
+            },
+            "elevationLevel5": {
+              "value": "#F5F7F7",
+              "type": "color",
+              "description": "Поверхность пятого уровня (светлое оформление)"
+            },
+            "context": {
+              "value": "#EFF1F2",
+              "type": "color",
+              "description": "Фон контекстных элементов (светлое оформление)"
+            }
+          },
+          "surfaceDark": {
+            "elevationLevel1": {
+              "value": "#0F1214",
+              "type": "color",
+              "description": "Поверхность первого уровня (темное оформление)"
+            },
+            "elevationLevel2": {
+              "value": "#161A1D",
+              "type": "color",
+              "description": "Поверхность второго уровня (темное оформление)"
+            },
+            "elevationLevel3": {
+              "value": "#1C2023",
+              "type": "color",
+              "description": "Поверхность третьего уровня (темное оформление)"
+            },
+            "elevationLevel4": {
+              "value": "#212529",
+              "type": "color",
+              "description": "Поверхность четвертого уровня (темное оформление)"
+            },
+            "elevationLevel5": {
+              "value": "#262B2F",
+              "type": "color",
+              "description": "Поверхность пятого уровня (темное оформление)"
+            },
+            "context": {
+              "value": "#292F33",
+              "type": "color",
+              "description": "Фон контекстных элементов (темное оформление)"
+            }
+          },
+          "brand": {
+            "light": {
+              "value": "#FFC000",
+              "type": "color",
+              "description": "Брендированный цвет (светлое оформление)"
+            },
+            "dark": {
+              "value": "#FFC000",
+              "type": "color",
+              "description": "Брендированный цвет (темное оформление)"
+            }
+          },
+          "accent": {
+            "light": {
+              "value": "#7800C2",
+              "type": "color",
+              "description": "Акцентный цвет (светлое оформление)"
+            },
+            "dark": {
+              "value": "#AC84E3",
+              "type": "color",
+              "description": "Акцентный цвет (темное оформление)"
+            }
+          },
+          "success": {
+            "light": {
+              "value": "#00B84C",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" (светлое оформление)"
+            },
+            "dark": {
+              "value": "#64D17A",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" (темное оформление)"
+            }
+          },
+          "warning": {
+            "light": {
+              "value": "#FA6A18",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" (светлое оформление)"
+            },
+            "dark": {
+              "value": "#FFA16B",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" (темное оформление)"
+            }
+          },
+          "attention": {
+            "light": {
+              "value": "#DE3344",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" (светлое оформление)"
+            },
+            "dark": {
+              "value": "#F76A78",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" (темное оформление)"
+            }
+          },
+          "navigation": {
+            "light": {
+              "value": "#0166FF",
+              "type": "color",
+              "description": "Цвет навигационного элемента (светлое оформление)"
+            },
+            "dark": {
+              "value": "#66C1FF",
+              "type": "color",
+              "description": "Цвет навигационного элемента (темное оформление)"
+            }
+          }
+        },
+        "border": {
+          "brand": {
+            "light": {
+              "value": "#FBB605",
+              "type": "color",
+              "description": "Цвет границ для брендированных элементов (светлое оформление)"
+            },
+            "dark": {
+              "value": "#FFCA29",
+              "type": "color",
+              "description": "Цвет границ для брендированных элементов (темное оформление)"
+            }
+          },
+          "accent": {
+            "light": {
+              "value": "#58008F",
+              "type": "color",
+              "description": "Цвет границ для акцентных элементов (светлое оформление)"
+            },
+            "dark": {
+              "value": "#C7ACEC",
+              "type": "color",
+              "description": "Цвет границ для акцентных элементов (темное оформление)"
+            }
+          },
+          "success": {
+            "light": {
+              "value": "#00A644",
+              "type": "color",
+              "description": "Цвет границ для элементов в статусе \"успешно\" (светлое оформление)"
+            },
+            "dark": {
+              "value": "#7DD88F",
+              "type": "color",
+              "description": "Цвет границ для элементов в статусе \"успешно\" (темное оформление)"
+            }
+          },
+          "warning": {
+            "light": {
+              "value": "#E15F16",
+              "type": "color",
+              "description": "Цвет границ для элементов в статусе \"предупреждение\" (светлое оформление)"
+            },
+            "dark": {
+              "value": "#FFB083",
+              "type": "color",
+              "description": "Цвет границ для элементов в статусе \"предупреждение\" (темное оформление)"
+            }
+          },
+          "attention": {
+            "light": {
+              "value": "#C82E3D",
+              "type": "color",
+              "description": "Цвет границ для элементов в статусе \"внимание\" (светлое оформление)"
+            },
+            "dark": {
+              "value": "#F8828E",
+              "type": "color",
+              "description": "Цвет границ для элементов в статусе \"внимание\" (темное оформление)"
+            }
+          },
+          "navigation": {
+            "light": {
+              "value": "#015CE6",
+              "type": "color",
+              "description": "Цвет границ для навигационных элементов (светлое оформление)"
+            },
+            "dark": {
+              "value": "#7ECBFF",
+              "type": "color",
+              "description": "Цвет границ для навигационных элементов (темное оформление)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

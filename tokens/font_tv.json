@@ -1,0 +1,276 @@
+{
+  "font": {
+    "common": {
+      "tv": {
+        "title1": {
+          "black": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Black",
+              "lineHeight": 92,
+              "fontSize": 76,
+              "letterSpacing": -0.5,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Заголовок первого уровня для TV, начертание Black"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Bold",
+              "lineHeight": 92,
+              "fontSize": 76,
+              "letterSpacing": -0.5,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Заголовок первого уровня для TV, начертание Bold"
+          }
+        },
+        "title2": {
+          "bold": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Bold",
+              "lineHeight": 72,
+              "fontSize": 60,
+              "letterSpacing": -0.25,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Заголовок второго уровня для TV, начертание Bold"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Medium",
+              "lineHeight": 72,
+              "fontSize": 60,
+              "letterSpacing": -0.25,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Заголовок второго уровня для TV, начертание Medium"
+          }
+        },
+        "title3": {
+          "bold": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Bold",
+              "lineHeight": 60,
+              "fontSize": 48,
+              "letterSpacing": -0.25,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Заголовок третьего уровня для TV, начертание Bold"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Medium",
+              "lineHeight": 60,
+              "fontSize": 48,
+              "letterSpacing": -0.25,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Заголовок третьего уровня для TV, начертание Medium"
+          }
+        },
+        "subtitle": {
+          "bold": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Bold",
+              "lineHeight": 48,
+              "fontSize": 40,
+              "letterSpacing": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Подзаголовок для TV, начертание Bold"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Medium",
+              "lineHeight": 48,
+              "fontSize": 40,
+              "letterSpacing": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Подзаголовок для TV, начертание Medium"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Regular",
+              "lineHeight": 48,
+              "fontSize": 40,
+              "letterSpacing": 0,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Подзаголовок для TV, начертание Regular"
+          }
+        },
+        "body1": {
+          "bold": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Bold",
+              "lineHeight": 44,
+              "fontSize": 32,
+              "letterSpacing": 0.15,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Стандартный текст для TV, начертание Bold"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Medium",
+              "lineHeight": 44,
+              "fontSize": 32,
+              "letterSpacing": 0.15,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Стандартный текст для TV, начертание Medium"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Regular",
+              "lineHeight": 44,
+              "fontSize": 32,
+              "letterSpacing": 0.15,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Стандартный текст для TV, начертание Regular"
+          }
+        },
+        "caption1": {
+          "medium": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Medium",
+              "lineHeight": 40,
+              "fontSize": 28,
+              "letterSpacing": 0.15,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Подпись для TV, начертание Medium"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Regular",
+              "lineHeight": 40,
+              "fontSize": 28,
+              "letterSpacing": 0.15,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Подпись для TV, начертание Regular"
+          }
+        },
+        "caption2": {
+          "medium": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Medium",
+              "lineHeight": 32,
+              "fontSize": 24,
+              "letterSpacing": 0.15,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Уменьшенная подпись для TV, начертание Medium"
+          },
+          "regular": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Regular",
+              "lineHeight": 32,
+              "fontSize": 24,
+              "letterSpacing": 0.15,
+              "paragraphSpacing": 0,
+              "textCase": "none",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Уменьшенная подпись для TV, начертание Regular"
+          }
+        },
+        "overline": {
+          "bold": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Bold",
+              "lineHeight": 28,
+              "fontSize": 22,
+              "letterSpacing": 0.5,
+              "paragraphSpacing": 0,
+              "textCase": "uppercase",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Акцентная метка для TV, начертание Bold"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "Roboto",
+              "fontWeight": "Medium",
+              "lineHeight": 28,
+              "fontSize": 22,
+              "letterSpacing": 0.5,
+              "paragraphSpacing": 0,
+              "textCase": "uppercase",
+              "textDecoration": "none"
+            },
+            "type": "typography",
+            "description": "Акцентная метка для TV, начертание Medium"
+          }
+        }
+      }
+    }
+  }
+}
