@@ -27,21 +27,29 @@ jobs:
         uses: actions/setup-node@v2.4.0
       # Install dependencies
       - run: npm install
-      # Transform global Figma Tokens to Style Dictionary format
+
+      # Create global Figma Tokens
       - run: npx token-transformer data/tokens.json tokens/global.json global
 
-      # Create Font styles for universal platforms, exclude the global tokens
-      # - run: npx token-transformer data/tokens.json tokens/font.universal.json global,rdsGen.common.font.universal global
-      # Create Font styles for tv platforms, exclude the global tokens
-      # - run: npx token-transformer data/tokens.json tokens/font.tv.json global,rdsGen.common.font.tv global
+      # Create font styles for universal platforms, exclude the global tokens
+      - run: npx token-transformer data/tokens.json tokens/font.json global,font global
+      # Create font styles for tv platforms, exclude the global tokens
+      - run: npx token-transformer data/tokens.json tokens/font_tv.json global,font.tv global
+
+      # Create general visual styles for universal platforms, exclude the global tokens
+      - run: npx token-transformer data/tokens.json tokens/visual_common.json global,visual.common global
+      # Create light theme visual styles for universal platforms, exclude the global tokens
+      - run: npx token-transformer data/tokens.json tokens/visual_theme_light.json global,visual.theme.light global
+      # Create dark theme visual styles for universal platforms, exclude the global tokens
+      - run: npx token-transformer data/tokens.json tokens/visual_theme_dark.json global,visual.theme.dark global
 
       # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
-      # - run: npx token-transformer data/tokens.json tokens/font.universal.expand.json global,rdsGen.common.font.universal global --expandTypography=true
+      # - run: npx token-transformer data/tokens.json tokens/font_expand.json global,font global --expandTypography=true
       # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
-      # - run: npx token-transformer data/tokens.json tokens/font.tv.expand.json global,rdsGen.common.font.tv global --expandTypography=true
+      # - run: npx token-transformer data/tokens.json tokens/font_tv_expand.json global,font.tv global --expandTypography=true
 
       # Test
-      - run: npx token-transformer data/tokens.json tokens/common_measures.json global,common.measures global
+      # - run: npx token-transformer data/tokens.json tokens/common_measures.json global,common.measures global
 
       # Convert tokens according to Style Dictionary config
       - run: node build.js
