@@ -1,67 +1,56 @@
-
-/**
- * Do not edit directly
- * Generated on Tue, 06 Sep 2022 08:33:49 GMT
- */
-
-$font-common-tv-title1-black: [object Object] !default;
-$font-common-tv-title1-bold: [object Object] !default;
-$font-common-tv-title2-bold: [object Object] !default;
-$font-common-tv-title2-medium: [object Object] !default;
-$font-common-tv-title3-bold: [object Object] !default;
-$font-common-tv-title3-medium: [object Object] !default;
-$font-common-tv-subtitle-bold: [object Object] !default;
-$font-common-tv-subtitle-medium: [object Object] !default;
-$font-common-tv-subtitle-regular: [object Object] !default;
-$font-common-tv-body1-bold: [object Object] !default;
-$font-common-tv-body1-medium: [object Object] !default;
-$font-common-tv-body1-regular: [object Object] !default;
-$font-common-tv-caption1-medium: [object Object] !default;
-$font-common-tv-caption1-regular: [object Object] !default;
-$font-common-tv-caption2-medium: [object Object] !default;
-$font-common-tv-caption2-regular: [object Object] !default;
-$font-common-tv-overline-bold: [object Object] !default;
-$font-common-tv-overline-medium: [object Object] !default;
-
-$tokens: (
-  'font': (
-    'common': (
-      'tv': (
-        'title1': (
-          'black': $font-common-tv-title1-black,
-          'bold': $font-common-tv-title1-bold
-        ),
-        'title2': (
-          'bold': $font-common-tv-title2-bold,
-          'medium': $font-common-tv-title2-medium
-        ),
-        'title3': (
-          'bold': $font-common-tv-title3-bold,
-          'medium': $font-common-tv-title3-medium
-        ),
-        'subtitle': (
-          'bold': $font-common-tv-subtitle-bold,
-          'medium': $font-common-tv-subtitle-medium,
-          'regular': $font-common-tv-subtitle-regular
-        ),
-        'body1': (
-          'bold': $font-common-tv-body1-bold,
-          'medium': $font-common-tv-body1-medium,
-          'regular': $font-common-tv-body1-regular
-        ),
-        'caption1': (
-          'medium': $font-common-tv-caption1-medium,
-          'regular': $font-common-tv-caption1-regular
-        ),
-        'caption2': (
-          'medium': $font-common-tv-caption2-medium,
-          'regular': $font-common-tv-caption2-regular
-        ),
-        'overline': (
-          'bold': $font-common-tv-overline-bold,
-          'medium': $font-common-tv-overline-medium
-        )
-      )
-    )
-  )
-);
+.font_tv {
+      @mixin font-common-tv-title1-black { 
+        {"fontFamily":"Roboto","fontWeight":"Black","lineHeight":92,"fontSize":76,"letterSpacing":-0.5,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-title1-bold { 
+        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":92,"fontSize":76,"letterSpacing":-0.5,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-title2-bold { 
+        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":72,"fontSize":60,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-title2-medium { 
+        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":72,"fontSize":60,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-title3-bold { 
+        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":60,"fontSize":48,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-title3-medium { 
+        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":60,"fontSize":48,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-subtitle-bold { 
+        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":48,"fontSize":40,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-subtitle-medium { 
+        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":48,"fontSize":40,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-subtitle-regular { 
+        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":48,"fontSize":40,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-body1-bold { 
+        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":44,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-body1-medium { 
+        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":44,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-body1-regular { 
+        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":44,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-caption1-medium { 
+        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":40,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-caption1-regular { 
+        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":40,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-caption2-medium { 
+        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-caption2-regular { 
+        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
+      }
+@mixin font-common-tv-overline-bold { 
+        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":28,"fontSize":22,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
+      }
+@mixin font-common-tv-overline-medium { 
+        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":28,"fontSize":22,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
+      }
+    }

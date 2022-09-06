@@ -14,9 +14,16 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerFormat({
   name: 'scss/fontsMixin',
   formatter: function (dictionary, config) {
-    console.log(dictionary);
+    //console.log(dictionary.allProperties);
+
+    const keysMapper = {
+      
+    }
+
     return `${this.selector} {
-      ${dictionary.allProperties.map(prop => `@mixin ${prop.name}: ${prop.value};`).join('\n')}
+      ${dictionary.allProperties.map(prop => `@mixin ${prop.name} { 
+        ${JSON.stringify(prop.value)}
+      }`).join('\n')}
     }`
   }
 });
@@ -155,7 +162,7 @@ console.log('Build started...');
     //StyleDictionary.buildPlatform('scss');
 
     console.log('\nEnd processing');
-})
+});
 
 ['font', 'font_tv'].map(function (tokensSet) {
 
