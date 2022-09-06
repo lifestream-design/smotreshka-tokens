@@ -1,0 +1,253 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 06 Sep 2022 08:33:49 GMT
+ */
+
+$font-common-desktop-title1-black: [object Object] !default;
+$font-common-desktop-title1-bold: [object Object] !default;
+$font-common-desktop-title2-bold: [object Object] !default;
+$font-common-desktop-title2-medium: [object Object] !default;
+$font-common-desktop-title3-bold: [object Object] !default;
+$font-common-desktop-title3-medium: [object Object] !default;
+$font-common-desktop-title4-bold: [object Object] !default;
+$font-common-desktop-title4-medium: [object Object] !default;
+$font-common-desktop-title5-bold: [object Object] !default;
+$font-common-desktop-title5-medium: [object Object] !default;
+$font-common-desktop-title6-bold: [object Object] !default;
+$font-common-desktop-title6-medium: [object Object] !default;
+$font-common-desktop-subtitle-bold: [object Object] !default;
+$font-common-desktop-subtitle-medium: [object Object] !default;
+$font-common-desktop-subtitle-regular: [object Object] !default;
+$font-common-desktop-body1-bold: [object Object] !default;
+$font-common-desktop-body1-medium: [object Object] !default;
+$font-common-desktop-body1-regular: [object Object] !default;
+$font-common-desktop-body2-bold: [object Object] !default;
+$font-common-desktop-body2-medium: [object Object] !default;
+$font-common-desktop-body2-regular: [object Object] !default;
+$font-common-desktop-caption1-medium: [object Object] !default;
+$font-common-desktop-caption1-regular: [object Object] !default;
+$font-common-desktop-caption2-medium: [object Object] !default;
+$font-common-desktop-caption2-regular: [object Object] !default;
+$font-common-desktop-overline-bold: [object Object] !default;
+$font-common-desktop-overline-medium: [object Object] !default;
+$font-common-tablet-title1-black: [object Object] !default;
+$font-common-tablet-title1-bold: [object Object] !default;
+$font-common-tablet-title2-bold: [object Object] !default;
+$font-common-tablet-title2-medium: [object Object] !default;
+$font-common-tablet-title3-bold: [object Object] !default;
+$font-common-tablet-title3-medium: [object Object] !default;
+$font-common-tablet-title4-bold: [object Object] !default;
+$font-common-tablet-title4-medium: [object Object] !default;
+$font-common-tablet-title5-bold: [object Object] !default;
+$font-common-tablet-title5-medium: [object Object] !default;
+$font-common-tablet-title6-bold: [object Object] !default;
+$font-common-tablet-title6-medium: [object Object] !default;
+$font-common-tablet-subtitle-bold: [object Object] !default;
+$font-common-tablet-subtitle-medium: [object Object] !default;
+$font-common-tablet-subtitle-regular: [object Object] !default;
+$font-common-tablet-body1-bold: [object Object] !default;
+$font-common-tablet-body1-medium: [object Object] !default;
+$font-common-tablet-body1-regular: [object Object] !default;
+$font-common-tablet-body2-bold: [object Object] !default;
+$font-common-tablet-body2-medium: [object Object] !default;
+$font-common-tablet-body2-regular: [object Object] !default;
+$font-common-tablet-caption1-medium: [object Object] !default;
+$font-common-tablet-caption1-regular: [object Object] !default;
+$font-common-tablet-caption2-medium: [object Object] !default;
+$font-common-tablet-caption2-regular: [object Object] !default;
+$font-common-tablet-overline-bold: [object Object] !default;
+$font-common-tablet-overline-medium: [object Object] !default;
+$font-common-mobile-title1-black: [object Object] !default;
+$font-common-mobile-title1-bold: [object Object] !default;
+$font-common-mobile-title2-bold: [object Object] !default;
+$font-common-mobile-title2-medium: [object Object] !default;
+$font-common-mobile-title3-bold: [object Object] !default;
+$font-common-mobile-title3-medium: [object Object] !default;
+$font-common-mobile-title4-bold: [object Object] !default;
+$font-common-mobile-title4-medium: [object Object] !default;
+$font-common-mobile-title5-bold: [object Object] !default;
+$font-common-mobile-title5-medium: [object Object] !default;
+$font-common-mobile-title6-bold: [object Object] !default;
+$font-common-mobile-title6-medium: [object Object] !default;
+$font-common-mobile-subtitle-bold: [object Object] !default;
+$font-common-mobile-subtitle-medium: [object Object] !default;
+$font-common-mobile-subtitle-regular: [object Object] !default;
+$font-common-mobile-body1-bold: [object Object] !default;
+$font-common-mobile-body1-medium: [object Object] !default;
+$font-common-mobile-body1-regular: [object Object] !default;
+$font-common-mobile-body2-bold: [object Object] !default;
+$font-common-mobile-body2-medium: [object Object] !default;
+$font-common-mobile-body2-regular: [object Object] !default;
+$font-common-mobile-caption1-medium: [object Object] !default;
+$font-common-mobile-caption1-regular: [object Object] !default;
+$font-common-mobile-caption2-medium: [object Object] !default;
+$font-common-mobile-caption2-regular: [object Object] !default;
+$font-common-mobile-overline-bold: [object Object] !default;
+$font-common-mobile-overline-medium: [object Object] !default;
+
+$tokens: (
+  'font': (
+    'common': (
+      'desktop': (
+        'title1': (
+          'black': $font-common-desktop-title1-black,
+          'bold': $font-common-desktop-title1-bold
+        ),
+        'title2': (
+          'bold': $font-common-desktop-title2-bold,
+          'medium': $font-common-desktop-title2-medium
+        ),
+        'title3': (
+          'bold': $font-common-desktop-title3-bold,
+          'medium': $font-common-desktop-title3-medium
+        ),
+        'title4': (
+          'bold': $font-common-desktop-title4-bold,
+          'medium': $font-common-desktop-title4-medium
+        ),
+        'title5': (
+          'bold': $font-common-desktop-title5-bold,
+          'medium': $font-common-desktop-title5-medium
+        ),
+        'title6': (
+          'bold': $font-common-desktop-title6-bold,
+          'medium': $font-common-desktop-title6-medium
+        ),
+        'subtitle': (
+          'bold': $font-common-desktop-subtitle-bold,
+          'medium': $font-common-desktop-subtitle-medium,
+          'regular': $font-common-desktop-subtitle-regular
+        ),
+        'body1': (
+          'bold': $font-common-desktop-body1-bold,
+          'medium': $font-common-desktop-body1-medium,
+          'regular': $font-common-desktop-body1-regular
+        ),
+        'body2': (
+          'bold': $font-common-desktop-body2-bold,
+          'medium': $font-common-desktop-body2-medium,
+          'regular': $font-common-desktop-body2-regular
+        ),
+        'caption1': (
+          'medium': $font-common-desktop-caption1-medium,
+          'regular': $font-common-desktop-caption1-regular
+        ),
+        'caption2': (
+          'medium': $font-common-desktop-caption2-medium,
+          'regular': $font-common-desktop-caption2-regular
+        ),
+        'overline': (
+          'bold': $font-common-desktop-overline-bold,
+          'medium': $font-common-desktop-overline-medium
+        )
+      ),
+      'tablet': (
+        'title1': (
+          'black': $font-common-tablet-title1-black,
+          'bold': $font-common-tablet-title1-bold
+        ),
+        'title2': (
+          'bold': $font-common-tablet-title2-bold,
+          'medium': $font-common-tablet-title2-medium
+        ),
+        'title3': (
+          'bold': $font-common-tablet-title3-bold,
+          'medium': $font-common-tablet-title3-medium
+        ),
+        'title4': (
+          'bold': $font-common-tablet-title4-bold,
+          'medium': $font-common-tablet-title4-medium
+        ),
+        'title5': (
+          'bold': $font-common-tablet-title5-bold,
+          'medium': $font-common-tablet-title5-medium
+        ),
+        'title6': (
+          'bold': $font-common-tablet-title6-bold,
+          'medium': $font-common-tablet-title6-medium
+        ),
+        'subtitle': (
+          'bold': $font-common-tablet-subtitle-bold,
+          'medium': $font-common-tablet-subtitle-medium,
+          'regular': $font-common-tablet-subtitle-regular
+        ),
+        'body1': (
+          'bold': $font-common-tablet-body1-bold,
+          'medium': $font-common-tablet-body1-medium,
+          'regular': $font-common-tablet-body1-regular
+        ),
+        'body2': (
+          'bold': $font-common-tablet-body2-bold,
+          'medium': $font-common-tablet-body2-medium,
+          'regular': $font-common-tablet-body2-regular
+        ),
+        'caption1': (
+          'medium': $font-common-tablet-caption1-medium,
+          'regular': $font-common-tablet-caption1-regular
+        ),
+        'caption2': (
+          'medium': $font-common-tablet-caption2-medium,
+          'regular': $font-common-tablet-caption2-regular
+        ),
+        'overline': (
+          'bold': $font-common-tablet-overline-bold,
+          'medium': $font-common-tablet-overline-medium
+        )
+      ),
+      'mobile': (
+        'title1': (
+          'black': $font-common-mobile-title1-black,
+          'bold': $font-common-mobile-title1-bold
+        ),
+        'title2': (
+          'bold': $font-common-mobile-title2-bold,
+          'medium': $font-common-mobile-title2-medium
+        ),
+        'title3': (
+          'bold': $font-common-mobile-title3-bold,
+          'medium': $font-common-mobile-title3-medium
+        ),
+        'title4': (
+          'bold': $font-common-mobile-title4-bold,
+          'medium': $font-common-mobile-title4-medium
+        ),
+        'title5': (
+          'bold': $font-common-mobile-title5-bold,
+          'medium': $font-common-mobile-title5-medium
+        ),
+        'title6': (
+          'bold': $font-common-mobile-title6-bold,
+          'medium': $font-common-mobile-title6-medium
+        ),
+        'subtitle': (
+          'bold': $font-common-mobile-subtitle-bold,
+          'medium': $font-common-mobile-subtitle-medium,
+          'regular': $font-common-mobile-subtitle-regular
+        ),
+        'body1': (
+          'bold': $font-common-mobile-body1-bold,
+          'medium': $font-common-mobile-body1-medium,
+          'regular': $font-common-mobile-body1-regular
+        ),
+        'body2': (
+          'bold': $font-common-mobile-body2-bold,
+          'medium': $font-common-mobile-body2-medium,
+          'regular': $font-common-mobile-body2-regular
+        ),
+        'caption1': (
+          'medium': $font-common-mobile-caption1-medium,
+          'regular': $font-common-mobile-caption1-regular
+        ),
+        'caption2': (
+          'medium': $font-common-mobile-caption2-medium,
+          'regular': $font-common-mobile-caption2-regular
+        ),
+        'overline': (
+          'bold': $font-common-mobile-overline-bold,
+          'medium': $font-common-mobile-overline-medium
+        )
+      )
+    )
+  )
+);

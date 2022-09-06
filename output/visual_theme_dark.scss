@@ -1,0 +1,207 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 06 Sep 2022 08:33:49 GMT
+ */
+
+$color-theme-all-fill-surface-elevation-level1: #0f1214 !default;
+$color-theme-all-fill-surface-elevation-level2: #161a1d !default;
+$color-theme-all-fill-surface-elevation-level3: #1c2023 !default;
+$color-theme-all-fill-surface-elevation-level4: #212529 !default;
+$color-theme-all-fill-surface-elevation-level5: #262b2f !default;
+$color-theme-all-fill-surface-context: #292f33 !default;
+$color-theme-all-fill-brand-default: #ffc000 !default;
+$color-theme-all-fill-brand-hover: #ffca29 !default;
+$color-theme-all-fill-brand-active: #fbb605 !default;
+$color-theme-all-fill-brand-focus: #fbb605 !default;
+$color-theme-all-fill-brand-disabled: #664d00 !default;
+$color-theme-all-fill-accent-default: #ac84e3 !default;
+$color-theme-all-fill-accent-hover: #c7acec !default;
+$color-theme-all-fill-accent-active: #8e59d9 !default;
+$color-theme-all-fill-accent-focus: #8e59d9 !default;
+$color-theme-all-fill-accent-disabled: #4a3962 !default;
+$color-theme-all-fill-success-default: #64d17a !default;
+$color-theme-all-fill-success-hover: #7dd88f !default;
+$color-theme-all-fill-success-active: #5abc6e !default;
+$color-theme-all-fill-success-focus: #5abc6e !default;
+$color-theme-all-fill-success-disabled: #2b5a34 !default;
+$color-theme-all-fill-warning-default: #ffa16b !default;
+$color-theme-all-fill-warning-hover: #ffb083 !default;
+$color-theme-all-fill-warning-active: #e69160 !default;
+$color-theme-all-fill-warning-focus: #e69160 !default;
+$color-theme-all-fill-warning-disabled: #6e3f2e !default;
+$color-theme-all-fill-attention-default: #f76a78 !default;
+$color-theme-all-fill-attention-hover: #f8828e !default;
+$color-theme-all-fill-attention-active: #e3626e !default;
+$color-theme-all-fill-attention-focus: #e3626e !default;
+$color-theme-all-fill-attention-disabled: #6a2e34 !default;
+$color-theme-all-fill-navigation-default: #66c1ff !default;
+$color-theme-all-fill-navigation-hover: #7ecbff !default;
+$color-theme-all-fill-navigation-active: #5caee5 !default;
+$color-theme-all-fill-navigation-focus: #5caee5 !default;
+$color-theme-all-fill-navigation-disabled: #2c536e !default;
+$color-theme-all-fill-interactive-default: #444d52 !default;
+$color-theme-all-fill-interactive-hover: #4f585e !default;
+$color-theme-all-fill-interactive-active: #3a4246 !default;
+$color-theme-all-fill-interactive-focus: #596469 !default;
+$color-theme-all-fill-interactive-disabled: #30363a !default;
+$color-theme-all-text-on-surface-primary: #ebebeb !default;
+$color-theme-all-text-on-surface-secondary: rgba(235, 235, 235, 0.65) !default;
+$color-theme-all-text-on-surface-tertiary: rgba(235, 235, 235, 0.45) !default;
+$color-theme-all-text-on-brand-primary: #1a1a1a !default;
+$color-theme-all-text-on-brand-secondary: rgba(26, 26, 26, 0.65) !default;
+$color-theme-all-text-on-brand-tertiary: rgba(26, 26, 26, 0.45) !default;
+$color-theme-all-text-on-accent-primary: #1a1a1a !default;
+$color-theme-all-text-on-accent-secondary: rgba(26, 26, 26, 0.65) !default;
+$color-theme-all-text-on-accent-tertiary: rgba(26, 26, 26, 0.45) !default;
+$color-theme-all-text-on-success-primary: #1a1a1a !default;
+$color-theme-all-text-on-success-secondary: rgba(26, 26, 26, 0.65) !default;
+$color-theme-all-text-on-success-tertiary: rgba(26, 26, 26, 0.45) !default;
+$color-theme-all-text-on-warning-primary: #1a1a1a !default;
+$color-theme-all-text-on-warning-secondary: rgba(26, 26, 26, 0.65) !default;
+$color-theme-all-text-on-warning-tertiary: rgba(26, 26, 26, 0.45) !default;
+$color-theme-all-text-on-attention-primary: #1a1a1a !default;
+$color-theme-all-text-on-attention-secondary: rgba(26, 26, 26, 0.65) !default;
+$color-theme-all-text-on-attention-tertiary: rgba(26, 26, 26, 0.45) !default;
+$color-theme-all-text-on-additional-primary: #1a1a1a !default;
+$color-theme-all-text-on-additional-secondary: rgba(26, 26, 26, 0.65) !default;
+$color-theme-all-text-on-additional-tertiary: rgba(26, 26, 26, 0.45) !default;
+$color-theme-all-text-on-interactive-primary: #ebebeb !default;
+$color-theme-all-text-on-interactive-secondary: rgba(235, 235, 235, 0.65) !default;
+$color-theme-all-text-on-interactive-tertiary: rgba(235, 235, 235, 0.45) !default;
+$color-theme-all-text-accent: #c7acec !default;
+$color-theme-all-text-success: #7dd88f !default;
+$color-theme-all-text-warning: #ffb083 !default;
+$color-theme-all-text-attention: #f8828e !default;
+$color-theme-all-text-navigation: #7ecbff !default;
+$color-theme-all-border-brand: #ffca29 !default;
+$color-theme-all-border-accent: #c7acec !default;
+$color-theme-all-border-success: #7dd88f !default;
+$color-theme-all-border-warning: #ffb083 !default;
+$color-theme-all-border-attention: #f8828e !default;
+$color-theme-all-border-navigation: #7ecbff !default;
+$color-theme-all-border-interactive: #646f75 !default;
+
+$tokens: (
+  'color': (
+    'theme': (
+      'all': (
+        'fill': (
+          'surface': (
+            'elevationLevel1': $color-theme-all-fill-surface-elevation-level1,
+            'elevationLevel2': $color-theme-all-fill-surface-elevation-level2,
+            'elevationLevel3': $color-theme-all-fill-surface-elevation-level3,
+            'elevationLevel4': $color-theme-all-fill-surface-elevation-level4,
+            'elevationLevel5': $color-theme-all-fill-surface-elevation-level5,
+            'context': $color-theme-all-fill-surface-context
+          ),
+          'brand': (
+            'default': $color-theme-all-fill-brand-default,
+            'hover': $color-theme-all-fill-brand-hover,
+            'active': $color-theme-all-fill-brand-active,
+            'focus': $color-theme-all-fill-brand-focus,
+            'disabled': $color-theme-all-fill-brand-disabled
+          ),
+          'accent': (
+            'default': $color-theme-all-fill-accent-default,
+            'hover': $color-theme-all-fill-accent-hover,
+            'active': $color-theme-all-fill-accent-active,
+            'focus': $color-theme-all-fill-accent-focus,
+            'disabled': $color-theme-all-fill-accent-disabled
+          ),
+          'success': (
+            'default': $color-theme-all-fill-success-default,
+            'hover': $color-theme-all-fill-success-hover,
+            'active': $color-theme-all-fill-success-active,
+            'focus': $color-theme-all-fill-success-focus,
+            'disabled': $color-theme-all-fill-success-disabled
+          ),
+          'warning': (
+            'default': $color-theme-all-fill-warning-default,
+            'hover': $color-theme-all-fill-warning-hover,
+            'active': $color-theme-all-fill-warning-active,
+            'focus': $color-theme-all-fill-warning-focus,
+            'disabled': $color-theme-all-fill-warning-disabled
+          ),
+          'attention': (
+            'default': $color-theme-all-fill-attention-default,
+            'hover': $color-theme-all-fill-attention-hover,
+            'active': $color-theme-all-fill-attention-active,
+            'focus': $color-theme-all-fill-attention-focus,
+            'disabled': $color-theme-all-fill-attention-disabled
+          ),
+          'navigation': (
+            'default': $color-theme-all-fill-navigation-default,
+            'hover': $color-theme-all-fill-navigation-hover,
+            'active': $color-theme-all-fill-navigation-active,
+            'focus': $color-theme-all-fill-navigation-focus,
+            'disabled': $color-theme-all-fill-navigation-disabled
+          ),
+          'interactive': (
+            'default': $color-theme-all-fill-interactive-default,
+            'hover': $color-theme-all-fill-interactive-hover,
+            'active': $color-theme-all-fill-interactive-active,
+            'focus': $color-theme-all-fill-interactive-focus,
+            'disabled': $color-theme-all-fill-interactive-disabled
+          )
+        ),
+        'text': (
+          'onSurface': (
+            'primary': $color-theme-all-text-on-surface-primary,
+            'secondary': $color-theme-all-text-on-surface-secondary,
+            'tertiary': $color-theme-all-text-on-surface-tertiary
+          ),
+          'onBrand': (
+            'primary': $color-theme-all-text-on-brand-primary,
+            'secondary': $color-theme-all-text-on-brand-secondary,
+            'tertiary': $color-theme-all-text-on-brand-tertiary
+          ),
+          'onAccent': (
+            'primary': $color-theme-all-text-on-accent-primary,
+            'secondary': $color-theme-all-text-on-accent-secondary,
+            'tertiary': $color-theme-all-text-on-accent-tertiary
+          ),
+          'onSuccess': (
+            'primary': $color-theme-all-text-on-success-primary,
+            'secondary': $color-theme-all-text-on-success-secondary,
+            'tertiary': $color-theme-all-text-on-success-tertiary
+          ),
+          'onWarning': (
+            'primary': $color-theme-all-text-on-warning-primary,
+            'secondary': $color-theme-all-text-on-warning-secondary,
+            'tertiary': $color-theme-all-text-on-warning-tertiary
+          ),
+          'onAttention': (
+            'primary': $color-theme-all-text-on-attention-primary,
+            'secondary': $color-theme-all-text-on-attention-secondary,
+            'tertiary': $color-theme-all-text-on-attention-tertiary
+          ),
+          'onAdditional': (
+            'primary': $color-theme-all-text-on-additional-primary,
+            'secondary': $color-theme-all-text-on-additional-secondary,
+            'tertiary': $color-theme-all-text-on-additional-tertiary
+          ),
+          'onInteractive': (
+            'primary': $color-theme-all-text-on-interactive-primary,
+            'secondary': $color-theme-all-text-on-interactive-secondary,
+            'tertiary': $color-theme-all-text-on-interactive-tertiary
+          ),
+          'accent': $color-theme-all-text-accent,
+          'success': $color-theme-all-text-success,
+          'warning': $color-theme-all-text-warning,
+          'attention': $color-theme-all-text-attention,
+          'navigation': $color-theme-all-text-navigation
+        ),
+        'border': (
+          'brand': $color-theme-all-border-brand,
+          'accent': $color-theme-all-border-accent,
+          'success': $color-theme-all-border-success,
+          'warning': $color-theme-all-border-warning,
+          'attention': $color-theme-all-border-attention,
+          'navigation': $color-theme-all-border-navigation,
+          'interactive': $color-theme-all-border-interactive
+        )
+      )
+    )
+  )
+);

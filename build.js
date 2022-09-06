@@ -9,7 +9,7 @@ StyleDictionaryPackage.registerFormat({
         ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
       }`
     }
-  });  
+  });
 
 StyleDictionaryPackage.registerTransform({
   name: 'sizes/px',
@@ -116,6 +116,15 @@ function getStyleDictionaryConfig(tokensSet) {
             "format": "css/variables",
             "selector": `.${tokensSet}`
           }]
+      },
+      "scss": {
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/pxToRem", "shadows/dropShadowCss", "motion/css"],
+        "buildPath": `output/`,
+        "files": [{
+            "destination": `${tokensSet}.scss`,
+            "format": "scss/map-deep",
+            "selector": `.${tokensSet}`
+          }]
       }
     }
   };
@@ -125,14 +134,15 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global', 'font', 'font_tv', 'visual_common', 'visual_theme_light', 'visual_theme_dark'].map(function (tokensSet) {
+['global', 'font_expand', 'font_tv_expand', 'visual_common', 'visual_theme_light', 'visual_theme_dark'].map(function (tokensSet) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${tokensSet}]`);
 
-    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
-
-    StyleDictionary.buildPlatform('web');
+    const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
+    
+    styleDictionary.buildPlatform('web');
+    //StyleDictionary.buildPlatform('scss');
 
     console.log('\nEnd processing');
 })

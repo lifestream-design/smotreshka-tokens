@@ -1,0 +1,67 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 06 Sep 2022 08:33:49 GMT
+ */
+
+$font-common-tv-title1-black: [object Object] !default;
+$font-common-tv-title1-bold: [object Object] !default;
+$font-common-tv-title2-bold: [object Object] !default;
+$font-common-tv-title2-medium: [object Object] !default;
+$font-common-tv-title3-bold: [object Object] !default;
+$font-common-tv-title3-medium: [object Object] !default;
+$font-common-tv-subtitle-bold: [object Object] !default;
+$font-common-tv-subtitle-medium: [object Object] !default;
+$font-common-tv-subtitle-regular: [object Object] !default;
+$font-common-tv-body1-bold: [object Object] !default;
+$font-common-tv-body1-medium: [object Object] !default;
+$font-common-tv-body1-regular: [object Object] !default;
+$font-common-tv-caption1-medium: [object Object] !default;
+$font-common-tv-caption1-regular: [object Object] !default;
+$font-common-tv-caption2-medium: [object Object] !default;
+$font-common-tv-caption2-regular: [object Object] !default;
+$font-common-tv-overline-bold: [object Object] !default;
+$font-common-tv-overline-medium: [object Object] !default;
+
+$tokens: (
+  'font': (
+    'common': (
+      'tv': (
+        'title1': (
+          'black': $font-common-tv-title1-black,
+          'bold': $font-common-tv-title1-bold
+        ),
+        'title2': (
+          'bold': $font-common-tv-title2-bold,
+          'medium': $font-common-tv-title2-medium
+        ),
+        'title3': (
+          'bold': $font-common-tv-title3-bold,
+          'medium': $font-common-tv-title3-medium
+        ),
+        'subtitle': (
+          'bold': $font-common-tv-subtitle-bold,
+          'medium': $font-common-tv-subtitle-medium,
+          'regular': $font-common-tv-subtitle-regular
+        ),
+        'body1': (
+          'bold': $font-common-tv-body1-bold,
+          'medium': $font-common-tv-body1-medium,
+          'regular': $font-common-tv-body1-regular
+        ),
+        'caption1': (
+          'medium': $font-common-tv-caption1-medium,
+          'regular': $font-common-tv-caption1-regular
+        ),
+        'caption2': (
+          'medium': $font-common-tv-caption2-medium,
+          'regular': $font-common-tv-caption2-regular
+        ),
+        'overline': (
+          'bold': $font-common-tv-overline-bold,
+          'medium': $font-common-tv-overline-medium
+        )
+      )
+    )
+  )
+);

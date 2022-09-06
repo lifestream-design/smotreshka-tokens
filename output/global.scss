@@ -1,0 +1,583 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 06 Sep 2022 08:33:49 GMT
+ */
+
+$color-global-all-yellow-light-100: #ffedb8 !default;
+$color-global-all-yellow-light-400: #ffca29 !default;
+$color-global-all-yellow-light-500: #ffc000 !default;
+$color-global-all-yellow-light-600: #fbb605 !default;
+$color-global-all-yellow-dark-400: #ffca29 !default;
+$color-global-all-yellow-dark-500: #ffc000 !default;
+$color-global-all-yellow-dark-600: #fbb605 !default;
+$color-global-all-yellow-dark-900: #664d00 !default;
+$color-global-all-purple-light-100: #e1c7f2 !default;
+$color-global-all-purple-light-400: #a30fff !default;
+$color-global-all-purple-light-500: #7800c2 !default;
+$color-global-all-purple-light-600: #58008f !default;
+$color-global-all-purple-dark-400: #c7acec !default;
+$color-global-all-purple-dark-500: #ac84e3 !default;
+$color-global-all-purple-dark-600: #8e59d9 !default;
+$color-global-all-purple-dark-900: #4a3962 !default;
+$color-global-all-blue-light-100: #c7ddff !default;
+$color-global-all-blue-light-400: #2a7eff !default;
+$color-global-all-blue-light-500: #0166ff !default;
+$color-global-all-blue-light-600: #015ce6 !default;
+$color-global-all-blue-dark-400: #7ecbff !default;
+$color-global-all-blue-dark-500: #66c1ff !default;
+$color-global-all-blue-dark-600: #5caee5 !default;
+$color-global-all-blue-dark-900: #2c536e !default;
+$color-global-all-green-light-100: #bfedd2 !default;
+$color-global-all-green-light-400: #29c369 !default;
+$color-global-all-green-light-500: #00b84c !default;
+$color-global-all-green-light-600: #00a644 !default;
+$color-global-all-green-dark-400: #7dd88f !default;
+$color-global-all-green-dark-500: #64d17a !default;
+$color-global-all-green-dark-600: #5abc6e !default;
+$color-global-all-green-dark-900: #2b5a34 !default;
+$color-global-all-orange-light-100: #fedcc9 !default;
+$color-global-all-orange-light-400: #fb823d !default;
+$color-global-all-orange-light-500: #fa6a18 !default;
+$color-global-all-orange-light-600: #e15f16 !default;
+$color-global-all-orange-dark-400: #ffb083 !default;
+$color-global-all-orange-dark-500: #ffa16b !default;
+$color-global-all-orange-dark-600: #e69160 !default;
+$color-global-all-orange-dark-900: #6e3f2e !default;
+$color-global-all-red-light-100: #ffc9cf !default;
+$color-global-all-red-light-400: #e35462 !default;
+$color-global-all-red-light-500: #de3344 !default;
+$color-global-all-red-light-600: #c82e3d !default;
+$color-global-all-red-dark-400: #f8828e !default;
+$color-global-all-red-dark-500: #f76a78 !default;
+$color-global-all-red-dark-600: #e3626e !default;
+$color-global-all-red-dark-900: #6a2e34 !default;
+$color-global-all-gray-light-100: #f5f7f7 !default;
+$color-global-all-gray-light-150: #eff1f2 !default;
+$color-global-all-gray-light-200: #eaedee !default;
+$color-global-all-gray-light-250: #e4e7e8 !default;
+$color-global-all-gray-light-300: #dee1e3 !default;
+$color-global-all-gray-light-350: #d9dddf !default;
+$color-global-all-gray-light-400: #d0d4d6 !default;
+$color-global-all-gray-light-500: #c2c6c9 !default;
+$color-global-all-gray-light-600: #b4b9bc !default;
+$color-global-all-gray-light-700: #a6abae !default;
+$color-global-all-gray-light-800: #989ea1 !default;
+$color-global-all-gray-light-900: #8a9094 !default;
+$color-global-all-gray-dark-100: #0f1214 !default;
+$color-global-all-gray-dark-150: #161a1d !default;
+$color-global-all-gray-dark-200: #1c2023 !default;
+$color-global-all-gray-dark-250: #212529 !default;
+$color-global-all-gray-dark-300: #262b2f !default;
+$color-global-all-gray-dark-350: #292f33 !default;
+$color-global-all-gray-dark-400: #30363a !default;
+$color-global-all-gray-dark-500: #3a4246 !default;
+$color-global-all-gray-dark-600: #444d52 !default;
+$color-global-all-gray-dark-700: #4f585e !default;
+$color-global-all-gray-dark-800: #596469 !default;
+$color-global-all-gray-dark-900: #646f75 !default;
+$color-global-all-white: #ebebeb !default;
+$color-global-all-black: #1a1a1a !default;
+$color-global-all-whitest: #ffffff !default;
+$color-global-all-blackest: #000000 !default;
+$opacity-global-all-50: 0.02 !default;
+$opacity-global-all-100: 0.04 !default;
+$opacity-global-all-125: 0.07 !default;
+$opacity-global-all-150: 0.1 !default;
+$opacity-global-all-175: 0.15 !default;
+$opacity-global-all-250: 0.25 !default;
+$opacity-global-all-300: 0.3 !default;
+$opacity-global-all-400: 0.4 !default;
+$opacity-global-all-450: 0.45 !default;
+$opacity-global-all-500: 0.5 !default;
+$opacity-global-all-600: 0.6 !default;
+$opacity-global-all-650: 0.65 !default;
+$opacity-global-all-700: 0.7 !default;
+$opacity-global-all-800: 0.8 !default;
+$opacity-global-all-900: 0.9 !default;
+$unit-global-all-pxs: px !default;
+$unit-global-all-rems: rem !default;
+$unit-global-all-pts: pt !default;
+$unit-global-all-dps: dp !default;
+$unit-global-all-sps: sp !default;
+$spacing-global-all-25: 4px !default;
+$spacing-global-all-50: 8px !default;
+$spacing-global-all-75: 12px !default;
+$spacing-global-all-100: 16px !default;
+$spacing-global-all-125: 20px !default;
+$spacing-global-all-150: 24px !default;
+$spacing-global-all-200: 32px !default;
+$spacing-global-all-250: 40px !default;
+$spacing-global-all-300: 48px !default;
+$spacing-global-all-400: 64px !default;
+$spacing-global-all-450: 72px !default;
+$spacing-global-all-500: 80px !default;
+$spacing-global-all-600: 96px !default;
+$spacing-global-all-900: 128px !default;
+$sizing-global-all-10: 1px !default;
+$sizing-global-all-15: 2px !default;
+$sizing-global-all-25: 4px !default;
+$sizing-global-all-50: 8px !default;
+$sizing-global-all-75: 12px !default;
+$sizing-global-all-100: 16px !default;
+$sizing-global-all-125: 20px !default;
+$sizing-global-all-150: 24px !default;
+$sizing-global-all-175: 28px !default;
+$sizing-global-all-200: 32px !default;
+$sizing-global-all-225: 36px !default;
+$sizing-global-all-250: 40px !default;
+$sizing-global-all-275: 44px !default;
+$sizing-global-all-300: 48px !default;
+$sizing-global-all-325: 52px !default;
+$sizing-global-all-400: 64px !default;
+$sizing-global-all-450: 72px !default;
+$sizing-global-all-600: 96px !default;
+$sizing-global-all-900: 128px !default;
+$border-radius-global-all-xs: 4px !default;
+$border-radius-global-all-sm: 8px !default;
+$border-radius-global-all-md: 12px !default;
+$border-radius-global-all-lg: 16px !default;
+$border-width-global-all-sm: 1px !default;
+$border-width-global-all-md: 2px !default;
+$border-width-global-all-lg: 4px !default;
+$font-global-all-font-family-text: Roboto !default;
+$font-global-all-font-family-title: Roboto !default;
+$font-global-all-font-weight-regular: Regular !default;
+$font-global-all-font-weight-medium: Medium !default;
+$font-global-all-font-weight-bold: Bold !default;
+$font-global-all-font-weight-black: Black !default;
+$font-global-all-font-size-25: 0.6875rem !default;
+$font-global-all-font-size-50: 0.75rem !default;
+$font-global-all-font-size-75: 0.875rem !default;
+$font-global-all-font-size-100: 1rem !default;
+$font-global-all-font-size-125: 1.125rem !default;
+$font-global-all-font-size-150: 1.25rem !default;
+$font-global-all-font-size-175: 1.375rem !default;
+$font-global-all-font-size-200: 1.5rem !default;
+$font-global-all-font-size-250: 1.75rem !default;
+$font-global-all-font-size-275: 1.875rem !default;
+$font-global-all-font-size-300: 2rem !default;
+$font-global-all-font-size-350: 2.25rem !default;
+$font-global-all-font-size-400: 2.5rem !default;
+$font-global-all-font-size-425: 2.625rem !default;
+$font-global-all-font-size-450: 2.75rem !default;
+$font-global-all-font-size-500: 3rem !default;
+$font-global-all-font-size-600: 3.5rem !default;
+$font-global-all-font-size-650: 3.75rem !default;
+$font-global-all-font-size-850: 4.75rem !default;
+$font-global-all-line-height-50: 0.75rem !default;
+$font-global-all-line-height-100: 1rem !default;
+$font-global-all-line-height-150: 1.25rem !default;
+$font-global-all-line-height-200: 1.5rem !default;
+$font-global-all-line-height-250: 1.75rem !default;
+$font-global-all-line-height-300: 2rem !default;
+$font-global-all-line-height-350: 2.25rem !default;
+$font-global-all-line-height-400: 2.5rem !default;
+$font-global-all-line-height-450: 2.75rem !default;
+$font-global-all-line-height-500: 3rem !default;
+$font-global-all-line-height-550: 3.25rem !default;
+$font-global-all-line-height-600: 3.75rem !default;
+$font-global-all-line-height-700: 4.25rem !default;
+$font-global-all-line-height-750: 4.5rem !default;
+$font-global-all-line-height-900: 5.75rem !default;
+$font-global-all-text-case-none: none !default;
+$font-global-all-text-case-uppercase: uppercase !default;
+$font-global-all-text-case-lowercase: lowercase !default;
+$font-global-all-letter-spacing-negative100: -0.03125rem !default;
+$font-global-all-letter-spacing-negative50: -0.015625rem !default;
+$font-global-all-letter-spacing-none: 0rem !default;
+$font-global-all-letter-spacing-positive15: 0.00625rem !default;
+$font-global-all-letter-spacing-positive25: 0.009375rem !default;
+$font-global-all-letter-spacing-positive50: 0.015625rem !default;
+$font-global-all-letter-spacing-positive100: 0.03125rem !default;
+$font-global-all-text-decoration-none: none !default;
+$font-global-all-paragraph-spacing-default: 0 !default;
+$motion-global-all-transition-function-ease-in: 0.55,0.09,0.68,0.53 !default;
+$motion-global-all-transition-function-ease-out: 0.25,0.46,0.45,0.94 !default;
+$motion-global-all-transition-function-ease-in-out: 0.46,0.03,0.52,0.96 !default;
+$motion-global-all-transition-duration-instant: 70 !default;
+$motion-global-all-transition-duration-fast: 150 !default;
+$motion-global-all-transition-duration-moderate1: 250 !default;
+$motion-global-all-transition-duration-moderate2: 350 !default;
+$motion-global-all-transition-duration-slow1: 500 !default;
+$motion-global-all-transition-duration-slow2: 700 !default;
+$shadow-global-all-drop-shadow-level10-1x: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) !default;
+$shadow-global-all-drop-shadow-level10-2x: 0px 2px 4px 0px rgba(0, 0, 0, 0.1) !default;
+$shadow-global-all-drop-shadow-level10-4x: 0px 4px 8px 0px rgba(0, 0, 0, 0.1) !default;
+$shadow-global-all-drop-shadow-level10-8x: 0px 8px 16px 0px rgba(0, 0, 0, 0.1) !default;
+$shadow-global-all-drop-shadow-level10-12x: 0px 12px 24px 0px rgba(0, 0, 0, 0.1) !default;
+$shadow-global-all-drop-shadow-level10-16x: 0px 16px 32px 0px rgba(0, 0, 0, 0.1) !default;
+$shadow-global-all-drop-shadow-level30-1x: 0px 1px 2px 0px rgba(0, 0, 0, 0.3) !default;
+$shadow-global-all-drop-shadow-level30-2x: 0px 2px 4px 0px rgba(0, 0, 0, 0.3) !default;
+$shadow-global-all-drop-shadow-level30-4x: 0px 4px 8px 0px rgba(0, 0, 0, 0.3) !default;
+$shadow-global-all-drop-shadow-level30-8x: 0px 8px 16px 0px rgba(0, 0, 0, 0.3) !default;
+$shadow-global-all-drop-shadow-level30-12x: 0px 12px 24px 0px rgba(0, 0, 0, 0.3) !default;
+$shadow-global-all-drop-shadow-level30-16x: 0px 16px 32px 0px rgba(0, 0, 0, 0.3) !default;
+$shadow-global-all-drop-shadow-level50-1x: 0px 1px 2px 0px rgba(0, 0, 0, 0.5) !default;
+$shadow-global-all-drop-shadow-level50-2x: 0px 2px 4px 0px rgba(0, 0, 0, 0.5) !default;
+$shadow-global-all-drop-shadow-level50-4x: 0px 4px 8px 0px rgba(0, 0, 0, 0.5) !default;
+$shadow-global-all-drop-shadow-level50-8x: 0px 8px 16px 0px rgba(0, 0, 0, 0.5) !default;
+$shadow-global-all-drop-shadow-level50-12x: 0px 12px 24px 0px rgba(0, 0, 0, 0.5) !default;
+$shadow-global-all-drop-shadow-level50-16x: 0px 16px 32px 0px rgba(0, 0, 0, 0.5) !default;
+$shadow-global-all-drop-shadow-level70-1x: 0px 1px 2px 0px rgba(0, 0, 0, 0.7) !default;
+$shadow-global-all-drop-shadow-level70-2x: 0px 2px 4px 0px rgba(0, 0, 0, 0.7) !default;
+$shadow-global-all-drop-shadow-level70-4x: 0px 4px 8px 0px rgba(0, 0, 0, 0.7) !default;
+$shadow-global-all-drop-shadow-level70-8x: 0px 8px 16px 0px rgba(0, 0, 0, 0.7) !default;
+$shadow-global-all-drop-shadow-level70-12x: 0px 12px 24px 0px rgba(0, 0, 0, 0.7) !default;
+$shadow-global-all-drop-shadow-level70-16x: 0px 16px 32px 0px rgba(0, 0, 0, 0.7) !default;
+
+$tokens: (
+  'color': (
+    'global': (
+      'all': (
+        'yellow': (
+          'light': (
+            '100': $color-global-all-yellow-light-100,
+            '400': $color-global-all-yellow-light-400,
+            '500': $color-global-all-yellow-light-500,
+            '600': $color-global-all-yellow-light-600
+          ),
+          'dark': (
+            '400': $color-global-all-yellow-dark-400,
+            '500': $color-global-all-yellow-dark-500,
+            '600': $color-global-all-yellow-dark-600,
+            '900': $color-global-all-yellow-dark-900
+          )
+        ),
+        'purple': (
+          'light': (
+            '100': $color-global-all-purple-light-100,
+            '400': $color-global-all-purple-light-400,
+            '500': $color-global-all-purple-light-500,
+            '600': $color-global-all-purple-light-600
+          ),
+          'dark': (
+            '400': $color-global-all-purple-dark-400,
+            '500': $color-global-all-purple-dark-500,
+            '600': $color-global-all-purple-dark-600,
+            '900': $color-global-all-purple-dark-900
+          )
+        ),
+        'blue': (
+          'light': (
+            '100': $color-global-all-blue-light-100,
+            '400': $color-global-all-blue-light-400,
+            '500': $color-global-all-blue-light-500,
+            '600': $color-global-all-blue-light-600
+          ),
+          'dark': (
+            '400': $color-global-all-blue-dark-400,
+            '500': $color-global-all-blue-dark-500,
+            '600': $color-global-all-blue-dark-600,
+            '900': $color-global-all-blue-dark-900
+          )
+        ),
+        'green': (
+          'light': (
+            '100': $color-global-all-green-light-100,
+            '400': $color-global-all-green-light-400,
+            '500': $color-global-all-green-light-500,
+            '600': $color-global-all-green-light-600
+          ),
+          'dark': (
+            '400': $color-global-all-green-dark-400,
+            '500': $color-global-all-green-dark-500,
+            '600': $color-global-all-green-dark-600,
+            '900': $color-global-all-green-dark-900
+          )
+        ),
+        'orange': (
+          'light': (
+            '100': $color-global-all-orange-light-100,
+            '400': $color-global-all-orange-light-400,
+            '500': $color-global-all-orange-light-500,
+            '600': $color-global-all-orange-light-600
+          ),
+          'dark': (
+            '400': $color-global-all-orange-dark-400,
+            '500': $color-global-all-orange-dark-500,
+            '600': $color-global-all-orange-dark-600,
+            '900': $color-global-all-orange-dark-900
+          )
+        ),
+        'red': (
+          'light': (
+            '100': $color-global-all-red-light-100,
+            '400': $color-global-all-red-light-400,
+            '500': $color-global-all-red-light-500,
+            '600': $color-global-all-red-light-600
+          ),
+          'dark': (
+            '400': $color-global-all-red-dark-400,
+            '500': $color-global-all-red-dark-500,
+            '600': $color-global-all-red-dark-600,
+            '900': $color-global-all-red-dark-900
+          )
+        ),
+        'gray': (
+          'light': (
+            '100': $color-global-all-gray-light-100,
+            '150': $color-global-all-gray-light-150,
+            '200': $color-global-all-gray-light-200,
+            '250': $color-global-all-gray-light-250,
+            '300': $color-global-all-gray-light-300,
+            '350': $color-global-all-gray-light-350,
+            '400': $color-global-all-gray-light-400,
+            '500': $color-global-all-gray-light-500,
+            '600': $color-global-all-gray-light-600,
+            '700': $color-global-all-gray-light-700,
+            '800': $color-global-all-gray-light-800,
+            '900': $color-global-all-gray-light-900
+          ),
+          'dark': (
+            '100': $color-global-all-gray-dark-100,
+            '150': $color-global-all-gray-dark-150,
+            '200': $color-global-all-gray-dark-200,
+            '250': $color-global-all-gray-dark-250,
+            '300': $color-global-all-gray-dark-300,
+            '350': $color-global-all-gray-dark-350,
+            '400': $color-global-all-gray-dark-400,
+            '500': $color-global-all-gray-dark-500,
+            '600': $color-global-all-gray-dark-600,
+            '700': $color-global-all-gray-dark-700,
+            '800': $color-global-all-gray-dark-800,
+            '900': $color-global-all-gray-dark-900
+          )
+        ),
+        'white': $color-global-all-white,
+        'black': $color-global-all-black,
+        'whitest': $color-global-all-whitest,
+        'blackest': $color-global-all-blackest
+      )
+    )
+  ),
+  'opacity': (
+    'global': (
+      'all': (
+        '50': $opacity-global-all-50,
+        '100': $opacity-global-all-100,
+        '125': $opacity-global-all-125,
+        '150': $opacity-global-all-150,
+        '175': $opacity-global-all-175,
+        '250': $opacity-global-all-250,
+        '300': $opacity-global-all-300,
+        '400': $opacity-global-all-400,
+        '450': $opacity-global-all-450,
+        '500': $opacity-global-all-500,
+        '600': $opacity-global-all-600,
+        '650': $opacity-global-all-650,
+        '700': $opacity-global-all-700,
+        '800': $opacity-global-all-800,
+        '900': $opacity-global-all-900
+      )
+    )
+  ),
+  'unit': (
+    'global': (
+      'all': (
+        'pxs': $unit-global-all-pxs,
+        'rems': $unit-global-all-rems,
+        'pts': $unit-global-all-pts,
+        'dps': $unit-global-all-dps,
+        'sps': $unit-global-all-sps
+      )
+    )
+  ),
+  'spacing': (
+    'global': (
+      'all': (
+        '25': $spacing-global-all-25,
+        '50': $spacing-global-all-50,
+        '75': $spacing-global-all-75,
+        '100': $spacing-global-all-100,
+        '125': $spacing-global-all-125,
+        '150': $spacing-global-all-150,
+        '200': $spacing-global-all-200,
+        '250': $spacing-global-all-250,
+        '300': $spacing-global-all-300,
+        '400': $spacing-global-all-400,
+        '450': $spacing-global-all-450,
+        '500': $spacing-global-all-500,
+        '600': $spacing-global-all-600,
+        '900': $spacing-global-all-900
+      )
+    )
+  ),
+  'sizing': (
+    'global': (
+      'all': (
+        '10': $sizing-global-all-10,
+        '15': $sizing-global-all-15,
+        '25': $sizing-global-all-25,
+        '50': $sizing-global-all-50,
+        '75': $sizing-global-all-75,
+        '100': $sizing-global-all-100,
+        '125': $sizing-global-all-125,
+        '150': $sizing-global-all-150,
+        '175': $sizing-global-all-175,
+        '200': $sizing-global-all-200,
+        '225': $sizing-global-all-225,
+        '250': $sizing-global-all-250,
+        '275': $sizing-global-all-275,
+        '300': $sizing-global-all-300,
+        '325': $sizing-global-all-325,
+        '400': $sizing-global-all-400,
+        '450': $sizing-global-all-450,
+        '600': $sizing-global-all-600,
+        '900': $sizing-global-all-900
+      )
+    )
+  ),
+  'borderRadius': (
+    'global': (
+      'all': (
+        'xs': $border-radius-global-all-xs,
+        'sm': $border-radius-global-all-sm,
+        'md': $border-radius-global-all-md,
+        'lg': $border-radius-global-all-lg
+      )
+    )
+  ),
+  'borderWidth': (
+    'global': (
+      'all': (
+        'sm': $border-width-global-all-sm,
+        'md': $border-width-global-all-md,
+        'lg': $border-width-global-all-lg
+      )
+    )
+  ),
+  'font': (
+    'global': (
+      'all': (
+        'fontFamily': (
+          'text': $font-global-all-font-family-text,
+          'title': $font-global-all-font-family-title
+        ),
+        'fontWeight': (
+          'regular': $font-global-all-font-weight-regular,
+          'medium': $font-global-all-font-weight-medium,
+          'bold': $font-global-all-font-weight-bold,
+          'black': $font-global-all-font-weight-black
+        ),
+        'fontSize': (
+          '25': $font-global-all-font-size-25,
+          '50': $font-global-all-font-size-50,
+          '75': $font-global-all-font-size-75,
+          '100': $font-global-all-font-size-100,
+          '125': $font-global-all-font-size-125,
+          '150': $font-global-all-font-size-150,
+          '175': $font-global-all-font-size-175,
+          '200': $font-global-all-font-size-200,
+          '250': $font-global-all-font-size-250,
+          '275': $font-global-all-font-size-275,
+          '300': $font-global-all-font-size-300,
+          '350': $font-global-all-font-size-350,
+          '400': $font-global-all-font-size-400,
+          '425': $font-global-all-font-size-425,
+          '450': $font-global-all-font-size-450,
+          '500': $font-global-all-font-size-500,
+          '600': $font-global-all-font-size-600,
+          '650': $font-global-all-font-size-650,
+          '850': $font-global-all-font-size-850
+        ),
+        'lineHeight': (
+          '50': $font-global-all-line-height-50,
+          '100': $font-global-all-line-height-100,
+          '150': $font-global-all-line-height-150,
+          '200': $font-global-all-line-height-200,
+          '250': $font-global-all-line-height-250,
+          '300': $font-global-all-line-height-300,
+          '350': $font-global-all-line-height-350,
+          '400': $font-global-all-line-height-400,
+          '450': $font-global-all-line-height-450,
+          '500': $font-global-all-line-height-500,
+          '550': $font-global-all-line-height-550,
+          '600': $font-global-all-line-height-600,
+          '700': $font-global-all-line-height-700,
+          '750': $font-global-all-line-height-750,
+          '900': $font-global-all-line-height-900
+        ),
+        'textCase': (
+          'none': $font-global-all-text-case-none,
+          'uppercase': $font-global-all-text-case-uppercase,
+          'lowercase': $font-global-all-text-case-lowercase
+        ),
+        'letterSpacing': (
+          'negative100': $font-global-all-letter-spacing-negative100,
+          'negative50': $font-global-all-letter-spacing-negative50,
+          'none': $font-global-all-letter-spacing-none,
+          'positive15': $font-global-all-letter-spacing-positive15,
+          'positive25': $font-global-all-letter-spacing-positive25,
+          'positive50': $font-global-all-letter-spacing-positive50,
+          'positive100': $font-global-all-letter-spacing-positive100
+        ),
+        'textDecoration': (
+          'none': $font-global-all-text-decoration-none
+        ),
+        'paragraphSpacing': (
+          'default': $font-global-all-paragraph-spacing-default
+        )
+      )
+    )
+  ),
+  'motion': (
+    'global': (
+      'all': (
+        'transitionFunction': (
+          'easeIn': $motion-global-all-transition-function-ease-in,
+          'easeOut': $motion-global-all-transition-function-ease-out,
+          'easeInOut': $motion-global-all-transition-function-ease-in-out
+        ),
+        'transitionDuration': (
+          'instant': $motion-global-all-transition-duration-instant,
+          'fast': $motion-global-all-transition-duration-fast,
+          'moderate1': $motion-global-all-transition-duration-moderate1,
+          'moderate2': $motion-global-all-transition-duration-moderate2,
+          'slow1': $motion-global-all-transition-duration-slow1,
+          'slow2': $motion-global-all-transition-duration-slow2
+        )
+      )
+    )
+  ),
+  'shadow': (
+    'global': (
+      'all': (
+        'dropShadow': (
+          'level10': (
+            '1x': $shadow-global-all-drop-shadow-level10-1x,
+            '2x': $shadow-global-all-drop-shadow-level10-2x,
+            '4x': $shadow-global-all-drop-shadow-level10-4x,
+            '8x': $shadow-global-all-drop-shadow-level10-8x,
+            '12x': $shadow-global-all-drop-shadow-level10-12x,
+            '16x': $shadow-global-all-drop-shadow-level10-16x
+          ),
+          'level30': (
+            '1x': $shadow-global-all-drop-shadow-level30-1x,
+            '2x': $shadow-global-all-drop-shadow-level30-2x,
+            '4x': $shadow-global-all-drop-shadow-level30-4x,
+            '8x': $shadow-global-all-drop-shadow-level30-8x,
+            '12x': $shadow-global-all-drop-shadow-level30-12x,
+            '16x': $shadow-global-all-drop-shadow-level30-16x
+          ),
+          'level50': (
+            '1x': $shadow-global-all-drop-shadow-level50-1x,
+            '2x': $shadow-global-all-drop-shadow-level50-2x,
+            '4x': $shadow-global-all-drop-shadow-level50-4x,
+            '8x': $shadow-global-all-drop-shadow-level50-8x,
+            '12x': $shadow-global-all-drop-shadow-level50-12x,
+            '16x': $shadow-global-all-drop-shadow-level50-16x
+          ),
+          'level70': (
+            '1x': $shadow-global-all-drop-shadow-level70-1x,
+            '2x': $shadow-global-all-drop-shadow-level70-2x,
+            '4x': $shadow-global-all-drop-shadow-level70-4x,
+            '8x': $shadow-global-all-drop-shadow-level70-8x,
+            '12x': $shadow-global-all-drop-shadow-level70-12x,
+            '16x': $shadow-global-all-drop-shadow-level70-16x
+          )
+        )
+      )
+    )
+  )
+);

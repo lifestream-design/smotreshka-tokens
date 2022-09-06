@@ -1,0 +1,157 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 06 Sep 2022 08:33:49 GMT
+ */
+
+$color-common-all-text-on-light-primary: #1a1a1a !default;
+$color-common-all-text-on-light-secondary: rgba(26, 26, 26, 0.65) !default;
+$color-common-all-text-on-light-tertiary: rgba(26, 26, 26, 0.45) !default;
+$color-common-all-text-on-dark-primary: #ebebeb !default;
+$color-common-all-text-on-dark-secondary: rgba(235, 235, 235, 0.65) !default;
+$color-common-all-text-on-dark-tertiary: rgba(235, 235, 235, 0.45) !default;
+$color-common-all-fill-overlay-context: rgba(0, 0, 0, 0.4) !default;
+$color-common-all-fill-overlay-page: rgba(0, 0, 0, 0.6) !default;
+$color-common-all-fill-overlay-card: rgba(0, 0, 0, 0.8) !default;
+$color-common-all-fill-overlay-brand-light: rgba(255, 192, 0, 0.07) !default;
+$color-common-all-fill-overlay-brand-medium: rgba(255, 192, 0, 0.15) !default;
+$color-common-all-fill-overlay-brand-strong: rgba(255, 192, 0, 0.45) !default;
+$color-common-all-fill-overlay-accent-light: rgba(120, 0, 194, 0.07) !default;
+$color-common-all-fill-overlay-accent-medium: rgba(120, 0, 194, 0.15) !default;
+$color-common-all-fill-overlay-accent-strong: rgba(120, 0, 194, 0.45) !default;
+$color-common-all-fill-surface-light-elevation-level1: #f5f7f7 !default;
+$color-common-all-fill-surface-light-elevation-level2: #f5f7f7 !default;
+$color-common-all-fill-surface-light-elevation-level3: #f5f7f7 !default;
+$color-common-all-fill-surface-light-elevation-level4: #f5f7f7 !default;
+$color-common-all-fill-surface-light-elevation-level5: #f5f7f7 !default;
+$color-common-all-fill-surface-light-context: #eff1f2 !default;
+$color-common-all-fill-surface-dark-elevation-level1: #0f1214 !default;
+$color-common-all-fill-surface-dark-elevation-level2: #161a1d !default;
+$color-common-all-fill-surface-dark-elevation-level3: #1c2023 !default;
+$color-common-all-fill-surface-dark-elevation-level4: #212529 !default;
+$color-common-all-fill-surface-dark-elevation-level5: #262b2f !default;
+$color-common-all-fill-surface-dark-context: #292f33 !default;
+$color-common-all-fill-brand-light: #ffc000 !default;
+$color-common-all-fill-brand-dark: #ffc000 !default;
+$color-common-all-fill-accent-light: #7800c2 !default;
+$color-common-all-fill-accent-dark: #ac84e3 !default;
+$color-common-all-fill-success-light: #00b84c !default;
+$color-common-all-fill-success-dark: #64d17a !default;
+$color-common-all-fill-warning-light: #fa6a18 !default;
+$color-common-all-fill-warning-dark: #ffa16b !default;
+$color-common-all-fill-attention-light: #de3344 !default;
+$color-common-all-fill-attention-dark: #f76a78 !default;
+$color-common-all-fill-navigation-light: #0166ff !default;
+$color-common-all-fill-navigation-dark: #66c1ff !default;
+$color-common-all-border-brand-light: #fbb605 !default;
+$color-common-all-border-brand-dark: #ffca29 !default;
+$color-common-all-border-accent-light: #58008f !default;
+$color-common-all-border-accent-dark: #c7acec !default;
+$color-common-all-border-success-light: #00a644 !default;
+$color-common-all-border-success-dark: #7dd88f !default;
+$color-common-all-border-warning-light: #e15f16 !default;
+$color-common-all-border-warning-dark: #ffb083 !default;
+$color-common-all-border-attention-light: #c82e3d !default;
+$color-common-all-border-attention-dark: #f8828e !default;
+$color-common-all-border-navigation-light: #015ce6 !default;
+$color-common-all-border-navigation-dark: #7ecbff !default;
+
+$tokens: (
+  'color': (
+    'common': (
+      'all': (
+        'text': (
+          'onLight': (
+            'primary': $color-common-all-text-on-light-primary,
+            'secondary': $color-common-all-text-on-light-secondary,
+            'tertiary': $color-common-all-text-on-light-tertiary
+          ),
+          'onDark': (
+            'primary': $color-common-all-text-on-dark-primary,
+            'secondary': $color-common-all-text-on-dark-secondary,
+            'tertiary': $color-common-all-text-on-dark-tertiary
+          )
+        ),
+        'fill': (
+          'overlay': (
+            'context': $color-common-all-fill-overlay-context,
+            'page': $color-common-all-fill-overlay-page,
+            'card': $color-common-all-fill-overlay-card,
+            'brandLight': $color-common-all-fill-overlay-brand-light,
+            'brandMedium': $color-common-all-fill-overlay-brand-medium,
+            'brandStrong': $color-common-all-fill-overlay-brand-strong,
+            'accentLight': $color-common-all-fill-overlay-accent-light,
+            'accentMedium': $color-common-all-fill-overlay-accent-medium,
+            'accentStrong': $color-common-all-fill-overlay-accent-strong
+          ),
+          'surfaceLight': (
+            'elevationLevel1': $color-common-all-fill-surface-light-elevation-level1,
+            'elevationLevel2': $color-common-all-fill-surface-light-elevation-level2,
+            'elevationLevel3': $color-common-all-fill-surface-light-elevation-level3,
+            'elevationLevel4': $color-common-all-fill-surface-light-elevation-level4,
+            'elevationLevel5': $color-common-all-fill-surface-light-elevation-level5,
+            'context': $color-common-all-fill-surface-light-context
+          ),
+          'surfaceDark': (
+            'elevationLevel1': $color-common-all-fill-surface-dark-elevation-level1,
+            'elevationLevel2': $color-common-all-fill-surface-dark-elevation-level2,
+            'elevationLevel3': $color-common-all-fill-surface-dark-elevation-level3,
+            'elevationLevel4': $color-common-all-fill-surface-dark-elevation-level4,
+            'elevationLevel5': $color-common-all-fill-surface-dark-elevation-level5,
+            'context': $color-common-all-fill-surface-dark-context
+          ),
+          'brand': (
+            'light': $color-common-all-fill-brand-light,
+            'dark': $color-common-all-fill-brand-dark
+          ),
+          'accent': (
+            'light': $color-common-all-fill-accent-light,
+            'dark': $color-common-all-fill-accent-dark
+          ),
+          'success': (
+            'light': $color-common-all-fill-success-light,
+            'dark': $color-common-all-fill-success-dark
+          ),
+          'warning': (
+            'light': $color-common-all-fill-warning-light,
+            'dark': $color-common-all-fill-warning-dark
+          ),
+          'attention': (
+            'light': $color-common-all-fill-attention-light,
+            'dark': $color-common-all-fill-attention-dark
+          ),
+          'navigation': (
+            'light': $color-common-all-fill-navigation-light,
+            'dark': $color-common-all-fill-navigation-dark
+          )
+        ),
+        'border': (
+          'brand': (
+            'light': $color-common-all-border-brand-light,
+            'dark': $color-common-all-border-brand-dark
+          ),
+          'accent': (
+            'light': $color-common-all-border-accent-light,
+            'dark': $color-common-all-border-accent-dark
+          ),
+          'success': (
+            'light': $color-common-all-border-success-light,
+            'dark': $color-common-all-border-success-dark
+          ),
+          'warning': (
+            'light': $color-common-all-border-warning-light,
+            'dark': $color-common-all-border-warning-dark
+          ),
+          'attention': (
+            'light': $color-common-all-border-attention-light,
+            'dark': $color-common-all-border-attention-dark
+          ),
+          'navigation': (
+            'light': $color-common-all-border-navigation-light,
+            'dark': $color-common-all-border-navigation-dark
+          )
+        )
+      )
+    )
+  )
+);
