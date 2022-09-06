@@ -56,7 +56,7 @@ StyleDictionaryPackage.registerTransform({
   name: 'shadows/dropShadowCss',
   type: 'value',
   matcher: function(token) {
-    return ["dropShadow"].includes(token.attributes.tier);
+    return ["dropShadow"].includes(token.attributes.type);
   },
   transformer: function(token) {
       // Split hex8 to four channels array
