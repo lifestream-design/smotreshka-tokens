@@ -31,7 +31,7 @@ StyleDictionaryPackage.registerTransform({
     // Token format: category.tier.device.type.item.subitem.state
     const attrNames = ['category', 'tier', 'device', 'type', 'item', 'subitem', 'state'];
     const originalAttrs = token.attributes || {};
-    const generatedAttrs =  {}
+    const generatedAttrs =  {};
 
     for(let i=0; i<token.path.length && i<attrNames.length; i++) {
       generatedAttrs[attrNames[i]] = token.path[i];
@@ -79,7 +79,7 @@ StyleDictionaryPackage.registerTransform({
       let alphaValue = alpha(hex8Split[3]);
       hex8Split.pop();
       hex8Split.forEach(function(item){
-        rgbValues.push(rgb(item))
+        rgbValues.push(rgb(item));
       })
       
       // Return CSS-compatible drop shadow value
@@ -87,18 +87,6 @@ StyleDictionaryPackage.registerTransform({
         + parseFloat(token.original.value.blur) + 'px ' + parseFloat(token.original.value.spread) + 'px rgba(' + rgbValues.join(', ') + ', ' + alphaValue + ')';
   }
 });
-
-// StyleDictionaryPackage.registerTransform({
-//   name: 'shadows/transitionCss',
-//   type: 'value',
-//   matcher: function(token) {
-//     return ["dropShadow"].includes(token.attributes.type);
-//   },
-//   transformer: function(token) {
-      
-//       return true;
-//   }
-// });
 
 StyleDictionaryPackage.registerTransform({
   name: 'motion/css',

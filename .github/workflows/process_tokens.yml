@@ -44,9 +44,9 @@ jobs:
       - run: npx token-transformer data/tokens.json tokens/visual_theme_dark.json global,visual.common,visual.theme.dark global,visual.common
 
       # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
-      # - run: npx token-transformer data/tokens.json tokens/font_expand.json global,font global --expandTypography=true
+      - run: npx token-transformer data/tokens.json tokens/font_expand.json global,font global --expandTypography=true
       # Create Font styles for universal platforms, exclude the global tokens (expandTypography)
-      # - run: npx token-transformer data/tokens.json tokens/font_tv_expand.json global,font.tv global --expandTypography=true
+      - run: npx token-transformer data/tokens.json tokens/font_tv_expand.json global,font.tv global --expandTypography=true
 
       # Test
       # - run: npx token-transformer data/tokens.json tokens/common_measures.json global,common.measures global
