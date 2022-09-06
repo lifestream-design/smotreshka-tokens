@@ -3,13 +3,23 @@ const StyleDictionaryPackage = require('style-dictionary');
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
 StyleDictionaryPackage.registerFormat({
-    name: 'css/variables',
-    formatter: function (dictionary, config) {
-      return `${this.selector} {
-        ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
-      }`
-    }
-  });
+  name: 'css/variables',
+  formatter: function (dictionary, config) {
+    return `${this.selector} {
+      ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
+    }`
+  }
+});
+
+StyleDictionaryPackage.registerFormat({
+  name: 'scss/fontsMixin',
+  formatter: function (dictionary, config) {
+    console.log(dictionary);
+    return `${this.selector} {
+      ${dictionary.allProperties.map(prop => `@mixin ${prop.name}: ${prop.value};`).join('\n')}
+    }`
+  }
+});
 
 StyleDictionaryPackage.registerTransform({
   name: 'sizes/px',
@@ -117,12 +127,12 @@ function getStyleDictionaryConfig(tokensSet) {
             "selector": `.${tokensSet}`
           }]
       },
-      "scss": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/pxToRem", "shadows/dropShadowCss", "motion/css"],
+      "scss/fonts": {
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/pxToRem",],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.scss`,
-            "format": "scss/map-deep",
+            "format": "scss/fontsMixin",
             "selector": `.${tokensSet}`
           }]
       }
@@ -134,18 +144,31 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global', 'font_expand', 'font_tv_expand', 'visual_common', 'visual_theme_light', 'visual_theme_dark'].map(function (tokensSet) {
+['visual_common', 'visual_theme_light', 'visual_theme_dark'].map(function (tokensSet) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${tokensSet}]`);
 
     const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
     
-    styleDictionary.buildPlatform('web');
+    //styleDictionary.buildPlatform('web');
     //StyleDictionary.buildPlatform('scss');
 
     console.log('\nEnd processing');
 })
+
+['font', 'font_tv'].map(function (tokensSet) {
+
+  console.log('\n==============================================');
+  console.log(`\nProcessing: [${tokensSet}]`);
+
+  const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
+  
+  styleDictionary.buildPlatform('scss/fonts');
+
+  console.log('\nEnd processing');
+})
+
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
