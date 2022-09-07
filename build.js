@@ -26,7 +26,7 @@ StyleDictionaryPackage.registerFormat({
       textDecoration: "text-decoration"
     };
 
-    let valueString = `@mixin ${prop.name} { `;
+    let valueString = `@mixin `;
 
     const mapperKeys = Object.keys(propsMapper);
 
