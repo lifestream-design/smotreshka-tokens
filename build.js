@@ -34,10 +34,10 @@ StyleDictionaryPackage.registerFormat({
       let mixins = `@mixin ${prop.name} {`.join('\n');
       Object.keys(propsMapper).forEach(key => {
         if (key in prop.value) {
-          mixins.join(`${propsMapper[key]}: ${prop.value[key]}`).join('\n');
+          mixins += `${propsMapper[key]}: ${prop.value[key]}` + '\n';
         }
       });
-      mixins.join('}\n\n')
+      mixins += '}\n\n'; 
     });
 
     return mixins;
