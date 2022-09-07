@@ -1,5 +1,5 @@
 @mixin font-common-desktop-title1-black {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Black;
   line-height: 4.25rem;
   font-size: 3.5rem;
@@ -9,7 +9,7 @@
 }
 
 @mixin font-common-desktop-title1-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 4.25rem;
   font-size: 3.5rem;
@@ -19,7 +19,7 @@
 }
 
 @mixin font-common-desktop-title2-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 3.25rem;
   font-size: 2.625rem;
@@ -29,7 +29,7 @@
 }
 
 @mixin font-common-desktop-title2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 3.25rem;
   font-size: 2.625rem;
@@ -39,7 +39,7 @@
 }
 
 @mixin font-common-desktop-title3-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2.5rem;
   font-size: 2rem;
@@ -49,7 +49,7 @@
 }
 
 @mixin font-common-desktop-title3-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2.5rem;
   font-size: 2rem;
@@ -59,7 +59,7 @@
 }
 
 @mixin font-common-desktop-title4-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2.25rem;
   font-size: 1.75rem;
@@ -69,7 +69,7 @@
 }
 
 @mixin font-common-desktop-title4-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2.25rem;
   font-size: 1.75rem;
@@ -79,7 +79,7 @@
 }
 
 @mixin font-common-desktop-title5-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -89,7 +89,7 @@
 }
 
 @mixin font-common-desktop-title5-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -99,7 +99,7 @@
 }
 
 @mixin font-common-desktop-title6-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1.25rem;
@@ -109,7 +109,7 @@
 }
 
 @mixin font-common-desktop-title6-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1.25rem;
@@ -119,7 +119,7 @@
 }
 
 @mixin font-common-desktop-subtitle-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -129,7 +129,7 @@
 }
 
 @mixin font-common-desktop-subtitle-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -139,7 +139,7 @@
 }
 
 @mixin font-common-desktop-subtitle-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -149,7 +149,7 @@
 }
 
 @mixin font-common-desktop-body1-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -159,7 +159,7 @@
 }
 
 @mixin font-common-desktop-body1-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -169,7 +169,7 @@
 }
 
 @mixin font-common-desktop-body1-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -179,7 +179,7 @@
 }
 
 @mixin font-common-desktop-body2-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -189,7 +189,7 @@
 }
 
 @mixin font-common-desktop-body2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -199,7 +199,7 @@
 }
 
 @mixin font-common-desktop-body2-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -209,7 +209,7 @@
 }
 
 @mixin font-common-desktop-caption1-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -219,7 +219,7 @@
 }
 
 @mixin font-common-desktop-caption1-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -229,7 +229,7 @@
 }
 
 @mixin font-common-desktop-caption2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -239,7 +239,7 @@
 }
 
 @mixin font-common-desktop-caption2-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -249,7 +249,7 @@
 }
 
 @mixin font-common-desktop-overline-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -259,7 +259,7 @@
 }
 
 @mixin font-common-desktop-overline-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -269,7 +269,7 @@
 }
 
 @mixin font-common-tablet-title1-black {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Black;
   line-height: 3.25rem;
   font-size: 2.75rem;
@@ -279,7 +279,7 @@
 }
 
 @mixin font-common-tablet-title1-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 3.25rem;
   font-size: 2.75rem;
@@ -289,7 +289,7 @@
 }
 
 @mixin font-common-tablet-title2-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2.75rem;
   font-size: 2.25rem;
@@ -299,7 +299,7 @@
 }
 
 @mixin font-common-tablet-title2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2.75rem;
   font-size: 2.25rem;
@@ -309,7 +309,7 @@
 }
 
 @mixin font-common-tablet-title3-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2.25rem;
   font-size: 1.875rem;
@@ -319,7 +319,7 @@
 }
 
 @mixin font-common-tablet-title3-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2.25rem;
   font-size: 1.875rem;
@@ -329,7 +329,7 @@
 }
 
 @mixin font-common-tablet-title4-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -339,7 +339,7 @@
 }
 
 @mixin font-common-tablet-title4-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -349,7 +349,7 @@
 }
 
 @mixin font-common-tablet-title5-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.75rem;
   font-size: 1.375rem;
@@ -359,7 +359,7 @@
 }
 
 @mixin font-common-tablet-title5-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.75rem;
   font-size: 1.375rem;
@@ -369,7 +369,7 @@
 }
 
 @mixin font-common-tablet-title6-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1.25rem;
@@ -379,7 +379,7 @@
 }
 
 @mixin font-common-tablet-title6-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1.25rem;
@@ -389,7 +389,7 @@
 }
 
 @mixin font-common-tablet-subtitle-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -399,7 +399,7 @@
 }
 
 @mixin font-common-tablet-subtitle-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -409,7 +409,7 @@
 }
 
 @mixin font-common-tablet-subtitle-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -419,7 +419,7 @@
 }
 
 @mixin font-common-tablet-body1-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -429,7 +429,7 @@
 }
 
 @mixin font-common-tablet-body1-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -439,7 +439,7 @@
 }
 
 @mixin font-common-tablet-body1-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -449,7 +449,7 @@
 }
 
 @mixin font-common-tablet-body2-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -459,7 +459,7 @@
 }
 
 @mixin font-common-tablet-body2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -469,7 +469,7 @@
 }
 
 @mixin font-common-tablet-body2-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -479,7 +479,7 @@
 }
 
 @mixin font-common-tablet-caption1-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -489,7 +489,7 @@
 }
 
 @mixin font-common-tablet-caption1-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -499,7 +499,7 @@
 }
 
 @mixin font-common-tablet-caption2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -509,7 +509,7 @@
 }
 
 @mixin font-common-tablet-caption2-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -519,7 +519,7 @@
 }
 
 @mixin font-common-tablet-overline-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -529,7 +529,7 @@
 }
 
 @mixin font-common-tablet-overline-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -539,7 +539,7 @@
 }
 
 @mixin font-common-mobile-title1-black {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Black;
   line-height: 2.75rem;
   font-size: 2.25rem;
@@ -549,7 +549,7 @@
 }
 
 @mixin font-common-mobile-title1-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2.75rem;
   font-size: 2.25rem;
@@ -559,7 +559,7 @@
 }
 
 @mixin font-common-mobile-title2-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2.5rem;
   font-size: 2rem;
@@ -569,7 +569,7 @@
 }
 
 @mixin font-common-mobile-title2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2.5rem;
   font-size: 2rem;
@@ -579,7 +579,7 @@
 }
 
 @mixin font-common-mobile-title3-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2.25rem;
   font-size: 1.75rem;
@@ -589,7 +589,7 @@
 }
 
 @mixin font-common-mobile-title3-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2.25rem;
   font-size: 1.75rem;
@@ -599,7 +599,7 @@
 }
 
 @mixin font-common-mobile-title4-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -609,7 +609,7 @@
 }
 
 @mixin font-common-mobile-title4-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -619,7 +619,7 @@
 }
 
 @mixin font-common-mobile-title5-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.75rem;
   font-size: 1.375rem;
@@ -629,7 +629,7 @@
 }
 
 @mixin font-common-mobile-title5-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.75rem;
   font-size: 1.375rem;
@@ -639,7 +639,7 @@
 }
 
 @mixin font-common-mobile-title6-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1.25rem;
@@ -649,7 +649,7 @@
 }
 
 @mixin font-common-mobile-title6-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1.25rem;
@@ -659,7 +659,7 @@
 }
 
 @mixin font-common-mobile-subtitle-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -669,7 +669,7 @@
 }
 
 @mixin font-common-mobile-subtitle-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -679,7 +679,7 @@
 }
 
 @mixin font-common-mobile-subtitle-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.5rem;
   font-size: 1.125rem;
@@ -689,7 +689,7 @@
 }
 
 @mixin font-common-mobile-body1-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -699,7 +699,7 @@
 }
 
 @mixin font-common-mobile-body1-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -709,7 +709,7 @@
 }
 
 @mixin font-common-mobile-body1-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -719,7 +719,7 @@
 }
 
 @mixin font-common-mobile-body2-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -729,7 +729,7 @@
 }
 
 @mixin font-common-mobile-body2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -739,7 +739,7 @@
 }
 
 @mixin font-common-mobile-body2-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1.25rem;
   font-size: 0.875rem;
@@ -749,7 +749,7 @@
 }
 
 @mixin font-common-mobile-caption1-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -759,7 +759,7 @@
 }
 
 @mixin font-common-mobile-caption1-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 1rem;
   font-size: 0.75rem;
@@ -769,7 +769,7 @@
 }
 
 @mixin font-common-mobile-caption2-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -779,7 +779,7 @@
 }
 
 @mixin font-common-mobile-caption2-regular {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Regular;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -789,7 +789,7 @@
 }
 
 @mixin font-common-mobile-overline-bold {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Bold;
   line-height: 0.75rem;
   font-size: 0.6875rem;
@@ -799,7 +799,7 @@
 }
 
 @mixin font-common-mobile-overline-medium {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: Medium;
   line-height: 0.75rem;
   font-size: 0.6875rem;
