@@ -85,7 +85,7 @@ StyleDictionaryPackage.registerTransform({
 
     //["fontFamily"].forEach(function(element) {
     if ("fontFamily" in token.original.value) {
-      token.original.value[element] = `'${token.original.value[element]}', sans-serif`;
+      token.original.value[element] = `"${token.original.value[element]}", sans-serif`;
     }
     //});
 
