@@ -77,21 +77,23 @@ StyleDictionaryPackage.registerTransform({
     return ["typography"].includes(token.type);
   },
   transformer: function(token) {
-      ["fontSize", "lineHeight", "letterSpacing"].forEach(function(element) {
-        if (element in token.original.value) {
-          token.original.value[element] = parseFloat(token.original.value[element] / 16) + 'rem';
-        }
-      });
+    ["fontSize", "lineHeight", "letterSpacing"].forEach(function(element) {
+      if (element in token.original.value) {
+        token.original.value[element] = parseFloat(token.original.value[element] / 16) + 'rem';
+      }
+    });
 
-      ["fontFamily"].forEach(function(element) {
-        if (element in token.original.value) {
-          token.original.value[element] = `'${token.original.value[element]}', sans-serif`;
-        }
-      });
-      
-      console.log(token.original.value);
+    //["fontFamily"].forEach(function(element) {
+    if ("fontFamily" in token.original.value) {
+      token.original.value[element] = `'${token.original.value[element]}', sans-serif`;
+    }
+    //});
 
-      return token.original.value
+    if ("fontWeight" in token.original.value) {
+      token.original.value[element] = token.original.value[element].toString().toLowerCase();
+    }
+
+    return token.original.value
   }
 });
 
