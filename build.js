@@ -16,7 +16,7 @@ StyleDictionaryPackage.registerFormat({
   formatter: function (dictionary, config) {
     //console.log(dictionary.allProperties);
 
-    const keysMapper = {
+    const propsMapper = {
       fontFamily: "font-family",
       fontWeight: "font-weight",
       lineHeight: "line-height",
@@ -28,8 +28,10 @@ StyleDictionaryPackage.registerFormat({
 
     let valueString = `@mixin ${prop.name} { `;
 
-    dictionary.allProperties.map ( function (properties) {
+    const mapperKeys = Object.keys(propsMapper);
 
+    dictionary.allProperties.map (prop, index => function (prop, index) {
+      console.log(`${index} /n`);
     })
 
     return valueString;
