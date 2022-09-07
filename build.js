@@ -89,7 +89,7 @@ StyleDictionaryPackage.registerTransform({
       }
     });
 
-    ["fontFamily"].forEach(function(element) {
+    ["fontWeight"].forEach(function(element) {
       if (element in token.original.value) {
         token.original.value[element] = token.original.value[element].toString().toLowerCase();
       }
