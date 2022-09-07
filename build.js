@@ -30,7 +30,7 @@ StyleDictionaryPackage.registerFormat({
 
     //const mapperKeys = Object.keys(propsMapper);
 
-    dictionary.allProperties.value.map (function (prop) {
+    dictionary.allProperties.map (function (prop) {
       let mixins = `@mixin ${prop.name} {`.join('\n');
       Object.keys(propsMapper).forEach(key => {
         if (key in prop.value) {
