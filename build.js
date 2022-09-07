@@ -26,15 +26,21 @@ StyleDictionaryPackage.registerFormat({
       textDecoration: "text-decoration"
     };
 
-    let valueString = `@mixin `;
+    let mixins = '';
 
-    const mapperKeys = Object.keys(propsMapper);
+    //const mapperKeys = Object.keys(propsMapper);
 
-    dictionary.allProperties.map (prop, index => function (prop, index) {
-      console.log(`${index} /n`);
-    })
+    dictionary.allProperties.value.map (function (prop) {
+      let mixins = `@mixin ${prop.name} {`.join('\n');
+      Object.keys(propsMapper).forEach(key => {
+        if (key in prop.value) {
+          mixins.join(`${propsMapper[key]}: ${prop.value[key]}`).join('\n');
+        }
+      });
+      mixins.join('}\n\n')
+    });
 
-    return valueString;
+    return mixins;
 
     // return `${this.selector} {
     //   ${dictionary.allProperties.map(prop => `@mixin ${prop.name} { 
