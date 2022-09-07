@@ -14,8 +14,6 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerFormat({
   name: 'scss/fontsMixin',
   formatter: function (dictionary, config) {
-    //console.log(dictionary.allProperties);
-
     const propsMapper = {
       fontFamily: "font-family",
       fontWeight: "font-weight",
@@ -27,8 +25,6 @@ StyleDictionaryPackage.registerFormat({
     };
 
     let mixins = '';
-
-    //const mapperKeys = Object.keys(propsMapper);
 
     dictionary.allProperties.map (function (prop) {
       mixins += `@mixin ${prop.name} {` + '\n';
@@ -75,16 +71,21 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'sizes/pxToRem',
+  name: 'scss/fontsReform',
   type: 'value',
   matcher: function(token) {
     return ["typography"].includes(token.type);
   },
   transformer: function(token) {
-      //return parseFloat(token.original.value / 16) + 'rem';
       ["fontSize", "lineHeight", "letterSpacing"].forEach(function(element) {
         if (element in token.original.value) {
           token.original.value[element] = parseFloat(token.original.value[element] / 16) + 'rem';
+        }
+      });
+
+      ["fontFamily"].forEach(function(element) {
+        if (element in token.original.value) {
+          token.original.value[element] += ', sans-serif';
         }
       });
       
@@ -151,7 +152,7 @@ function getStyleDictionaryConfig(tokensSet) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/pxToRem", "shadows/dropShadowCss", "motion/css"],
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "scss/fontsReform", "shadows/dropShadowCss", "motion/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.css`,
@@ -160,7 +161,7 @@ function getStyleDictionaryConfig(tokensSet) {
           }]
       },
       "scss/fonts": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/pxToRem",],
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "scss/fontsReform",],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.scss`,
