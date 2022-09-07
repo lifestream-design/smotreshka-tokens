@@ -17,14 +17,28 @@ StyleDictionaryPackage.registerFormat({
     //console.log(dictionary.allProperties);
 
     const keysMapper = {
-      
-    }
+      fontFamily: "font-family",
+      fontWeight: "font-weight",
+      lineHeight: "line-height",
+      fontSize: "font-size",
+      letterSpacing: "letter-spacing",
+      textCase: "text-transform",
+      textDecoration: "text-decoration"
+    };
 
-    return `${this.selector} {
-      ${dictionary.allProperties.map(prop => `@mixin ${prop.name} { 
-        ${JSON.stringify(prop.value)}
-      }`).join('\n')}
-    }`
+    let valueString = `@mixin ${prop.name} { `;
+
+    dictionary.allProperties.map ( function (properties) {
+
+    })
+
+    return valueString;
+
+    // return `${this.selector} {
+    //   ${dictionary.allProperties.map(prop => `@mixin ${prop.name} { 
+    //     ${JSON.stringify(prop.value)}
+    //   }`).join('\n')}
+    // }`
   }
 });
 
