@@ -83,15 +83,17 @@ StyleDictionaryPackage.registerTransform({
       }
     });
 
-    //["fontFamily"].forEach(function(element) {
-    if ("fontFamily" in token.original.value) {
-      token.original.value["fontFamily"] = `"${token.original.value["fontFamily"]}", sans-serif`;
-    }
-    //});
+    ["fontFamily"].forEach(function(element) {
+      if (element in token.original.value) {
+        token.original.value[element] = `"${token.original.value[element]}", sans-serif`;
+      }
+    });
 
-    if ("fontWeight" in token.original.value) {
-      token.original.value["fontWeight"] = token.original.value["fontWeight"].toString().toLowerCase();
-    }
+    ["fontFamily"].forEach(function(element) {
+      if (element in token.original.value) {
+        token.original.value[element] = token.original.value[element].toString().toLowerCase();
+      }
+    });
 
     return token.original.value
   }
