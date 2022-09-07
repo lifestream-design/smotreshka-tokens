@@ -1,245 +1,810 @@
-.font {
-      @mixin font-common-desktop-title1-black { 
-        {"fontFamily":"Roboto","fontWeight":"Black","lineHeight":68,"fontSize":56,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":68,"fontSize":56,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title2-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":52,"fontSize":42,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":52,"fontSize":42,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title3-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":40,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title3-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":40,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title4-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":36,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title4-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":36,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title5-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title5-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title6-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":20,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-title6-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":20,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-subtitle-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-subtitle-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-subtitle-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-body1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-body1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-body1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-body2-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-body2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-body2-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-caption1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":16,"fontSize":12,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-caption1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":16,"fontSize":12,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-caption2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":12,"fontSize":11,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-caption2-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":12,"fontSize":11,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-desktop-overline-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":16,"fontSize":12,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-@mixin font-common-desktop-overline-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":16,"fontSize":12,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title1-black { 
-        {"fontFamily":"Roboto","fontWeight":"Black","lineHeight":52,"fontSize":44,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":52,"fontSize":44,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title2-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":44,"fontSize":36,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":44,"fontSize":36,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title3-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":36,"fontSize":30,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title3-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":36,"fontSize":30,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title4-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title4-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title5-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":28,"fontSize":22,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title5-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":28,"fontSize":22,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title6-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":20,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-title6-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":20,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-subtitle-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-subtitle-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-subtitle-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-body1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-body1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-body1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-body2-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-body2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-body2-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-caption1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":16,"fontSize":12,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-caption1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":16,"fontSize":12,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-caption2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":12,"fontSize":11,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-caption2-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":12,"fontSize":11,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tablet-overline-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":12,"fontSize":11,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-@mixin font-common-tablet-overline-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":12,"fontSize":11,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title1-black { 
-        {"fontFamily":"Roboto","fontWeight":"Black","lineHeight":44,"fontSize":36,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":44,"fontSize":36,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title2-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":40,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":40,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title3-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":36,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title3-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":36,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title4-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title4-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title5-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":28,"fontSize":22,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title5-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":28,"fontSize":22,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title6-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":20,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-title6-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":20,"letterSpacing":0.1,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-subtitle-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-subtitle-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-subtitle-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":18,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-body1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-body1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-body1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-body2-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-body2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-body2-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":20,"fontSize":14,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-caption1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":16,"fontSize":12,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-caption1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":16,"fontSize":12,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-caption2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":12,"fontSize":11,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-caption2-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":12,"fontSize":11,"letterSpacing":0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-mobile-overline-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":12,"fontSize":11,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-@mixin font-common-mobile-overline-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":12,"fontSize":11,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-    }
+@mixin font-common-desktop-title1-black {
+  font-family: Roboto;
+  font-weight: Black;
+  line-height: 4.25rem;
+  font-size: 3.5rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 4.25rem;
+  font-size: 3.5rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title2-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 3.25rem;
+  font-size: 2.625rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 3.25rem;
+  font-size: 2.625rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title3-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title3-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title4-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.25rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title4-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.25rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title5-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title5-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title6-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-title6-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-subtitle-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-subtitle-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-subtitle-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-body1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-body1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-body1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-body2-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-body2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-body2-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-caption1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-caption1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-caption2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-caption2-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-overline-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin font-common-desktop-overline-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title1-black {
+  font-family: Roboto;
+  font-weight: Black;
+  line-height: 3.25rem;
+  font-size: 2.75rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 3.25rem;
+  font-size: 2.75rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title2-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.75rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.75rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title3-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title3-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title4-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title4-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title5-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title5-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title6-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-title6-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-subtitle-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-subtitle-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-subtitle-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-body1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-body1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-body1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-body2-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-body2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-body2-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-caption1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-caption1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-caption2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-caption2-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-overline-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin font-common-tablet-overline-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title1-black {
+  font-family: Roboto;
+  font-weight: Black;
+  line-height: 2.75rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.75rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title2-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title3-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.25rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title3-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.25rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title4-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title4-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title5-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title5-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title6-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-title6-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.00625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-subtitle-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-subtitle-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-subtitle-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-body1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-body1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-body1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-body2-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-body2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-body2-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-caption1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-caption1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-caption2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-caption2-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-overline-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin font-common-mobile-overline-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 0.75rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+

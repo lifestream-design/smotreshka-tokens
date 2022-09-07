@@ -31,22 +31,16 @@ StyleDictionaryPackage.registerFormat({
     //const mapperKeys = Object.keys(propsMapper);
 
     dictionary.allProperties.map (function (prop) {
-      let mixins = `@mixin ${prop.name} {` + '\n';
+      mixins += `@mixin ${prop.name} {` + '\n';
       Object.keys(propsMapper).forEach(key => {
         if (key in prop.value) {
-          mixins += `${propsMapper[key]}: ${prop.value[key]}` + '\n';
+          mixins += `  ${propsMapper[key]}: ${prop.value[key]};` + '\n';
         }
       });
       mixins += '}\n\n'; 
     });
 
     return mixins;
-
-    // return `${this.selector} {
-    //   ${dictionary.allProperties.map(prop => `@mixin ${prop.name} { 
-    //     ${JSON.stringify(prop.value)}
-    //   }`).join('\n')}
-    // }`
   }
 });
 
@@ -54,7 +48,7 @@ StyleDictionaryPackage.registerTransform({
   name: 'sizes/px',
   type: 'value',
   matcher: function(token) {
-    // You can be more specific here if you only want 'em' units for font sizes    
+    // You can be more specific here if you only want 'em' units for font sizes
     return ["spacing", "borderRadius", "borderWidth", "sizing"].includes(token.attributes.category);
   },
   transformer: function(token) {
@@ -84,10 +78,19 @@ StyleDictionaryPackage.registerTransform({
   name: 'sizes/pxToRem',
   type: 'value',
   matcher: function(token) {
-    return ["fontSize", "lineHeight", "letterSpacing"].includes(token.attributes.type);
+    return ["typography"].includes(token.type);
   },
   transformer: function(token) {
-      return parseFloat(token.original.value / 16) + 'rem';
+      //return parseFloat(token.original.value / 16) + 'rem';
+      ["fontSize", "lineHeight", "letterSpacing"].forEach(function(element) {
+        if (element in token.original.value) {
+          token.original.value[element] = parseFloat(token.original.value[element] / 16) + 'rem';
+        }
+      });
+      
+      console.log(token.original.value);
+
+      return token.original.value
   }
 });
 

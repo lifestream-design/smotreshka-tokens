@@ -1,56 +1,180 @@
-.font_tv {
-      @mixin font-common-tv-title1-black { 
-        {"fontFamily":"Roboto","fontWeight":"Black","lineHeight":92,"fontSize":76,"letterSpacing":-0.5,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-title1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":92,"fontSize":76,"letterSpacing":-0.5,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-title2-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":72,"fontSize":60,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-title2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":72,"fontSize":60,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-title3-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":60,"fontSize":48,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-title3-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":60,"fontSize":48,"letterSpacing":-0.25,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-subtitle-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":48,"fontSize":40,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-subtitle-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":48,"fontSize":40,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-subtitle-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":48,"fontSize":40,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-body1-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":44,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-body1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":44,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-body1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":44,"fontSize":32,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-caption1-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":40,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-caption1-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":40,"fontSize":28,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-caption2-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-caption2-regular { 
-        {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":32,"fontSize":24,"letterSpacing":0.15,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"}
-      }
-@mixin font-common-tv-overline-bold { 
-        {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":28,"fontSize":22,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-@mixin font-common-tv-overline-medium { 
-        {"fontFamily":"Roboto","fontWeight":"Medium","lineHeight":28,"fontSize":22,"letterSpacing":0.5,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"}
-      }
-    }
+@mixin font-common-tv-title1-black {
+  font-family: Roboto;
+  font-weight: Black;
+  line-height: 5.75rem;
+  font-size: 4.75rem;
+  letter-spacing: -0.03125rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-title1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 5.75rem;
+  font-size: 4.75rem;
+  letter-spacing: -0.03125rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-title2-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 4.5rem;
+  font-size: 3.75rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-title2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 4.5rem;
+  font-size: 3.75rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-title3-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 3.75rem;
+  font-size: 3rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-title3-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 3.75rem;
+  font-size: 3rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-subtitle-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-subtitle-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-subtitle-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-body1-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 2.75rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-body1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.75rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-body1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 2.75rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-caption1-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-caption1-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-caption2-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-caption2-regular {
+  font-family: Roboto;
+  font-weight: Regular;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-overline-bold {
+  font-family: Roboto;
+  font-weight: Bold;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin font-common-tv-overline-medium {
+  font-family: Roboto;
+  font-weight: Medium;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
