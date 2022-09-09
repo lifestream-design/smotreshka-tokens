@@ -188,8 +188,7 @@ console.log('Build started...');
 
     const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
     
-    //styleDictionary.buildPlatform('web');
-    //StyleDictionary.buildPlatform('scss');
+    styleDictionary.buildPlatform('web');
 
     console.log('\nEnd processing');
 });
