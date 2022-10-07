@@ -1,5 +1,5 @@
 .font {
-          --font-common-desktop-title1-black: [object Object];
+        --font-common-desktop-title1-black: [object Object];
   --font-common-desktop-title1-bold: [object Object];
   --font-common-desktop-title2-bold: [object Object];
   --font-common-desktop-title2-medium: [object Object];
@@ -80,4 +80,4 @@
   --font-common-mobile-caption2-regular: [object Object];
   --font-common-mobile-overline-bold: [object Object];
   --font-common-mobile-overline-medium: [object Object];
-      }
+    }

@@ -1,5 +1,5 @@
 .visual_common {
-          --color-common-all-text-on-light-primary: #1a1a1a;
+        --color-common-all-text-on-light-primary: #1a1a1a;
   --color-common-all-text-on-light-secondary: rgba(26, 26, 26, 0.65);
   --color-common-all-text-on-light-tertiary: rgba(26, 26, 26, 0.45);
   --color-common-all-text-on-dark-primary: #ebebeb;
@@ -50,4 +50,4 @@
   --color-common-all-border-attention-dark: #f8828e;
   --color-common-all-border-navigation-light: #015ce6;
   --color-common-all-border-navigation-dark: #7ecbff;
-      }
+    }

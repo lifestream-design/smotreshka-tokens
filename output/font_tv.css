@@ -1,5 +1,5 @@
 .font_tv {
-          --font-common-tv-title1-black: [object Object];
+        --font-common-tv-title1-black: [object Object];
   --font-common-tv-title1-bold: [object Object];
   --font-common-tv-title2-bold: [object Object];
   --font-common-tv-title2-medium: [object Object];
@@ -17,4 +17,4 @@
   --font-common-tv-caption2-regular: [object Object];
   --font-common-tv-overline-bold: [object Object];
   --font-common-tv-overline-medium: [object Object];
-      }
+    }

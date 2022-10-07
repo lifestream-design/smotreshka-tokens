@@ -1,5 +1,5 @@
 .visual_theme_dark {
-          --color-theme-all-fill-surface-elevation-level1: #0f1214;
+        --color-theme-all-fill-surface-elevation-level1: #0f1214;
   --color-theme-all-fill-surface-elevation-level2: #161a1d;
   --color-theme-all-fill-surface-elevation-level3: #1c2023;
   --color-theme-all-fill-surface-elevation-level4: #212529;
@@ -76,4 +76,4 @@
   --color-theme-all-border-attention: #f8828e;
   --color-theme-all-border-navigation: #7ecbff;
   --color-theme-all-border-interactive: #646f75;
-      }
+    }

@@ -27,6 +27,7 @@ StyleDictionaryPackage.registerFormat({
     let mixins = '';
 
     dictionary.allProperties.map (function (prop) {
+      console.log(prop);
       mixins += `@mixin ${prop.name} {` + '\n';
       Object.keys(propsMapper).forEach(key => {
         if (key in prop.value) {
@@ -39,6 +40,40 @@ StyleDictionaryPackage.registerFormat({
     return mixins;
   }
 });
+
+StyleDictionaryPackage.registerFormat({
+  name: 'css/transition',
+  formatter: function (dictionary, config) {
+    let transitionItems = [];
+    dictionary.allProperties.forEach(token => {
+      if (!transitions.includes(token.attributes.item)) {
+        transitions.push(token.attributes.item);
+      }
+    });
+
+    let transitionFunc = '';
+    let transitionDuration = '';
+    let transitions = '';
+    transitionItems.forEach(item => {
+      dictionary.allProperties.forEach(token => {
+        if (token.attributes.state === 'function') {
+          transitionFunc = token.value;
+        }
+        if (token.attributes.state === 'duration') {
+          transitionDuration = token.value + 'ms';
+        }
+        transitions += `--${token.attributes.category}-${token.attributes.tier}-${token.attributes.device}-
+          ${token.attributes.type}-${token.attributes.item}-${token.attributes.subitem}: cubic-bezier(${transitionFunc} ${transitionDuration})`;
+        // transitions += '--' + token.attributes.category + '-' + token.attributes.tier + '-' + token.attributes.device + '-' +
+        //   token.attributes.type + '-' + token.attributes.item + '-' + token.attributes.subitem;
+      })
+    });
+    console.log(transitions);
+
+    return transitions;
+  }
+});
+
 
 StyleDictionaryPackage.registerTransform({
   name: 'sizes/px',
@@ -71,7 +106,7 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'scss/fontsReform',
+  name: 'sizes/fonts',
   type: 'value',
   matcher: function(token) {
     return ["typography"].includes(token.type);
@@ -96,6 +131,19 @@ StyleDictionaryPackage.registerTransform({
     });
 
     return token.original.value
+  }
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: 'sizes/rem',
+  type: 'value',
+  matcher: function(token) {
+    // You can be more specific here if you only want 'em' units for font sizes
+    return ["spacing", "borderRadius", "borderWidth", "sizing"].includes(token.attributes.category);
+  },
+  transformer: function(token) {
+    // You can also modify the value here if you want to convert pixels to ems
+    return parseFloat(token.original.value / 16) + 'rem';
   }
 });
 
@@ -156,7 +204,7 @@ function getStyleDictionaryConfig(tokensSet) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "scss/fontsReform", "shadows/dropShadowCss", "motion/css"],
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/fonts", "shadows/dropShadowCss", "motion/css"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.css`,
@@ -165,7 +213,7 @@ function getStyleDictionaryConfig(tokensSet) {
           }]
       },
       "scss/fonts": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "scss/fontsReform",],
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/fonts",],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.scss`,
@@ -188,7 +236,7 @@ console.log('Build started...');
 
     const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
     
-    styleDictionary.buildPlatform('web');
+    //styleDictionary.buildPlatform('web');
 
     console.log('\nEnd processing');
 });
