@@ -2,7 +2,7 @@
   "color": {
     "global": {
       "all": {
-        "yellow": {
+        "primary": {
           "light": {
             "100": {
               "value": "#FFEDB8",
@@ -19,9 +19,17 @@
             "600": {
               "value": "#FBB605",
               "type": "color"
+            },
+            "700": {
+              "value": "#E0A100",
+              "type": "color"
             }
           },
           "dark": {
+            "300": {
+              "value": "#FFCE38",
+              "type": "color"
+            },
             "400": {
               "value": "#FFCA29",
               "type": "color"
@@ -40,14 +48,14 @@
             }
           }
         },
-        "purple": {
+        "secondary": {
           "light": {
             "100": {
               "value": "#E1C7F2",
               "type": "color"
             },
             "400": {
-              "value": "#A30FFF",
+              "value": "#8D29CC",
               "type": "color"
             },
             "500": {
@@ -55,13 +63,21 @@
               "type": "color"
             },
             "600": {
-              "value": "#58008F",
+              "value": "#6C00AF",
+              "type": "color"
+            },
+            "700": {
+              "value": "#6700A7",
               "type": "color"
             }
           },
           "dark": {
+            "300": {
+              "value": "#BE9FE9",
+              "type": "color"
+            },
             "400": {
-              "value": "#C7ACEC",
+              "value": "#B998E7",
               "type": "color"
             },
             "500": {
@@ -69,7 +85,7 @@
               "type": "color"
             },
             "600": {
-              "value": "#8E59D9",
+              "value": "#9B77CC",
               "type": "color"
             },
             "900": {
@@ -78,7 +94,7 @@
             }
           }
         },
-        "blue": {
+        "navigation": {
           "light": {
             "100": {
               "value": "#C7DDFF",
@@ -95,9 +111,17 @@
             "600": {
               "value": "#015CE6",
               "type": "color"
+            },
+            "700": {
+              "value": "#0158DB",
+              "type": "color"
             }
           },
           "dark": {
+            "300": {
+              "value": "#88CFFF",
+              "type": "color"
+            },
             "400": {
               "value": "#7ECBFF",
               "type": "color"
@@ -116,7 +140,7 @@
             }
           }
         },
-        "green": {
+        "success": {
           "light": {
             "100": {
               "value": "#BFEDD2",
@@ -133,9 +157,17 @@
             "600": {
               "value": "#00A644",
               "type": "color"
+            },
+            "700": {
+              "value": "#009E41",
+              "type": "color"
             }
           },
           "dark": {
+            "300": {
+              "value": "#86DB97",
+              "type": "color"
+            },
             "400": {
               "value": "#7DD88F",
               "type": "color"
@@ -154,7 +186,7 @@
             }
           }
         },
-        "orange": {
+        "warning": {
           "light": {
             "100": {
               "value": "#FEDCC9",
@@ -171,9 +203,17 @@
             "600": {
               "value": "#E15F16",
               "type": "color"
+            },
+            "700": {
+              "value": "#D75B15",
+              "type": "color"
             }
           },
           "dark": {
+            "300": {
+              "value": "#FFB68C",
+              "type": "color"
+            },
             "400": {
               "value": "#FFB083",
               "type": "color"
@@ -192,7 +232,7 @@
             }
           }
         },
-        "red": {
+        "attention": {
           "light": {
             "100": {
               "value": "#FFC9CF",
@@ -209,9 +249,17 @@
             "600": {
               "value": "#C82E3D",
               "type": "color"
+            },
+            "700": {
+              "value": "#BF2C3A",
+              "type": "color"
             }
           },
           "dark": {
+            "300": {
+              "value": "#F98B96",
+              "type": "color"
+            },
             "400": {
               "value": "#F8828E",
               "type": "color"
@@ -230,7 +278,7 @@
             }
           }
         },
-        "gray": {
+        "neutral": {
           "light": {
             "100": {
               "value": "#F5F7F7",
@@ -363,7 +411,7 @@
           "type": "opacity"
         },
         "125": {
-          "value": 0.07,
+          "value": 0.08,
           "type": "opacity"
         },
         "150": {
@@ -413,32 +461,6 @@
         "900": {
           "value": 0.9,
           "type": "opacity"
-        }
-      }
-    }
-  },
-  "unit": {
-    "global": {
-      "all": {
-        "pxs": {
-          "value": "px",
-          "type": "other"
-        },
-        "rems": {
-          "value": "rem",
-          "type": "other"
-        },
-        "pts": {
-          "value": "pt",
-          "type": "other"
-        },
-        "dps": {
-          "value": "dp",
-          "type": "other"
-        },
-        "sps": {
-          "value": "sp",
-          "type": "other"
         }
       }
     }
@@ -590,19 +612,27 @@
   "borderRadius": {
     "global": {
       "all": {
+        "xxs": {
+          "value": 2,
+          "type": "borderRadius"
+        },
         "xs": {
           "value": 4,
           "type": "borderRadius"
         },
         "sm": {
-          "value": 8,
+          "value": 6,
           "type": "borderRadius"
         },
         "md": {
-          "value": 12,
+          "value": 8,
           "type": "borderRadius"
         },
         "lg": {
+          "value": 12,
+          "type": "borderRadius"
+        },
+        "xl": {
           "value": 16,
           "type": "borderRadius"
         }
@@ -860,21 +890,75 @@
   "motion": {
     "global": {
       "all": {
-        "transitionFunction": {
-          "easeIn": {
+        "transitionFunc": {
+          "easeInInline": {
             "value": "0.55,0.09,0.68,0.53",
             "type": "other",
             "description": "Координаты кривой анимации Ease In"
           },
-          "easeOut": {
+          "easeOutInline": {
             "value": "0.25,0.46,0.45,0.94",
             "type": "other",
             "description": "Координаты кривой анимации Ease Out"
           },
-          "easeInOut": {
+          "easeInOutInline": {
             "value": "0.46,0.03,0.52,0.96",
             "type": "other",
             "description": "Координаты кривой анимации Ease In-Out"
+          },
+          "easeIn": {
+            "x1": {
+              "value": 0.55,
+              "type": "other"
+            },
+            "y1": {
+              "value": 0.09,
+              "type": "other"
+            },
+            "x2": {
+              "value": 0.68,
+              "type": "other"
+            },
+            "y2": {
+              "value": 0.52,
+              "type": "other"
+            }
+          },
+          "easeOut": {
+            "x1": {
+              "value": 0.25,
+              "type": "other"
+            },
+            "y1": {
+              "value": 0.46,
+              "type": "other"
+            },
+            "x2": {
+              "value": 0.45,
+              "type": "other"
+            },
+            "y2": {
+              "value": 0.94,
+              "type": "other"
+            }
+          },
+          "easeInOut": {
+            "x1": {
+              "value": 0.46,
+              "type": "other"
+            },
+            "y1": {
+              "value": 0.03,
+              "type": "other"
+            },
+            "x2": {
+              "value": 0.52,
+              "type": "other"
+            },
+            "y2": {
+              "value": 0.96,
+              "type": "other"
+            }
           }
         },
         "transitionDuration": {
@@ -1182,6 +1266,32 @@
               "type": "boxShadow"
             }
           }
+        }
+      }
+    }
+  },
+  "scale": {
+    "global": {
+      "all": {
+        "xs": {
+          "value": 1.02,
+          "type": "other"
+        },
+        "sm": {
+          "value": 1.04,
+          "type": "other"
+        },
+        "md": {
+          "value": 1.06,
+          "type": "other"
+        },
+        "lg": {
+          "value": 1.08,
+          "type": "other"
+        },
+        "xl": {
+          "value": 1.12,
+          "type": "other"
         }
       }
     }

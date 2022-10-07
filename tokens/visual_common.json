@@ -18,6 +18,31 @@
               "value": "#1a1a1a73",
               "type": "color",
               "description": "Третичный цвет текста и иконок на светлом фоне"
+            },
+            "accent": {
+              "value": "#6C00AF",
+              "type": "color",
+              "description": "Акцентный цвет текста и иконок на светлом фоне"
+            },
+            "success": {
+              "value": "#00A644",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"успешно\" на светлом фоне"
+            },
+            "warning": {
+              "value": "#E15F16",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"предупреждение\" на светлом фоне"
+            },
+            "attention": {
+              "value": "#C82E3D",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"внимание\" на светлом фоне"
+            },
+            "navigation": {
+              "value": "#015CE6",
+              "type": "color",
+              "description": "Цвет текста и иконок навигационных элементов на светлом фоне"
             }
           },
           "onDark": {
@@ -35,6 +60,31 @@
               "value": "#ebebeb73",
               "type": "color",
               "description": "Третичный цвет текста и иконок на темном фоне"
+            },
+            "accent": {
+              "value": "#B998E7",
+              "type": "color",
+              "description": "Акцентный цвет текста и иконок на темном фоне"
+            },
+            "success": {
+              "value": "#7DD88F",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"успешно\" на темном фоне"
+            },
+            "warning": {
+              "value": "#FFB083",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"предупреждение\" на темном фоне"
+            },
+            "attention": {
+              "value": "#F8828E",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"внимание\" на темном фоне"
+            },
+            "navigation": {
+              "value": "#7ECBFF",
+              "type": "color",
+              "description": "Цвет текста и иконок навигационных элементов на темном фоне"
             }
           }
         },
@@ -55,8 +105,8 @@
               "type": "color",
               "description": "Оверлей контентных блоков с фоновым изображением"
             },
-            "brandLight": {
-              "value": "#ffc00012",
+            "brandLite": {
+              "value": "#ffc00014",
               "type": "color",
               "description": "Оттеночный брендированный оверлей"
             },
@@ -70,8 +120,8 @@
               "type": "color",
               "description": "Сильный брендированный оверлей"
             },
-            "accentLight": {
-              "value": "#7800c212",
+            "accentLite": {
+              "value": "#7800c214",
               "type": "color",
               "description": "Оттеночный акцентный оверлей"
             },
@@ -113,7 +163,7 @@
               "description": "Поверхность пятого уровня (светлое оформление)"
             },
             "context": {
-              "value": "#EFF1F2",
+              "value": "#EAEDEE",
               "type": "color",
               "description": "Фон контекстных элементов (светлое оформление)"
             }
@@ -150,150 +200,969 @@
               "description": "Фон контекстных элементов (темное оформление)"
             }
           },
-          "brand": {
-            "light": {
+          "brandLight": {
+            "default": {
               "value": "#FFC000",
               "type": "color",
               "description": "Брендированный цвет (светлое оформление)"
             },
-            "dark": {
+            "hover": {
+              "value": "#FFCA29",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Hover (светлое оформление)"
+            },
+            "active": {
+              "value": "#FBB605",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Active (светлое оформление)"
+            },
+            "focus": {
+              "value": "#FFC000",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Focus (светлое оформление)"
+            },
+            "disabled": {
+              "value": "#FFEDB8",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Disabled (светлое оформление)"
+            }
+          },
+          "brandDark": {
+            "default": {
               "value": "#FFC000",
               "type": "color",
               "description": "Брендированный цвет (темное оформление)"
+            },
+            "hover": {
+              "value": "#FFCA29",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Hover (темное оформление)"
+            },
+            "active": {
+              "value": "#FBB605",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Active (темное оформление)"
+            },
+            "focus": {
+              "value": "#FFC000",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Focus (темное оформление)"
+            },
+            "disabled": {
+              "value": "#664D00",
+              "type": "color",
+              "description": "Брендированный цвет в состоянии Disabled (темное оформление)"
             }
           },
-          "accent": {
-            "light": {
+          "accentLight": {
+            "default": {
               "value": "#7800C2",
               "type": "color",
               "description": "Акцентный цвет (светлое оформление)"
             },
-            "dark": {
+            "hover": {
+              "value": "#8D29CC",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Hover (светлое оформление)"
+            },
+            "active": {
+              "value": "#6C00AF",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Active (светлое оформление)"
+            },
+            "focus": {
+              "value": "#7800C2",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Focus (светлое оформление)"
+            },
+            "disabled": {
+              "value": "#E1C7F2",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Disabled (светлое оформление)"
+            }
+          },
+          "accentDark": {
+            "default": {
               "value": "#AC84E3",
               "type": "color",
               "description": "Акцентный цвет (темное оформление)"
+            },
+            "hover": {
+              "value": "#B998E7",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Hover (темное оформление)"
+            },
+            "active": {
+              "value": "#9B77CC",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Active (темное оформление)"
+            },
+            "focus": {
+              "value": "#AC84E3",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Focus (темное оформление)"
+            },
+            "disabled": {
+              "value": "#4A3962",
+              "type": "color",
+              "description": "Акцентный цвет в состоянии Disabled (темное оформление)"
             }
           },
-          "success": {
-            "light": {
+          "successLight": {
+            "default": {
               "value": "#00B84C",
               "type": "color",
               "description": "Цвет элемента в статусе \"успешно\" (светлое оформление)"
             },
-            "dark": {
+            "hover": {
+              "value": "#29C369",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Hover (светлое оформление)"
+            },
+            "active": {
+              "value": "#00A644",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Active (светлое оформление)"
+            },
+            "focus": {
+              "value": "#00B84C",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Focus (светлое оформление)"
+            },
+            "disabled": {
+              "value": "#BFEDD2",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Disabled (светлое оформление)"
+            }
+          },
+          "successDark": {
+            "default": {
               "value": "#64D17A",
               "type": "color",
               "description": "Цвет элемента в статусе \"успешно\" (темное оформление)"
+            },
+            "hover": {
+              "value": "#7DD88F",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Hover (темное оформление)"
+            },
+            "active": {
+              "value": "#5ABC6E",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Active (темное оформление)"
+            },
+            "focus": {
+              "value": "#64D17A",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Focus (темное оформление)"
+            },
+            "disabled": {
+              "value": "#2B5A34",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"успешно\" в состоянии Disabled (темное оформление)"
             }
           },
-          "warning": {
-            "light": {
+          "warningLight": {
+            "default": {
               "value": "#FA6A18",
               "type": "color",
               "description": "Цвет элемента в статусе \"предупреждение\" (светлое оформление)"
             },
-            "dark": {
+            "hover": {
+              "value": "#FB823D",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Hover (светлое оформление)"
+            },
+            "active": {
+              "value": "#E15F16",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Active (светлое оформление)"
+            },
+            "focus": {
+              "value": "#FA6A18",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Focus (светлое оформление)"
+            },
+            "disabled": {
+              "value": "#FEDCC9",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Disabled (светлое оформление)"
+            }
+          },
+          "warningDark": {
+            "default": {
               "value": "#FFA16B",
               "type": "color",
               "description": "Цвет элемента в статусе \"предупреждение\" (темное оформление)"
+            },
+            "hover": {
+              "value": "#FFB083",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Hover (темное оформление)"
+            },
+            "active": {
+              "value": "#E69160",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Active (темное оформление)"
+            },
+            "focus": {
+              "value": "#FFA16B",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Focus (темное оформление)"
+            },
+            "disabled": {
+              "value": "#6E3F2E",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"предупреждение\" в состоянии Disabled (темное оформление)"
             }
           },
-          "attention": {
-            "light": {
+          "attentionLight": {
+            "default": {
               "value": "#DE3344",
               "type": "color",
               "description": "Цвет элемента в статусе \"внимание\" (светлое оформление)"
             },
-            "dark": {
+            "hover": {
+              "value": "#E35462",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Hover (светлое оформление)"
+            },
+            "active": {
+              "value": "#C82E3D",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Active (светлое оформление)"
+            },
+            "focus": {
+              "value": "#DE3344",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Focus (светлое оформление)"
+            },
+            "disabled": {
+              "value": "#FFC9CF",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Disabled (светлое оформление)"
+            }
+          },
+          "attentionDark": {
+            "default": {
               "value": "#F76A78",
               "type": "color",
               "description": "Цвет элемента в статусе \"внимание\" (темное оформление)"
+            },
+            "hover": {
+              "value": "#F8828E",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Hover (темное оформление)"
+            },
+            "active": {
+              "value": "#E3626E",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Active (темное оформление)"
+            },
+            "focus": {
+              "value": "#F76A78",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Focus (темное оформление)"
+            },
+            "disabled": {
+              "value": "#6A2E34",
+              "type": "color",
+              "description": "Цвет элемента в статусе \"внимание\" в состоянии Disabled (темное оформление)"
             }
           },
-          "navigation": {
-            "light": {
+          "navigationLight": {
+            "default": {
               "value": "#0166FF",
               "type": "color",
               "description": "Цвет навигационного элемента (светлое оформление)"
             },
-            "dark": {
+            "hover": {
+              "value": "#2A7EFF",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Hover (светлое оформление)"
+            },
+            "active": {
+              "value": "#015CE6",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Active (светлое оформление)"
+            },
+            "focus": {
+              "value": "#0166FF",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Focus (светлое оформление)"
+            },
+            "disabled": {
+              "value": "#C7DDFF",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Disabled (светлое оформление)"
+            }
+          },
+          "navigationDark": {
+            "default": {
               "value": "#66C1FF",
               "type": "color",
               "description": "Цвет навигационного элемента (темное оформление)"
+            },
+            "hover": {
+              "value": "#7ECBFF",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Hover (темное оформление)"
+            },
+            "active": {
+              "value": "#5CAEE5",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Active (темное оформление)"
+            },
+            "focus": {
+              "value": "#66C1FF",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Focus (темное оформление)"
+            },
+            "disabled": {
+              "value": "#2C536E",
+              "type": "color",
+              "description": "Цвет навигационного элемента в статусе Disabled (темное оформление)"
+            }
+          },
+          "interactiveLight": {
+            "default": {
+              "value": "#DEE1E3",
+              "type": "color",
+              "description": "Цвет интерактивного элемента (светлое оформление)"
+            },
+            "hover": {
+              "value": "#D9DDDF",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Hover (светлое оформление)"
+            },
+            "active": {
+              "value": "#D0D4D6",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Active (светлое оформление)"
+            },
+            "focus": {
+              "value": "#DEE1E3",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Focus (светлое оформление)"
+            },
+            "disabled": {
+              "value": "#EFF1F2",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Disabled (светлое оформление)"
+            }
+          },
+          "interactiveDark": {
+            "default": {
+              "value": "#444D52",
+              "type": "color",
+              "description": "Цвет интерактивного элемента (темное оформление)"
+            },
+            "hover": {
+              "value": "#4F585E",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Hover (темное оформление)"
+            },
+            "active": {
+              "value": "#596469",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Active (темное оформление)"
+            },
+            "focus": {
+              "value": "#444D52",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Focus (темное оформление)"
+            },
+            "disabled": {
+              "value": "#30363A",
+              "type": "color",
+              "description": "Цвет интерактивного элемента в статусе Disabled (темное оформление)"
+            }
+          },
+          "serviceVod": {
+            "archive": {
+              "value": "#FFCA29",
+              "type": "color",
+              "description": "Каталог передач"
+            },
+            "amediateka": {
+              "value": "#1D1D1D",
+              "type": "color",
+              "description": "AMEDIATEKA"
+            },
+            "ivi": {
+              "value": "#EC174F",
+              "type": "color",
+              "description": "ivi"
+            },
+            "start": {
+              "value": "#FF2800",
+              "type": "color",
+              "description": "START"
+            },
+            "moreTv": {
+              "value": "#000000",
+              "type": "color",
+              "description": "more.tv"
+            },
+            "premier": {
+              "value": "#FACC6C",
+              "type": "color",
+              "description": "PREMIER"
+            },
+            "viju": {
+              "value": "#37BDAC",
+              "type": "color",
+              "description": "viju"
+            }
+          },
+          "service": {
+            "kinopoisk": {
+              "value": "#FF6600",
+              "type": "color",
+              "description": "Кинопоиск"
+            },
+            "imdb": {
+              "value": "#F5C518",
+              "type": "color",
+              "description": "IMDb"
+            },
+            "apple": {
+              "value": "#B3B3B3",
+              "type": "color",
+              "description": "Apple"
+            },
+            "googleAndroid": {
+              "value": "#6DDB8D",
+              "type": "color",
+              "description": "Google Android"
+            }
+          },
+          "social": {
+            "vk": {
+              "value": "#4487ED",
+              "type": "color",
+              "description": "VK Group"
+            },
+            "telegram": {
+              "value": "#50A2DF",
+              "type": "color",
+              "description": "Telegram"
+            },
+            "youtube": {
+              "value": "#EA3223",
+              "type": "color",
+              "description": "YouTube"
+            },
+            "odnoklassniki": {
+              "value": "#DF8533",
+              "type": "color",
+              "description": "Одноклассники"
+            },
+            "viber": {
+              "value": "#6C61E3",
+              "type": "color",
+              "description": "Viber"
+            },
+            "whatsapp": {
+              "value": "#65B95B",
+              "type": "color",
+              "description": "WhatsApp"
             }
           }
         },
         "border": {
-          "brand": {
-            "light": {
-              "value": "#FBB605",
-              "type": "color",
-              "description": "Цвет границ для брендированных элементов (светлое оформление)"
+          "brandLight": {
+            "value": "#E0A100",
+            "type": "color",
+            "description": "Цвет границ брендированных элементов (светлое оформление)"
+          },
+          "brandDark": {
+            "value": "#FFCE38",
+            "type": "color",
+            "description": "Цвет границ брендированных элементов (темное оформление)"
+          },
+          "accentLight": {
+            "value": "#6700A7",
+            "type": "color",
+            "description": "Цвет границ акцентных элементов (светлое оформление)"
+          },
+          "accentDark": {
+            "value": "#BE9FE9",
+            "type": "color",
+            "description": "Цвет границ акцентных элементов (темное оформление)"
+          },
+          "successLight": {
+            "value": "#009E41",
+            "type": "color",
+            "description": "Цвет границ элементов в статусе \"успешно\" (светлое оформление)"
+          },
+          "successDark": {
+            "value": "#86DB97",
+            "type": "color",
+            "description": "Цвет границ элементов в статусе \"успешно\" (темное оформление)"
+          },
+          "warningLight": {
+            "value": "#D75B15",
+            "type": "color",
+            "description": "Цвет границ элементов в статусе \"предупреждение\" (светлое оформление)"
+          },
+          "warningDark": {
+            "value": "#FFB68C",
+            "type": "color",
+            "description": "Цвет границ элементов в статусе \"предупреждение\" (темное оформление)"
+          },
+          "attentionLight": {
+            "value": "#BF2C3A",
+            "type": "color",
+            "description": "Цвет границ элементов в статусе \"внимание\" (светлое оформление)"
+          },
+          "attentionDark": {
+            "value": "#F98B96",
+            "type": "color",
+            "description": "Цвет границ элементов в статусе \"внимание\" (темное оформление)"
+          },
+          "navigationLight": {
+            "value": "#0158DB",
+            "type": "color",
+            "description": "Цвет границ навигационных элементов (светлое оформление)"
+          },
+          "navigationDark": {
+            "value": "#88CFFF",
+            "type": "color",
+            "description": "Цвет границ навигационных элементов (темное оформление)"
+          },
+          "interactiveLight": {
+            "value": "#C2C6C9",
+            "type": "color",
+            "description": "Цвет границ интерактивных элементов (светлое оформление)"
+          },
+          "interactiveDark": {
+            "value": "#646F75",
+            "type": "color",
+            "description": "Цвет границ интерактивных элементов (темное оформление)"
+          }
+        }
+      }
+    }
+  },
+  "shadow": {
+    "common": {
+      "all": {
+        "dropShadow": {
+          "interactiveLight": {
+            "small": {
+              "default": {
+                "value": {
+                  "x": 0,
+                  "y": 1,
+                  "blur": 2,
+                  "spread": 0,
+                  "color": "#0000001a",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов (светлое оформление)"
+              },
+              "hover": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов в состоянии Hover (светлое оформление)"
+              },
+              "active": {
+                "value": {
+                  "x": 0,
+                  "y": 1,
+                  "blur": 2,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов в состоянии Active (светлое оформление)"
+              },
+              "focus": {
+                "value": {
+                  "x": 0,
+                  "y": 1,
+                  "blur": 2,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов в состоянии Focus (светлое оформление)"
+              }
             },
-            "dark": {
-              "value": "#FFCA29",
-              "type": "color",
-              "description": "Цвет границ для брендированных элементов (темное оформление)"
+            "regular": {
+              "default": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#0000001a",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов (светлое оформление)"
+              },
+              "hover": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов в состоянии Hover (светлое оформление)"
+              },
+              "active": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов в состоянии Active (светлое оформление)"
+              },
+              "focus": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов в состоянии Focus (светлое оформление)"
+              }
+            },
+            "large": {
+              "default": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#0000001a",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов (светлое оформление)"
+              },
+              "hover": {
+                "value": {
+                  "x": 0,
+                  "y": 8,
+                  "blur": 16,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов в состоянии Hover (светлое оформление)"
+              },
+              "active": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов в состоянии Active (светлое оформление)"
+              },
+              "focus": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов в состоянии Focus (светлое оформление)"
+              }
             }
           },
-          "accent": {
-            "light": {
-              "value": "#58008F",
-              "type": "color",
-              "description": "Цвет границ для акцентных элементов (светлое оформление)"
+          "interactiveDark": {
+            "small": {
+              "default": {
+                "value": {
+                  "x": 0,
+                  "y": 1,
+                  "blur": 2,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов (темное оформление)"
+              },
+              "hover": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов в состоянии Hover (темное оформление)"
+              },
+              "active": {
+                "value": {
+                  "x": 0,
+                  "y": 1,
+                  "blur": 2,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов в состоянии Active (темное оформление)"
+              },
+              "focus": {
+                "value": {
+                  "x": 0,
+                  "y": 1,
+                  "blur": 2,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень маленьких интерактивных элементов в состоянии Focus (темное оформление)"
+              }
             },
-            "dark": {
-              "value": "#C7ACEC",
-              "type": "color",
-              "description": "Цвет границ для акцентных элементов (темное оформление)"
+            "regular": {
+              "default": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов (темное оформление)"
+              },
+              "hover": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов в состоянии Hover (темное оформление)"
+              },
+              "active": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов в состоянии Active (темное оформление)"
+              },
+              "focus": {
+                "value": {
+                  "x": 0,
+                  "y": 2,
+                  "blur": 4,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень стандартных интерактивных элементов в состоянии Focus (темное оформление)"
+              }
+            },
+            "large": {
+              "default": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#0000004d",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов (темное оформление)"
+              },
+              "hover": {
+                "value": {
+                  "x": 0,
+                  "y": 8,
+                  "blur": 16,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов в состоянии Hover (темное оформление)"
+              },
+              "active": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов в состоянии Active (темное оформление)"
+              },
+              "focus": {
+                "value": {
+                  "x": 0,
+                  "y": 4,
+                  "blur": 8,
+                  "spread": 0,
+                  "color": "#00000080",
+                  "type": "dropShadow"
+                },
+                "type": "boxShadow",
+                "description": "Тень больших интерактивных элементов в состоянии Focus (темное оформление)"
+              }
             }
           },
-          "success": {
-            "light": {
-              "value": "#00A644",
-              "type": "color",
-              "description": "Цвет границ для элементов в статусе \"успешно\" (светлое оформление)"
+          "staticLight": {
+            "small": {
+              "value": {
+                "x": 0,
+                "y": 1,
+                "blur": 2,
+                "spread": 0,
+                "color": "#0000001a",
+                "type": "dropShadow"
+              },
+              "type": "boxShadow",
+              "description": "Тень маленьких статических элементов (светлое оформление)"
             },
-            "dark": {
-              "value": "#7DD88F",
-              "type": "color",
-              "description": "Цвет границ для элементов в статусе \"успешно\" (темное оформление)"
+            "regular": {
+              "value": {
+                "x": 0,
+                "y": 2,
+                "blur": 4,
+                "spread": 0,
+                "color": "#0000001a",
+                "type": "dropShadow"
+              },
+              "type": "boxShadow",
+              "description": "Тень стандартных статических элементов (светлое оформление)"
+            },
+            "large": {
+              "value": {
+                "x": 0,
+                "y": 4,
+                "blur": 8,
+                "spread": 0,
+                "color": "#0000001a",
+                "type": "dropShadow"
+              },
+              "type": "boxShadow",
+              "description": "Тень больших статических элементов (светлое оформление)"
             }
           },
-          "warning": {
-            "light": {
-              "value": "#E15F16",
-              "type": "color",
-              "description": "Цвет границ для элементов в статусе \"предупреждение\" (светлое оформление)"
+          "staticDark": {
+            "small": {
+              "value": {
+                "x": 0,
+                "y": 1,
+                "blur": 2,
+                "spread": 0,
+                "color": "#0000004d",
+                "type": "dropShadow"
+              },
+              "type": "boxShadow",
+              "description": "Тень маленьких статических элементов (темное оформление)"
             },
-            "dark": {
-              "value": "#FFB083",
-              "type": "color",
-              "description": "Цвет границ для элементов в статусе \"предупреждение\" (темное оформление)"
+            "regular": {
+              "value": {
+                "x": 0,
+                "y": 2,
+                "blur": 4,
+                "spread": 0,
+                "color": "#0000004d",
+                "type": "dropShadow"
+              },
+              "type": "boxShadow",
+              "description": "Тень стандартных статических элементов (темное оформление)"
+            },
+            "large": {
+              "value": {
+                "x": 0,
+                "y": 4,
+                "blur": 8,
+                "spread": 0,
+                "color": "#0000004d",
+                "type": "dropShadow"
+              },
+              "type": "boxShadow",
+              "description": "Тень больших статических элементов (темное оформление)"
             }
-          },
-          "attention": {
-            "light": {
-              "value": "#C82E3D",
-              "type": "color",
-              "description": "Цвет границ для элементов в статусе \"внимание\" (светлое оформление)"
-            },
-            "dark": {
-              "value": "#F8828E",
-              "type": "color",
-              "description": "Цвет границ для элементов в статусе \"внимание\" (темное оформление)"
-            }
-          },
-          "navigation": {
-            "light": {
-              "value": "#015CE6",
-              "type": "color",
-              "description": "Цвет границ для навигационных элементов (светлое оформление)"
-            },
-            "dark": {
-              "value": "#7ECBFF",
-              "type": "color",
-              "description": "Цвет границ для навигационных элементов (темное оформление)"
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "common": {
+      "all": {
+        "transition": {
+          "feedback": {
+            "general": {
+              "function": {
+                "value": "0.55,0.09,0.68,0.53",
+                "type": "other"
+              },
+              "pointX1": {
+                "value": 0.55,
+                "type": "other"
+              },
+              "pointY1": {
+                "value": 0.09,
+                "type": "other"
+              },
+              "pointX2": {
+                "value": 0.68,
+                "type": "other"
+              },
+              "pointY2": {
+                "value": 0.52,
+                "type": "other"
+              },
+              "duration": {
+                "value": 70,
+                "type": "other"
+              }
             }
           }
         }
