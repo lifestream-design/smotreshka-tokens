@@ -45,35 +45,40 @@ StyleDictionaryPackage.registerFormat({
   name: 'css/transition',
   formatter: function (dictionary, config) {
     let transitionItems = [];
+    let transitionTokens = [];
+    
     dictionary.allProperties.forEach(token => {
-      if (!transitions.includes(token.attributes.item)) {
-        transitions.push(token.attributes.item);
+      if (!transitionItems.includes(token.attributes.item) && token.attributes.type == 'transition') {
+        transitionItems.push(token.attributes.item);
+        transitionTokens.push(token);
       }
     });
 
     let transitionFunc = '';
     let transitionDuration = '';
+    let transitionName = '';
     let transitions = '';
-    transitionItems.forEach(item => {
-      dictionary.allProperties.forEach(token => {
-        if (token.attributes.state === 'function') {
-          transitionFunc = token.value;
-        }
-        if (token.attributes.state === 'duration') {
-          transitionDuration = token.value + 'ms';
-        }
-        transitions += `--${token.attributes.category}-${token.attributes.tier}-${token.attributes.device}-
-          ${token.attributes.type}-${token.attributes.item}-${token.attributes.subitem}: cubic-bezier(${transitionFunc} ${transitionDuration})`;
-        // transitions += '--' + token.attributes.category + '-' + token.attributes.tier + '-' + token.attributes.device + '-' +
-        //   token.attributes.type + '-' + token.attributes.item + '-' + token.attributes.subitem;
-      })
-    });
-    console.log(transitions);
 
-    return transitions;
+    transitionItems.forEach(item => {
+      transitionTokens.forEach(token => {
+        if (token.attributes.item == item && token.attributes.type == 'transition') {
+          if (token.attributes.state == 'function') {
+            transitionFunc = token.value;
+          }
+          if (token.attributes.state == 'duration') {
+            transitionDuration = token.value + 'ms';
+          }
+          transitionName = `${token.attributes.category}-${token.attributes.tier}-${token.attributes.device}-${token.attributes.type}-${token.attributes.item}-${token.attributes.subitem}`;
+        }
+      })
+      transitions += `--${transitionName}: cubic-bezier(${transitionFunc}) ${transitionDuration};` + '\n';
+    });
+
+    return `${this.selector} { 
+      ${transitions}
+    }`;
   }
 });
-
 
 StyleDictionaryPackage.registerTransform({
   name: 'sizes/px',
@@ -213,11 +218,20 @@ function getStyleDictionaryConfig(tokensSet) {
           }]
       },
       "scss/fonts": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/fonts",],
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/fonts"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.scss`,
             "format": "scss/fontsMixin",
+            "selector": `.${tokensSet}`
+          }]
+      },
+      "css/transitions": {
+        "transforms": ["attribute/extendedCti", "name/cti/kebab"],
+        "buildPath": `output/`,
+        "files": [{
+            "destination": `${tokensSet}.transition.css`,
+            "format": "css/transition",
             "selector": `.${tokensSet}`
           }]
       }
@@ -237,6 +251,7 @@ console.log('Build started...');
     const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
     
     //styleDictionary.buildPlatform('web');
+    styleDictionary.buildPlatform('css/transitions');
 
     console.log('\nEnd processing');
 });
@@ -248,7 +263,7 @@ console.log('Build started...');
 
   const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
   
-  styleDictionary.buildPlatform('scss/fonts');
+  //styleDictionary.buildPlatform('scss/fonts');
 
   console.log('\nEnd processing');
 })
