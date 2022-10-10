@@ -48,11 +48,13 @@ StyleDictionaryPackage.registerFormat({
     let transitionTokens = [];
     
     dictionary.allProperties.forEach(token => {
-      if (!transitionItems.includes(token.attributes.item) && token.attributes.type == 'transition') {
-        transitionItems.push(token.attributes.item);
+      if (!transitionItems.includes(`${token.attributes.item}.${token.attributes.subitem}`) && token.attributes.type == 'transition') {
+        transitionItems.push(`${token.attributes.item}.${token.attributes.subitem}`);
         transitionTokens.push(token);
       }
     });
+
+    console.log(transitionTokens);
 
     let transitionFunc = '';
     let transitionDuration = '';
@@ -60,8 +62,8 @@ StyleDictionaryPackage.registerFormat({
     let transitions = '';
 
     transitionItems.forEach(item => {
-      transitionTokens.forEach(token => {
-        if (token.attributes.item == item && token.attributes.type == 'transition') {
+      dictionary.allProperties.forEach(token => {
+        if (`${token.attributes.item}.${token.attributes.subitem}` == item && token.attributes.type == 'transition') {
           if (token.attributes.state == 'function') {
             transitionFunc = token.value;
           }
