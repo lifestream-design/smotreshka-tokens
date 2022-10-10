@@ -985,6 +985,10 @@
           "slow2": {
             "value": 700,
             "type": "other"
+          },
+          "slow3": {
+            "value": 1000,
+            "type": "other"
           }
         }
       }
