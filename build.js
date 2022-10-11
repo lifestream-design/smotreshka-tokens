@@ -50,7 +50,7 @@ StyleDictionaryPackage.registerFormat({
     dictionary.allProperties.forEach(token => {
       if (token.attributes.type == 'transition') {
         transitionTokens.push(token);
-        
+
         if (!transitionItems.includes(`${token.attributes.item}.${token.attributes.subitem}`)) {
           transitionItems.push(`${token.attributes.item}.${token.attributes.subitem}`);
         }
@@ -76,11 +76,10 @@ StyleDictionaryPackage.registerFormat({
           transitionName = `${token.attributes.category}-${token.attributes.tier}-${token.attributes.device}-${token.attributes.type}-${token.attributes.item}-${token.attributes.subitem}`;
         }
       })
-      transitions += `--${transitionName}: cubic-bezier(${transitionFunc}) ${transitionDuration};` + '\n';
+      transitions += `  --${transitionName}: cubic-bezier(${transitionFunc}) ${transitionDuration};` + '\n';
     });
 
-    return `${this.selector} { 
-      ${transitions}
+    return this.selector + ' {' + '\n' +  transitions + '}';
     }`;
   }
 });
