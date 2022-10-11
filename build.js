@@ -48,9 +48,12 @@ StyleDictionaryPackage.registerFormat({
     let transitionTokens = [];
     
     dictionary.allProperties.forEach(token => {
-      if (!transitionItems.includes(`${token.attributes.item}.${token.attributes.subitem}`) && token.attributes.type == 'transition') {
-        transitionItems.push(`${token.attributes.item}.${token.attributes.subitem}`);
+      if (token.attributes.type == 'transition') {
         transitionTokens.push(token);
+        
+        if (!transitionItems.includes(`${token.attributes.item}.${token.attributes.subitem}`)) {
+          transitionItems.push(`${token.attributes.item}.${token.attributes.subitem}`);
+        }
       }
     });
 
