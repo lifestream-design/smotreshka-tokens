@@ -80,7 +80,6 @@ StyleDictionaryPackage.registerFormat({
     });
 
     return this.selector + ' {' + '\n' +  transitions + '}';
-    }`;
   }
 });
 
