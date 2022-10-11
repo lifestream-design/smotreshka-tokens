@@ -1,10 +1,9 @@
-.visual_common { 
-      --motion-common-all-transition-product-feedback: cubic-bezier(0.55,0.09,0.68,0.53) 70ms;
---motion-common-all-transition-product-small: cubic-bezier(0.25,0.46,0.45,0.94) 150ms;
---motion-common-all-transition-product-regular: cubic-bezier(0.25,0.46,0.45,0.94) 250ms;
---motion-common-all-transition-product-large: cubic-bezier(0.25,0.46,0.45,0.94) 350ms;
---motion-common-all-transition-expressive-fast: cubic-bezier(0.46,0.03,0.52,0.96) 500ms;
---motion-common-all-transition-expressive-moderate: cubic-bezier(0.46,0.03,0.52,0.96) 700ms;
---motion-common-all-transition-expressive-slow: cubic-bezier(0.46,0.03,0.52,0.96) 700ms;
-
-    }
+.visual_common {
+  --motion-common-all-transition-product-feedback: cubic-bezier(0.55,0.09,0.68,0.53) 70ms;
+  --motion-common-all-transition-product-small: cubic-bezier(0.25,0.46,0.45,0.94) 150ms;
+  --motion-common-all-transition-product-regular: cubic-bezier(0.25,0.46,0.45,0.94) 250ms;
+  --motion-common-all-transition-product-large: cubic-bezier(0.25,0.46,0.45,0.94) 350ms;
+  --motion-common-all-transition-expressive-fast: cubic-bezier(0.46,0.03,0.52,0.96) 500ms;
+  --motion-common-all-transition-expressive-moderate: cubic-bezier(0.46,0.03,0.52,0.96) 700ms;
+  --motion-common-all-transition-expressive-slow: cubic-bezier(0.46,0.03,0.52,0.96) 700ms;
+}
