@@ -2,6 +2,9 @@ const StyleDictionaryPackage = require('style-dictionary');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
+//
+// GENERAL FORMAT
+
 StyleDictionaryPackage.registerFormat({
   name: 'css/variables',
   formatter: function (dictionary, config) {
@@ -10,6 +13,18 @@ StyleDictionaryPackage.registerFormat({
     }`
   }
 });
+
+
+
+//
+// END OF GENERAL FORMAT
+//
+
+
+
+//
+// FONTS FORMAT
+//
 
 StyleDictionaryPackage.registerFormat({
   name: 'scss/fontsMixin',
@@ -41,8 +56,16 @@ StyleDictionaryPackage.registerFormat({
   }
 });
 
+//
+// END OF FONTS FORMAT
+//
+
+//
+// TRANSITION FORMAT
+//
+
 StyleDictionaryPackage.registerFormat({
-  name: 'css/transition',
+  name: 'scss/transition',
   formatter: function (dictionary, config) {
     let transitionItems = [];
     let transitionTokens = [];
@@ -56,8 +79,6 @@ StyleDictionaryPackage.registerFormat({
         }
       }
     });
-
-    console.log(transitionTokens);
 
     let transitionFunc = '';
     let transitionDuration = '';
@@ -83,18 +104,13 @@ StyleDictionaryPackage.registerFormat({
   }
 });
 
-StyleDictionaryPackage.registerTransform({
-  name: 'sizes/px',
-  type: 'value',
-  matcher: function(token) {
-    // You can be more specific here if you only want 'em' units for font sizes
-    return ["spacing", "borderRadius", "borderWidth", "sizing"].includes(token.attributes.category);
-  },
-  transformer: function(token) {
-    // You can also modify the value here if you want to convert pixels to ems
-    return parseFloat(token.original.value) + 'px';
-  }
-});
+//
+// END OFTRANSITION FORMAT
+//
+
+//
+// NAMING
+//
 
 StyleDictionaryPackage.registerTransform({
   name: 'attribute/extendedCti',
@@ -110,6 +126,27 @@ StyleDictionaryPackage.registerTransform({
     }
     
     return Object.assign(generatedAttrs, originalAttrs);
+  }
+});
+
+//
+// END OF NAMING
+//
+
+//
+// BASE SIZES
+//
+
+StyleDictionaryPackage.registerTransform({
+  name: 'sizes/px',
+  type: 'value',
+  matcher: function(token) {
+    // You can be more specific here if you only want 'em' units for font sizes
+    return ["spacing", "borderRadius", "borderWidth", "sizing"].includes(token.attributes.category);
+  },
+  transformer: function(token) {
+    // You can also modify the value here if you want to convert pixels to ems
+    return parseFloat(token.original.value) + 'px';
   }
 });
 
@@ -147,7 +184,7 @@ StyleDictionaryPackage.registerTransform({
   type: 'value',
   matcher: function(token) {
     // You can be more specific here if you only want 'em' units for font sizes
-    return ["spacing", "borderRadius", "borderWidth", "sizing"].includes(token.attributes.category);
+    return ["sizing", "spacing", "borderRadius", "borderWidth"].includes(token.attributes.category);
   },
   transformer: function(token) {
     // You can also modify the value here if you want to convert pixels to ems
@@ -155,8 +192,16 @@ StyleDictionaryPackage.registerTransform({
   }
 });
 
+//
+// END OF BASE SIZES
+//
+
+//
+// SHADOWS
+//
+
 StyleDictionaryPackage.registerTransform({
-  name: 'shadows/dropShadowCss',
+  name: 'shadows/dropShadowPx',
   type: 'value',
   matcher: function(token) {
     return ["dropShadow"].includes(token.attributes.type);
@@ -192,17 +237,44 @@ StyleDictionaryPackage.registerTransform({
 });
 
 StyleDictionaryPackage.registerTransform({
-  name: 'motion/css',
+  name: 'shadows/dropShadowRem',
   type: 'value',
   matcher: function(token) {
-    return ["transition"].includes(token.attributes.type);
+    return ["dropShadow"].includes(token.attributes.type);
   },
   transformer: function(token) {
-    console.log(token);
+      // Split hex8 to four channels array
+      let hex8Split =  token.original.value.color.substring(1).match(/.{2}/g);
+      //Check if it's right hex8
+      if(hex8Split.length != 4) { throw new Error('Bad Hex in boxShadow ' + token.name); }
 
-    return 'cubic-bezier: (' + token.value.cubicBezier.value + ') ' + token.value.duration.value + 'ms';
+      // Parse hex channel value to decimal
+      const rgb = function(hex) {
+        return parseInt(hex, 16);
+      };
+
+      // Parse hex channel to alpha (with 2 decimals)
+      const alpha = function(hex) {
+        return parseFloat(parseInt((parseInt(hex, 16)/255)*100)/100);
+      };
+      
+      // Convert four channels array to alpha, pop alpha from array and convert rgb values
+      let rgbValues = [];
+      let alphaValue = alpha(hex8Split[3]);
+      hex8Split.pop();
+      hex8Split.forEach(function(item){
+        rgbValues.push(rgb(item));
+      })
+      
+      // Return CSS-compatible drop shadow value
+      return parseFloat(token.original.value.x / 16) + 'rem ' + parseFloat(token.original.value.y / 16) + 'rem ' 
+        + parseFloat(token.original.value.blur / 16) + 'rem ' + parseFloat(token.original.value.spread / 16) + 'rem rgba(' + rgbValues.join(', ') + ', ' + alphaValue + ')';
   }
 });
+
+//
+// END OF SHADOWS
+//
 
 function getStyleDictionaryConfig(tokensSet) {
   console.log(`\config: [${tokensSet}]`);
@@ -212,7 +284,7 @@ function getStyleDictionaryConfig(tokensSet) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/fonts", "shadows/dropShadowCss", "motion/css"],
+        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/fonts", "shadows/dropShadowPx"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.css`,
@@ -229,13 +301,31 @@ function getStyleDictionaryConfig(tokensSet) {
             "selector": `.${tokensSet}`
           }]
       },
-      "css/transitions": {
+      "scss/transitions": {
         "transforms": ["attribute/extendedCti", "name/cti/kebab"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${tokensSet}.transition.css`,
-            "format": "css/transition",
+            "format": "scss/transition",
             "selector": `.${tokensSet}`
+          }]
+      },
+      "savanna/common": {
+        "transforms": ["attribute/extendedCti", "name/cti/snake", "sizes/rem", "shadows/dropShadowRem"],
+        "buildPath": `output/savanna/`,
+        "files": [{
+            "destination": `${tokensSet}.scss`,
+            "format": "scss/map-flat",
+            "mapName": `${tokensSet}`
+          }]
+      },
+      "savanna/transition": {
+        "transforms": ["attribute/extendedCti", "name/cti/snake"],
+        "buildPath": `output/savanna/`,
+        "files": [{
+            "destination": `${tokensSet}.transition.scss`,
+            "format": "scss/transition",
+            "mapName": `${tokensSet}`
           }]
       }
     }
