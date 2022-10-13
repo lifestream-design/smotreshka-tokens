@@ -311,7 +311,7 @@ function getStyleDictionaryConfig(tokensSet) {
       //     }]
       // },
       "savanna/common": {
-        "transforms": ["attribute/extendedCti", "name/cti/snake", "sizes/rem", "shadows/dropShadowRem"],
+        "transforms": ["attribute/extendedCti", "name/cti/snake", "sizes/rem", "color/css", "shadows/dropShadowRem"],
         "buildPath": `output/savanna/`,
         "files": [{
             "destination": `${tokensSet}.scss`,
