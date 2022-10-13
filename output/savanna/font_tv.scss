@@ -1,0 +1,180 @@
+@mixin font_common_tv_title1_black {
+  font-family: "Roboto", sans-serif;
+  font-weight: black;
+  line-height: 5.75rem;
+  font-size: 4.75rem;
+  letter-spacing: -0.03125rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_title1_bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 5.75rem;
+  font-size: 4.75rem;
+  letter-spacing: -0.03125rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_title2_bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 4.5rem;
+  font-size: 3.75rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_title2_medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  line-height: 4.5rem;
+  font-size: 3.75rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_title3_bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 3.75rem;
+  font-size: 3rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_title3_medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  line-height: 3.75rem;
+  font-size: 3rem;
+  letter-spacing: -0.015625rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_subtitle_bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_subtitle_medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_subtitle_regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 0rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_body1_bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 2.75rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_body1_medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  line-height: 2.75rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_body1_regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  line-height: 2.75rem;
+  font-size: 2rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_caption1_medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_caption1_regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_caption2_medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_caption2_regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.009375rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_overline_bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin font_common_tv_overline_medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  line-height: 1.75rem;
+  font-size: 1.375rem;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
