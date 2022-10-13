@@ -283,33 +283,33 @@ function getStyleDictionaryConfig(tokensSet) {
       `tokens/${tokensSet}.json`,
     ],
     "platforms": {
-      "web": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/fonts", "shadows/dropShadowPx"],
-        "buildPath": `output/`,
-        "files": [{
-            "destination": `${tokensSet}.css`,
-            "format": "css/variables",
-            "selector": `.${tokensSet}`
-          }]
-      },
-      "scss/fonts": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/fonts"],
-        "buildPath": `output/`,
-        "files": [{
-            "destination": `${tokensSet}.scss`,
-            "format": "scss/fontsMixin",
-            "selector": `.${tokensSet}`
-          }]
-      },
-      "scss/transitions": {
-        "transforms": ["attribute/extendedCti", "name/cti/kebab"],
-        "buildPath": `output/`,
-        "files": [{
-            "destination": `${tokensSet}.transition.css`,
-            "format": "scss/transition",
-            "selector": `.${tokensSet}`
-          }]
-      },
+      // "web": {
+      //   "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/px", "color/css", "sizes/fonts", "shadows/dropShadowPx"],
+      //   "buildPath": `output/`,
+      //   "files": [{
+      //       "destination": `${tokensSet}.css`,
+      //       "format": "css/variables",
+      //       "selector": `.${tokensSet}`
+      //     }]
+      // },
+      // "scss/fonts": {
+      //   "transforms": ["attribute/extendedCti", "name/cti/kebab", "sizes/fonts"],
+      //   "buildPath": `output/`,
+      //   "files": [{
+      //       "destination": `${tokensSet}.scss`,
+      //       "format": "scss/fontsMixin",
+      //       "selector": `.${tokensSet}`
+      //     }]
+      // },
+      // "scss/transitions": {
+      //   "transforms": ["attribute/extendedCti", "name/cti/kebab"],
+      //   "buildPath": `output/`,
+      //   "files": [{
+      //       "destination": `${tokensSet}.transition.css`,
+      //       "format": "scss/transition",
+      //       "selector": `.${tokensSet}`
+      //     }]
+      // },
       "savanna/common": {
         "transforms": ["attribute/extendedCti", "name/cti/snake", "sizes/rem", "shadows/dropShadowRem"],
         "buildPath": `output/savanna/`,
@@ -327,6 +327,15 @@ function getStyleDictionaryConfig(tokensSet) {
             "format": "scss/transition",
             "mapName": `${tokensSet}`
           }]
+      },
+      "savanna/fonts": {
+        "transforms": ["attribute/extendedCti", "name/cti/snake", "sizes/fonts"],
+        "buildPath": `output/savanna/`,
+        "files": [{
+            "destination": `${tokensSet}.scss`,
+            "format": "scss/fontsMixin",
+            "mapName": `${tokensSet}`
+          }]
       }
     }
   };
@@ -336,27 +345,54 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['visual_common', 'visual_theme_light', 'visual_theme_dark'].map(function (tokensSet) {
+// ['visual_common', 'visual_theme_light', 'visual_theme_dark'].map(function (tokensSet) {
 
-    console.log('\n==============================================');
-    console.log(`\nProcessing: [${tokensSet}]`);
+//     console.log('\n==============================================');
+//     console.log(`\nProcessing: [${tokensSet}]`);
 
-    const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
+//     const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
     
-    //styleDictionary.buildPlatform('web');
-    styleDictionary.buildPlatform('css/transitions');
+//     //styleDictionary.buildPlatform('web');
+//     styleDictionary.buildPlatform('css/transitions');
 
-    console.log('\nEnd processing');
-});
+//     console.log('\nEnd processing');
+// });
 
-['font', 'font_tv'].map(function (tokensSet) {
+// ['font'].map(function (tokensSet) {
+
+//   console.log('\n==============================================');
+//   console.log(`\nProcessing: [${tokensSet}]`);
+
+//   const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
+  
+//   //styleDictionary.buildPlatform('scss/fonts');
+
+//   console.log('\nEnd processing');
+// })
+
+
+
+['visual_common'].map(function (tokensSet) {
 
   console.log('\n==============================================');
   console.log(`\nProcessing: [${tokensSet}]`);
 
   const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
   
-  //styleDictionary.buildPlatform('scss/fonts');
+  styleDictionary.buildPlatform('savanna/common');
+  styleDictionary.buildPlatform('savanna/transition');
+
+  console.log('\nEnd processing');
+});
+
+['font_tv'].map(function (tokensSet) {
+
+  console.log('\n==============================================');
+  console.log(`\nProcessing: [${tokensSet}]`);
+
+  const styleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(tokensSet));
+  
+  styleDictionary.buildPlatform('savanna/fonts');
 
   console.log('\nEnd processing');
 })
