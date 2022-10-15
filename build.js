@@ -42,7 +42,6 @@ StyleDictionaryPackage.registerFormat({
     let mixins = '';
 
     dictionary.allProperties.map (function (prop) {
-      console.log(prop);
       mixins += `@mixin ${prop.name} {` + '\n';
       Object.keys(propsMapper).forEach(key => {
         if (key in prop.value) {
@@ -66,7 +65,7 @@ StyleDictionaryPackage.registerFormat({
 
 StyleDictionaryPackage.registerFormat({
   name: 'scss/transition',
-  formatter: function (dictionary, config) {
+  formatter: function (dictionary, config, options) {
     let transitionItems = [];
     let transitionTokens = [];
     
@@ -94,13 +93,13 @@ StyleDictionaryPackage.registerFormat({
           if (token.attributes.state == 'duration') {
             transitionDuration = token.value + 'ms';
           }
-          transitionName = `${token.attributes.category}-${token.attributes.tier}-${token.attributes.device}-${token.attributes.type}-${token.attributes.item}-${token.attributes.subitem}`;
+          transitionName = `${token.attributes.category}_${token.attributes.tier}_${token.attributes.device}_${token.attributes.type}_${token.attributes.item}_${token.attributes.subitem}`;
         }
       })
-      transitions += `$${transitionName}: cubic-bezier(${transitionFunc}) ${transitionDuration};` + '\n';
+      transitions += `  \'${transitionName}\': cubic-bezier(${transitionFunc}) ${transitionDuration},` + '\n';
     });
 
-    return transitions;
+    return '$' + options.mapName + ': (\n' + transitions + ');';
   }
 });
 
