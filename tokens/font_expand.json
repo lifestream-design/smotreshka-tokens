@@ -6,11 +6,11 @@
           "black": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Black",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 68,
@@ -18,7 +18,7 @@
             },
             "fontSize": {
               "value": 56,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": -0.25,
@@ -40,11 +40,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 68,
@@ -52,7 +52,7 @@
             },
             "fontSize": {
               "value": 56,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": -0.25,
@@ -76,11 +76,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 52,
@@ -88,7 +88,7 @@
             },
             "fontSize": {
               "value": 42,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0,
@@ -110,11 +110,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 52,
@@ -122,7 +122,7 @@
             },
             "fontSize": {
               "value": 42,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0,
@@ -146,11 +146,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 40,
@@ -158,7 +158,7 @@
             },
             "fontSize": {
               "value": 32,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -180,11 +180,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 40,
@@ -192,7 +192,7 @@
             },
             "fontSize": {
               "value": 32,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -216,11 +216,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 36,
@@ -228,7 +228,7 @@
             },
             "fontSize": {
               "value": 28,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -250,11 +250,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 36,
@@ -262,7 +262,7 @@
             },
             "fontSize": {
               "value": 28,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -286,11 +286,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 32,
@@ -298,7 +298,7 @@
             },
             "fontSize": {
               "value": 24,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -320,11 +320,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 32,
@@ -332,7 +332,7 @@
             },
             "fontSize": {
               "value": 24,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -356,11 +356,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -368,7 +368,7 @@
             },
             "fontSize": {
               "value": 20,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -390,11 +390,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -402,7 +402,7 @@
             },
             "fontSize": {
               "value": 20,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -426,11 +426,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -438,7 +438,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -460,11 +460,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -472,7 +472,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -494,11 +494,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -506,7 +506,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -530,11 +530,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -542,7 +542,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -564,11 +564,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -576,7 +576,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -598,11 +598,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -610,7 +610,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -634,11 +634,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -646,7 +646,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -668,11 +668,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -680,7 +680,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -702,11 +702,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -714,7 +714,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -738,11 +738,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -750,7 +750,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -772,11 +772,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -784,7 +784,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -808,11 +808,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -820,7 +820,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -842,11 +842,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -854,7 +854,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -878,11 +878,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -890,7 +890,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.5,
@@ -912,11 +912,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -924,7 +924,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.5,
@@ -950,11 +950,11 @@
           "black": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Black",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 52,
@@ -962,7 +962,7 @@
             },
             "fontSize": {
               "value": 44,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0,
@@ -984,11 +984,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 52,
@@ -996,7 +996,7 @@
             },
             "fontSize": {
               "value": 44,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0,
@@ -1020,11 +1020,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 44,
@@ -1032,7 +1032,7 @@
             },
             "fontSize": {
               "value": 36,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1054,11 +1054,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 44,
@@ -1066,7 +1066,7 @@
             },
             "fontSize": {
               "value": 36,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1090,11 +1090,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 36,
@@ -1102,7 +1102,7 @@
             },
             "fontSize": {
               "value": 30,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1124,11 +1124,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 36,
@@ -1136,7 +1136,7 @@
             },
             "fontSize": {
               "value": 30,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1160,11 +1160,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 32,
@@ -1172,7 +1172,7 @@
             },
             "fontSize": {
               "value": 24,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -1194,11 +1194,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 32,
@@ -1206,7 +1206,7 @@
             },
             "fontSize": {
               "value": 24,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -1230,11 +1230,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 28,
@@ -1242,7 +1242,7 @@
             },
             "fontSize": {
               "value": 22,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -1264,11 +1264,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 28,
@@ -1276,7 +1276,7 @@
             },
             "fontSize": {
               "value": 22,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -1300,11 +1300,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1312,7 +1312,7 @@
             },
             "fontSize": {
               "value": 20,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -1334,11 +1334,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1346,7 +1346,7 @@
             },
             "fontSize": {
               "value": 20,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -1370,11 +1370,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1382,7 +1382,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -1404,11 +1404,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1416,7 +1416,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -1438,11 +1438,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1450,7 +1450,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -1474,11 +1474,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1486,7 +1486,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1508,11 +1508,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1520,7 +1520,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1542,11 +1542,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -1554,7 +1554,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1578,11 +1578,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -1590,7 +1590,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1612,11 +1612,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -1624,7 +1624,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1646,11 +1646,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -1658,7 +1658,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1682,11 +1682,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -1694,7 +1694,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1716,11 +1716,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -1728,7 +1728,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1752,11 +1752,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -1764,7 +1764,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1786,11 +1786,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -1798,7 +1798,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1822,11 +1822,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -1834,7 +1834,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.5,
@@ -1856,11 +1856,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -1868,7 +1868,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.5,
@@ -1894,11 +1894,11 @@
           "black": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Black",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 44,
@@ -1906,7 +1906,7 @@
             },
             "fontSize": {
               "value": 36,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1928,11 +1928,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 44,
@@ -1940,7 +1940,7 @@
             },
             "fontSize": {
               "value": 36,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -1964,11 +1964,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 40,
@@ -1976,7 +1976,7 @@
             },
             "fontSize": {
               "value": 32,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -1998,11 +1998,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 40,
@@ -2010,7 +2010,7 @@
             },
             "fontSize": {
               "value": 32,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2034,11 +2034,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 36,
@@ -2046,7 +2046,7 @@
             },
             "fontSize": {
               "value": 28,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2068,11 +2068,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 36,
@@ -2080,7 +2080,7 @@
             },
             "fontSize": {
               "value": 28,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2104,11 +2104,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 32,
@@ -2116,7 +2116,7 @@
             },
             "fontSize": {
               "value": 24,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2138,11 +2138,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 32,
@@ -2150,7 +2150,7 @@
             },
             "fontSize": {
               "value": 24,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2174,11 +2174,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 28,
@@ -2186,7 +2186,7 @@
             },
             "fontSize": {
               "value": 22,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -2208,11 +2208,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 28,
@@ -2220,7 +2220,7 @@
             },
             "fontSize": {
               "value": 22,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -2244,11 +2244,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2256,7 +2256,7 @@
             },
             "fontSize": {
               "value": 20,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -2278,11 +2278,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2290,7 +2290,7 @@
             },
             "fontSize": {
               "value": 20,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.1,
@@ -2314,11 +2314,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2326,7 +2326,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2348,11 +2348,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2360,7 +2360,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2382,11 +2382,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2394,7 +2394,7 @@
             },
             "fontSize": {
               "value": 18,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.15,
@@ -2418,11 +2418,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2430,7 +2430,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2452,11 +2452,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2464,7 +2464,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2486,11 +2486,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 24,
@@ -2498,7 +2498,7 @@
             },
             "fontSize": {
               "value": 16,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2522,11 +2522,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -2534,7 +2534,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2556,11 +2556,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -2568,7 +2568,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2590,11 +2590,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 20,
@@ -2602,7 +2602,7 @@
             },
             "fontSize": {
               "value": 14,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2626,11 +2626,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -2638,7 +2638,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2660,11 +2660,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 16,
@@ -2672,7 +2672,7 @@
             },
             "fontSize": {
               "value": 12,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2696,11 +2696,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -2708,7 +2708,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2730,11 +2730,11 @@
           "regular": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Regular",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -2742,7 +2742,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.25,
@@ -2766,11 +2766,11 @@
           "bold": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Bold",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -2778,7 +2778,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.5,
@@ -2800,11 +2800,11 @@
           "medium": {
             "fontFamily": {
               "value": "Roboto",
-              "type": "fontFamily"
+              "type": "fontFamilies"
             },
             "fontWeight": {
               "value": "Medium",
-              "type": "fontWeight"
+              "type": "fontWeights"
             },
             "lineHeight": {
               "value": 12,
@@ -2812,7 +2812,7 @@
             },
             "fontSize": {
               "value": 11,
-              "type": "fontSize"
+              "type": "fontSizes"
             },
             "letterSpacing": {
               "value": 0.5,

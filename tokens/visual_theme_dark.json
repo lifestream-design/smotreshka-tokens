@@ -19,16 +19,6 @@
               "type": "color",
               "description": "Поверхность третьего уровня"
             },
-            "elevationLevel4": {
-              "value": "#212529",
-              "type": "color",
-              "description": "Поверхность четвертого уровня"
-            },
-            "elevationLevel5": {
-              "value": "#262B2F",
-              "type": "color",
-              "description": "Поверхность пятого уровня"
-            },
             "context": {
               "value": "#292F33",
               "type": "color",
@@ -64,27 +54,27 @@
           },
           "accent": {
             "default": {
-              "value": "#AC84E3",
+              "value": "#DCA3FF",
               "type": "color",
               "description": "Акцентный цвет"
             },
             "hover": {
-              "value": "#B998E7",
+              "value": "#E2B2FF",
               "type": "color",
               "description": "Акцентный цвет в состоянии Hover"
             },
             "active": {
-              "value": "#9B77CC",
+              "value": "#C693E6",
               "type": "color",
               "description": "Акцентный цвет в состоянии Active"
             },
             "focus": {
-              "value": "#AC84E3",
+              "value": "#DCA3FF",
               "type": "color",
               "description": "Акцентный цвет в состоянии Focus"
             },
             "disabled": {
-              "value": "#4A3962",
+              "value": "#5F466E",
               "type": "color",
               "description": "Акцентный цвет в состоянии Disabled"
             }
@@ -199,27 +189,27 @@
           },
           "interactive": {
             "default": {
-              "value": "#444D52",
+              "value": "#30363acc",
               "type": "color",
               "description": "Цвет интерактивного элемента"
             },
             "hover": {
-              "value": "#4F585E",
+              "value": "#3a4246cc",
               "type": "color",
               "description": "Цвет интерактивного элемента в состоянии Hover"
             },
             "active": {
-              "value": "#596469",
+              "value": "#444d52cc",
               "type": "color",
               "description": "Цвет интерактивного элемента в состоянии Active"
             },
             "focus": {
-              "value": "#444D52",
+              "value": "#30363acc",
               "type": "color",
               "description": "Цвет интерактивного элемента в состоянии Focus"
             },
             "disabled": {
-              "value": "#30363A",
+              "value": "#262b2f99",
               "type": "color",
               "description": "Цвет интерактивного элемента в состоянии Disabled"
             }
@@ -242,28 +232,53 @@
               "type": "color",
               "description": "Третичный цвет текста и иконок"
             },
-            "accent": {
-              "value": "#B998E7",
+            "accentPrimary": {
+              "value": "#E2B2FF",
               "type": "color",
               "description": "Акцентный цвет текста и иконок"
             },
-            "success": {
+            "accentSecondary": {
+              "value": "#e2b2ffa6",
+              "type": "color",
+              "description": "Акцентный цвет текста и иконок"
+            },
+            "successPrimary": {
               "value": "#7DD88F",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"успешно\""
             },
-            "warning": {
+            "successSecondary": {
+              "value": "#7dd88fa6",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"успешно\""
+            },
+            "warningPrimary": {
               "value": "#FFB083",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"предупреждение\""
             },
-            "attention": {
+            "warningSecondary": {
+              "value": "#ffb083a6",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"предупреждение\""
+            },
+            "attentionPrimary": {
               "value": "#F8828E",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"внимание\""
             },
-            "navigation": {
+            "attentionSecondary": {
+              "value": "#f8828ea6",
+              "type": "color",
+              "description": "Цвет текста и иконок в статусе \"внимание\""
+            },
+            "navigationPrimary": {
               "value": "#7ECBFF",
+              "type": "color",
+              "description": "Цвет навигационного текста и иконок"
+            },
+            "navigationSecondary": {
+              "value": "#7ecbffa6",
               "type": "color",
               "description": "Цвет навигационного текста и иконок"
             }
@@ -353,21 +368,21 @@
               "description": "Третичный цвет текста и иконок на фоне статуса \"внимание\""
             }
           },
-          "onInteractive": {
+          "onNavigation": {
             "primary": {
-              "value": "#EBEBEB",
+              "value": "#1A1A1A",
               "type": "color",
-              "description": "Основной цвет текста и иконок на интерактивных элементах"
+              "description": "Основной цвет текста и иконок на навигационном фоне"
             },
             "secondary": {
-              "value": "#ebebeba6",
+              "value": "#1a1a1aa6",
               "type": "color",
-              "description": "Вторичный цвет текста и иконок на интерактивных элементах"
+              "description": "Вторичный цвет текста и иконок на навигационном фоне"
             },
             "tertiary": {
-              "value": "#ebebeb73",
+              "value": "#1a1a1a73",
               "type": "color",
-              "description": "Третичный цвет текста и иконок на интерактивных элементах"
+              "description": "Третичный цвет текста и иконок на навигационном фоне"
             }
           }
         },
@@ -378,7 +393,7 @@
             "description": "Цвет границ брендированных элементов"
           },
           "accent": {
-            "value": "#BE9FE9",
+            "value": "#E6BEFF",
             "type": "color",
             "description": "Цвет границ акцентных элементов"
           },

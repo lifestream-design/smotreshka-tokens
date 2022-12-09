@@ -3,7 +3,7 @@
     "common": {
       "all": {
         "text": {
-          "onLight": {
+          "onSurfaceLight": {
             "primary": {
               "value": "#1A1A1A",
               "type": "color",
@@ -19,33 +19,58 @@
               "type": "color",
               "description": "Третичный цвет текста и иконок на светлом фоне"
             },
-            "accent": {
+            "accentPrimary": {
               "value": "#6C00AF",
               "type": "color",
               "description": "Акцентный цвет текста и иконок на светлом фоне"
             },
-            "success": {
+            "accentSecondary": {
+              "value": "#6c00afa6",
+              "type": "color",
+              "description": "Акцентный вторичный цвет текста и иконок на светлом фоне"
+            },
+            "successPrimary": {
               "value": "#00A644",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"успешно\" на светлом фоне"
             },
-            "warning": {
+            "successSecondary": {
+              "value": "#00a644a6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок в статусе \"успешно\" на светлом фоне"
+            },
+            "warningPrimary": {
               "value": "#E15F16",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"предупреждение\" на светлом фоне"
             },
-            "attention": {
+            "warningSecondary": {
+              "value": "#e15f16a6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок в статусе \"предупреждение\" на светлом фоне"
+            },
+            "attentionPrimary": {
               "value": "#C82E3D",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"внимание\" на светлом фоне"
             },
-            "navigation": {
+            "attentionSecondary": {
+              "value": "#c82e3da6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок в статусе \"внимание\" на светлом фоне"
+            },
+            "navigationPrimary": {
               "value": "#015CE6",
               "type": "color",
               "description": "Цвет текста и иконок навигационных элементов на светлом фоне"
+            },
+            "navigationSecondary": {
+              "value": "#015ce6a6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок навигационных элементов на светлом фоне"
             }
           },
-          "onDark": {
+          "onSurfaceDark": {
             "primary": {
               "value": "#EBEBEB",
               "type": "color",
@@ -61,30 +86,259 @@
               "type": "color",
               "description": "Третичный цвет текста и иконок на темном фоне"
             },
-            "accent": {
-              "value": "#B998E7",
+            "accentPrimary": {
+              "value": "#E2B2FF",
               "type": "color",
               "description": "Акцентный цвет текста и иконок на темном фоне"
             },
-            "success": {
+            "accentSecondary": {
+              "value": "#e2b2ffa6",
+              "type": "color",
+              "description": "Акцентный вторичный цвет текста и иконок на темном фоне"
+            },
+            "successPrimary": {
               "value": "#7DD88F",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"успешно\" на темном фоне"
             },
-            "warning": {
+            "successSecondary": {
+              "value": "#7dd88fa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок в статусе \"успешно\" на темном фоне"
+            },
+            "warningPrimary": {
               "value": "#FFB083",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"предупреждение\" на темном фоне"
             },
-            "attention": {
+            "warningSecondary": {
+              "value": "#ffb083a6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок в статусе \"предупреждение\" на темном фоне"
+            },
+            "attentionPrimary": {
               "value": "#F8828E",
               "type": "color",
               "description": "Цвет текста и иконок в статусе \"внимание\" на темном фоне"
             },
-            "navigation": {
+            "attentionSecondary": {
+              "value": "#f8828ea6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок в статусе \"внимание\" на темном фоне"
+            },
+            "navigationPrimary": {
               "value": "#7ECBFF",
               "type": "color",
               "description": "Цвет текста и иконок навигационных элементов на темном фоне"
+            },
+            "navigationSecondary": {
+              "value": "#7ecbffa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок навигационных элементов на темном фоне"
+            }
+          },
+          "onBrandLight": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на брендовом светлом фоне"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на брендовом светлом фоне"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на брендовом светлом фоне"
+            }
+          },
+          "onBrandDark": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на брендовом темном фоне"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на брендовом темном фоне"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на брендовом темном фоне"
+            }
+          },
+          "onAccentLight": {
+            "primary": {
+              "value": "#EBEBEB",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на акцентном светлом фоне"
+            },
+            "secondary": {
+              "value": "#ebebeba6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на акцентном светлом фоне"
+            },
+            "tertiary": {
+              "value": "#ebebeb73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на акцентном светлом фоне"
+            }
+          },
+          "onAccentDark": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на акцентном темном фоне"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на акцентном темном фоне"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на акцентном темном фоне"
+            }
+          },
+          "onSuccessLight": {
+            "primary": {
+              "value": "#EBEBEB",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на фоне в статусе \"успешно\" (светлое оформление)"
+            },
+            "secondary": {
+              "value": "#ebebeba6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на фоне в статусе \"успешно\" (светлое оформление)"
+            },
+            "tertiary": {
+              "value": "#ebebeb73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на фоне в статусе \"успешно\" (светлое оформление)"
+            }
+          },
+          "onSuccessDark": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на фоне в статусе \"успешно\" (темное оформление)"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на фоне в статусе \"успешно\" (темное оформление)"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на фоне в статусе \"успешно\" (темное оформление)"
+            }
+          },
+          "onWarningLight": {
+            "primary": {
+              "value": "#EBEBEB",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на фоне в статусе \"предупреждение\" (светлое оформление)"
+            },
+            "secondary": {
+              "value": "#ebebeba6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на фоне в статусе \"предупреждение\" (светлое оформление)"
+            },
+            "tertiary": {
+              "value": "#ebebeb73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на фоне в статусе \"предупреждение\" (светлое оформление)"
+            }
+          },
+          "onWarningDark": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на фоне в статусе \"предупреждение\" (темное оформление)"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на фоне в статусе \"предупреждение\" (темное оформление)"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на фоне в статусе \"предупреждение\" (темное оформление)"
+            }
+          },
+          "onAttentionLight": {
+            "primary": {
+              "value": "#EBEBEB",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на фоне в статусе \"внимание\" (светлое оформление)"
+            },
+            "secondary": {
+              "value": "#ebebeba6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на фоне в статусе \"внимание\" (светлое оформление)"
+            },
+            "tertiary": {
+              "value": "#ebebeb73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на фоне в статусе \"внимание\" (светлое оформление)"
+            }
+          },
+          "onAttentionDark": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на фоне в статусе \"внимание\" (темное оформление)"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на фоне в статусе \"внимание\" (темное оформление)"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на фоне в статусе \"внимание\" (темное оформление)"
+            }
+          },
+          "onNavigationLight": {
+            "primary": {
+              "value": "#EBEBEB",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на навигационном фоне (светлое оформление)"
+            },
+            "secondary": {
+              "value": "#ebebeba6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на навигационном фоне (светлое оформление)"
+            },
+            "tertiary": {
+              "value": "#ebebeb73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на навигационном фоне (светлое оформление)"
+            }
+          },
+          "onNavigationDark": {
+            "primary": {
+              "value": "#1A1A1A",
+              "type": "color",
+              "description": "Основной цвет текста и иконок на навигационном фоне (темное оформление)"
+            },
+            "secondary": {
+              "value": "#1a1a1aa6",
+              "type": "color",
+              "description": "Вторичный цвет текста и иконок на навигационном фоне (темное оформление)"
+            },
+            "tertiary": {
+              "value": "#1a1a1a73",
+              "type": "color",
+              "description": "Третичный цвет текста и иконок на навигационном фоне (темное оформление)"
             }
           }
         },
@@ -152,16 +406,6 @@
               "type": "color",
               "description": "Поверхность третьего уровня (светлое оформление)"
             },
-            "elevationLevel4": {
-              "value": "#F5F7F7",
-              "type": "color",
-              "description": "Поверхность четвертого уровня (светлое оформление)"
-            },
-            "elevationLevel5": {
-              "value": "#F5F7F7",
-              "type": "color",
-              "description": "Поверхность пятого уровня (светлое оформление)"
-            },
             "context": {
               "value": "#EAEDEE",
               "type": "color",
@@ -183,16 +427,6 @@
               "value": "#1C2023",
               "type": "color",
               "description": "Поверхность третьего уровня (темное оформление)"
-            },
-            "elevationLevel4": {
-              "value": "#212529",
-              "type": "color",
-              "description": "Поверхность четвертого уровня (темное оформление)"
-            },
-            "elevationLevel5": {
-              "value": "#262B2F",
-              "type": "color",
-              "description": "Поверхность пятого уровня (темное оформление)"
             },
             "context": {
               "value": "#292F33",
@@ -283,27 +517,27 @@
           },
           "accentDark": {
             "default": {
-              "value": "#AC84E3",
+              "value": "#DCA3FF",
               "type": "color",
               "description": "Акцентный цвет (темное оформление)"
             },
             "hover": {
-              "value": "#B998E7",
+              "value": "#E2B2FF",
               "type": "color",
               "description": "Акцентный цвет в состоянии Hover (темное оформление)"
             },
             "active": {
-              "value": "#9B77CC",
+              "value": "#C693E6",
               "type": "color",
               "description": "Акцентный цвет в состоянии Active (темное оформление)"
             },
             "focus": {
-              "value": "#AC84E3",
+              "value": "#DCA3FF",
               "type": "color",
               "description": "Акцентный цвет в состоянии Focus (темное оформление)"
             },
             "disabled": {
-              "value": "#4A3962",
+              "value": "#5F466E",
               "type": "color",
               "description": "Акцентный цвет в состоянии Disabled (темное оформление)"
             }
@@ -526,54 +760,54 @@
           },
           "interactiveLight": {
             "default": {
-              "value": "#DEE1E3",
+              "value": "#dee1e3cc",
               "type": "color",
               "description": "Цвет интерактивного элемента (светлое оформление)"
             },
             "hover": {
-              "value": "#D9DDDF",
+              "value": "#d9dddfcc",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Hover (светлое оформление)"
             },
             "active": {
-              "value": "#D0D4D6",
+              "value": "#d0d4d6cc",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Active (светлое оформление)"
             },
             "focus": {
-              "value": "#DEE1E3",
+              "value": "#dee1e3cc",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Focus (светлое оформление)"
             },
             "disabled": {
-              "value": "#EFF1F2",
+              "value": "#eff1f2cc",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Disabled (светлое оформление)"
             }
           },
           "interactiveDark": {
             "default": {
-              "value": "#444D52",
+              "value": "#30363acc",
               "type": "color",
               "description": "Цвет интерактивного элемента (темное оформление)"
             },
             "hover": {
-              "value": "#4F585E",
+              "value": "#3a4246cc",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Hover (темное оформление)"
             },
             "active": {
-              "value": "#596469",
+              "value": "#444d52cc",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Active (темное оформление)"
             },
             "focus": {
-              "value": "#444D52",
+              "value": "#30363acc",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Focus (темное оформление)"
             },
             "disabled": {
-              "value": "#30363A",
+              "value": "#262b2f99",
               "type": "color",
               "description": "Цвет интерактивного элемента в статусе Disabled (темное оформление)"
             }
@@ -687,7 +921,7 @@
             "description": "Цвет границ акцентных элементов (светлое оформление)"
           },
           "accentDark": {
-            "value": "#BE9FE9",
+            "value": "#E6BEFF",
             "type": "color",
             "description": "Цвет границ акцентных элементов (темное оформление)"
           },
@@ -1359,7 +1593,7 @@
                 "description": "Координата Y1 функции кривой средней экспрессивной анимации"
               },
               "duration": {
-                "value": 700,
+                "value": 1000,
                 "type": "other",
                 "description": "Продолжительность средней экспрессивной анимации"
               }
