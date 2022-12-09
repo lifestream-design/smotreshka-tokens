@@ -1,0 +1,30 @@
+{
+    "mode": "single-file",
+    "mapping": [
+      {
+        "tokenSets": [
+            "global",
+            "visual.common",
+            "visual.theme.light",
+            "font",
+            "font.tv"
+          ],
+        "supernovaBrand": "Default",
+        "supernovaTheme": null
+      },
+      {
+        "tokenSets": [
+            "global",
+            "visual.common",
+            "visual.theme.dark"
+          ],
+        "supernovaBrand": "Default",
+        "supernovaTheme": "Dark theme"
+      }
+    ],
+    "settings": {
+      "dryRun": true,
+      "verbose": true,
+      "preciseCopy": false
+    }
+  }
