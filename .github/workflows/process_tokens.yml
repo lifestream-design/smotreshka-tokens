@@ -57,26 +57,3 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Create Style Dictionary tokens
-
-  sync_tokens:
-    runs-on: ubuntu-latest
-    steps:
-      # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
-      - uses: actions/checkout@v3
-
-      # Setup node to use with CLI. 14+ is required
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 14
-
-      # Install Supernova CLI
-      - name: Install Supernova CLI dependency
-        run: npm install --g @supernovaio/cli
-
-      # Sync tokens
-      - name: Synchronize tokens with Supernova 
-        run: supernova sync-tokens \
-        --apiKey=sn.NUZuKPm4P4vke1bcI5CSlytzNrFf3KDwFmAMPqrJxDpz8XnkYAfIDeCCOndroiUJod4YmB8p4iogHt3dvUQ4LzYTS4nEK5xE \
-        --designSystemId=22485 \
-        --tokenFilePath="${{ github.workspace }}/data/tokens.json" \
-        --configFilePath="${{ github.workspace }}/data/supernova.settings.json" \
