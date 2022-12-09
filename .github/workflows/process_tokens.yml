@@ -1,6 +1,6 @@
 # This is a workflow to create usable Tokens set compatible with Style Dictionary
 
-name: CI
+name: Process Tokens
 
 # Workflow triggers on push or pull request for the MASTER branch (I'm not sure for now if we will be using branches, but leaving the ability to run workflow on pull request)
 # Also we will be able to run this worflow manually just in case of something happened
@@ -58,16 +58,16 @@ jobs:
         with:
           commit_message: Create Style Dictionary tokens
 
-  sync_tokens:
-    runs-on: ubuntu-latest
-    steps:
+  #sync_tokens:
+  #  runs-on: ubuntu-latest
+  #  steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
-      - uses: actions/checkout@v3
+  #    - uses: actions/checkout@v3
 
       # Setup node to use with CLI. 14+ is required
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 14
+  #    - uses: actions/setup-node@v3
+  #      with:
+  #        node-version: 14
 
       # Install Supernova CLI
       - name: Install Supernova CLI dependency
@@ -78,5 +78,5 @@ jobs:
         run: supernova sync-tokens \
           --apiKey="sn.NUZuKPm4P4vke1bcI5CSlytzNrFf3KDwFmAMPqrJxDpz8XnkYAfIDeCCOndroiUJod4YmB8p4iogHt3dvUQ4LzYTS4nEK5xE" \
           --designSystemId="22485" \
-          --tokenFilePath "/data/tokens.js" \
-          --configFilePath "/data/supernova.settings.json"
+          --tokenFilePath "${{ github.workspace }}/data/tokens.json" \
+          --configFilePath "${{ github.workspace }}/data/supernova.settings.json"
