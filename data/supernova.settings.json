@@ -14,7 +14,6 @@
       },
       {
         "tokenSets": [
-            "global",
             "visual.common",
             "visual.theme.dark"
           ],
