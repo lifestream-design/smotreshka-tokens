@@ -11,19 +11,19 @@
           ],
         "supernovaBrand": "Default",
         "supernovaTheme": null
+      },
+      {
+        "tokenSets": [
+            "global",
+            "visual.common",
+            "visual.theme.dark"
+          ],
+        "supernovaBrand": "Default",
+        "supernovaTheme": "Dark theme"
       }
-    //   {
-    //     "tokenSets": [
-    //         "global",
-    //         "visual.common",
-    //         "visual.theme.dark"
-    //       ],
-    //     "supernovaBrand": "Default",
-    //     "supernovaTheme": "Dark theme"
-    //   }
     ],
     "settings": {
-      "dryRun": true,
+      "dryRun": false,
       "verbose": true,
       "preciseCopy": false
     }
